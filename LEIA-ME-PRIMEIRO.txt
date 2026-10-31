@@ -1,0 +1,16 @@
+AIO Assist 0.6.1 - versao compilada para Windows
+
+1. Extraia a pasta inteira do ZIP antes de executar.
+2. Abra Abrir-AIO-Assist.cmd ou src\AIO-Assist-0.6.1.exe.
+3. Para consulta offline, abra examples\leitura-anonimizada.json.
+
+Nao e necessario compilar ou instalar ferramentas de desenvolvimento.
+Requer Windows com .NET Framework 4.x. O acesso ao veiculo requer
+interface Arduino compativel, driver serial e sketch arduino-psa-diag 2.0.
+
+Leia docs\primeiros-passos.md antes de conectar ou alterar parametros.
+Ferramenta experimental. Os testes incluidos usam transporte simulado.
+
+Fontes correspondentes: src\
+Licenca e creditos: LICENSE e THIRD_PARTY_NOTICES.md.
+Projeto: https://github.com/HugoOliveira2/PSA-RCC-AIO

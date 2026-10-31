@@ -6,6 +6,16 @@ Este projeto reúne o **AIO Assist 0.6.1**, o mapa do bloco B1, ferramentas de c
 
 **Estado: experimental.** A presença de um parâmetro no mapa não confirma seu funcionamento em todas as revisões. Identifique a central e salve sua própria leitura antes de qualquer alteração. Escritas exigem alimentação estável e podem deixar a configuração incorreta se interrompidas.
 
+## Baixar e usar no Windows
+
+**[Baixar AIO Assist 0.6.1 pronto para uso](https://github.com/HugoOliveira2/PSA-RCC-AIO/releases/download/v0.6.1/AIO-Assist-0.6.1-publico.zip)** · [Ver a Release](https://github.com/HugoOliveira2/PSA-RCC-AIO/releases/tag/v0.6.1)
+
+1. Baixe o ZIP e extraia a pasta inteira.
+2. Abra **`Abrir-AIO-Assist.cmd`**, ou execute `src/AIO-Assist-0.6.1.exe` diretamente.
+3. Para explorar sem conectar ao veículo, abra `examples/leitura-anonimizada.json` na consulta offline.
+
+O programa já está compilado. Requer Windows com **.NET Framework 4.x**; para comunicação com o veículo, requer também a interface Arduino compatível e o sketch **arduino-psa-diag 2.0**. Fontes, mapas e licenças acompanham o pacote. O executável também está disponível separadamente nos arquivos da Release.
+
 ## Comece por aqui
 
 1. Leia o [guia inicial](docs/primeiros-passos.md) para entender hardware, identificação e consulta offline.
