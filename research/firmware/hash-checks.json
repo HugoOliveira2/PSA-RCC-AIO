@@ -1,0 +1,488 @@
+[
+  {
+    "path": "SWL/001317661585048011/Firmware/FirmwareList.ini",
+    "expected": "3170dd982fc5c88736835aa1097ecf1c849134b7bf59956aa6838973783a02e7",
+    "actual": "3170dd982fc5c88736835aa1097ecf1c849134b7bf59956aa6838973783a02e7",
+    "ok": true
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010242/NAC_B2/OVIP/OvipSwl-transition.s",
+    "expected": "39977e8fce461a832234a4a56fa7ae18fa77625b7d62af3df316242d6ef36394",
+    "actual": "4b32ac4b8097cb1fe7101baec96b077395da08fca130ad708051211010265cd2",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010181/RCC_D2/speech1-app-data-resource-1g.tar.gz",
+    "expected": "e3a2ea719224817d95594eca62507754696344e42345acaef6a7aeb190d447dc",
+    "actual": "f5f2a5d7c27d303154181f1bc72f3aa5d662611b014375ec91d6c831e0a0455f",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010181/RCC_D1/speech1-app-data-resource.tar.gz",
+    "expected": "59d3c5c40198c4b126e7714841b84d1f6b22ddef955decd896919d0909875164",
+    "actual": "76be6f97bcaa46b64643a32cb67513f6b0a5337661dc0eec353fd023057d1f68",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-firmware-rcc-aio-latam_67.01.35.52_RCC-r0_armv7a.ipk",
+    "expected": "bb7cb46403e1a97e701da366ad4341407fc16a1d1494646e3159e60f1b1a1e1d",
+    "actual": "ac7a9b19a4aa4d01e4e809e2583088a23b5970d070ec08b2c98fb863acb4c9dc",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-install-universe-after-swl_1.0-r0_armv7a.ipk",
+    "expected": "1478eddb1e6caf53b6418e42f388c94babb3335907eedda83d56a67c32730e17",
+    "actual": "abaf3428e5ec126543c7fc46ef239d89a3a5add8569073e90f09b2442c3af5d5",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-firmware-version_67.01.35.52_RCC-r0_armv7a.ipk",
+    "expected": "a8634cebfa6fe803aee84dffe9aec82497967cfef00e9635a7d58b19900584e4",
+    "actual": "9bb25b66f1d8d7c089ab7d41a22041b7a11be10b898bd8b82e12197730f4ae94",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-core-emb-registry-ids-swl-psa_67.01.35.52_RCC-r0_armv7a.ipk",
+    "expected": "d32d5035faf842b9b814c74b142b96d7e0cb4f561058051c60498d0af011ed65",
+    "actual": "cddcf1ec00b5227fbdeb9ab1e121c3e5d9c5eebc15cd85bfc84d4f538d6bc948",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/installList.inst",
+    "expected": "29d3c9963cc7677c4598380864eafdd83864513c416dcec9bcb0666846c50f40",
+    "actual": "29d3c9963cc7677c4598380864eafdd83864513c416dcec9bcb0666846c50f40",
+    "ok": true
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/oip-ssw-imageio-swl_2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0_armv7a.ipk",
+    "expected": "72b7fce270fdeb5c651b3e740bb9dad503ee7a2102d4157dac6a31deb0d474f1",
+    "actual": "4da521bbefb9be74df3f53f50a70e7229dda859a02a34ab706ece73339844d37",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/oip-ssw-security-usergroup-helper-swl_1.0.18-r0_armv7a.ipk",
+    "expected": "0c4a9ffb9082a16e1bb05486d98a4431b4c89294cd18d7eb6cb7e13be03089b1",
+    "actual": "352990cb3fb612c4ef13b8ffef58648fef8fc279dac6988deb32f8d2a14bab56",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-setup-rootfs-swl_67.01.35.52_RCC-r0_armv7a.ipk",
+    "expected": "9b1ccc0a5bb62d123d04e04efa7c9ef13ea75526ff7d98e94d2677370e421b89",
+    "actual": "8fa5296f3eb1df2bc5f050eb6b7107cf922dd188e835e3ecfd9e2036ac9c4d31",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/Packages.gz",
+    "expected": "38ecf4713ad9fde037706fdf5eea4ae314a15bf2003bacbd7f6058f5d8758990",
+    "actual": "38ecf4713ad9fde037706fdf5eea4ae314a15bf2003bacbd7f6058f5d8758990",
+    "ok": true
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010114/NAC_B2/OVIP/readwrite-data-transition.tar.gz",
+    "expected": "07634015464a99be83b7340e8dec6a34d4743dccd618051bfbfdc8a0fb63f628",
+    "actual": "12ad0e83cfed5325d515c2ec51948af42577c645fa576a76851fca0e73732a47",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010b/RCC_D2/tsw-1g.fsn",
+    "expected": "5e7765d6e9e866376729eac19599261d122bacbd7aee8254f7e91605cc702ff2",
+    "actual": "7b750b81b076c64991ea40990c3e8ceb1af290254259808e33149189130da54f",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010b/RCC_D1/tsw.fsn",
+    "expected": "7c12817beb8bfab16709f530db88e06fd8e4b927ffe732084772b396575ec7d6",
+    "actual": "c9ed68a6e6fd427c227e664815150daeb923ed5aaf7f1873cc1a8e7d0919d826",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010186/RCC_D2/datastore_rw-app-data-resource-1g.tar.gz",
+    "expected": "d87887067b40efaed2aafd6b0b78a3618e4acdc5149631641e73a65fcba52ec1",
+    "actual": "84e52ccc59836a7fb589937e86f5f170e84d3d2f3dc05c904d5447c5e6bf71d1",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010186/RCC_D1/datastore_rw-app-data-resource.tar.gz",
+    "expected": "e6bb906b96df1d928092076636abb49ba3e6b17b786c83ec6e1974cbaf15edf1",
+    "actual": "213fbaa2c7b14bffade2209ec9d4a4b88f8a7f942eb111d8f71fc83b389340c1",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010191/NAC_B2/OVIP/speech1-app-data-resource-transition.tar.gz",
+    "expected": "3b5cd31b494acfacb34d7a34a9cb226dc5c21db4dc598799c5924197c45d17de",
+    "actual": "3b523fb45dd49307213989db8b65bcef2b674e07d56a052da28214369c8ce9a9",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010144/HIFI/OVIP/hifi-image-transition.fli",
+    "expected": "e173e7ea2c0729787d49892bebecd7129f4f4dcbc045bec4aa052982c2385b45",
+    "actual": "c67920f91c82a2f79713126512b121b888dd4426a5426c2b901dd1e8ca135aaf",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010244/NAC_B2/OVIP/Vuc-transition.s",
+    "expected": "485795af274b2e2170fded4d4e48fba31c912af22a4e2d892a86954c18d1e028",
+    "actual": "08fc427eadebfd8721f0c8499e683e879eec763e1d2079b15f12cc67df598d8a",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010129/NAC_B2/OVIP/ui2-app-data-resource-transition.tar.gz",
+    "expected": "28baeac7b02a435672f6463b80449a879c00d36ab25e8135c63147e2e99223c2",
+    "actual": "daabb73e4986c35f04c8275a2c7e2e0e3b91522a8b0e3878eb83c101a15b4460",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010185/RCC_D2/speech5-app-data-resource-1g.tar.gz",
+    "expected": "87cae026a8d9428ea006663f6be7a6f298bff7ab6a45de059c3bcc5b59997cbc",
+    "actual": "acb48a720b4fdf01040df4b99a4ea391c97b1f3e87f003cfc30f6dac8aa59a87",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010185/RCC_D1/speech5-app-data-resource.tar.gz",
+    "expected": "dc6a53a28ca3d7ae65e63cef62ad4a09ee74df7f3d95899fe9492f204779e4b8",
+    "actual": "8d8b18ea9c262af1115de2521c510dab841c4c2234ee18c101791d12db6c56cf",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010177/RCC_AIO/bl-ovip-601-transition.fli",
+    "expected": "92965c6252e3237ea7e4e7077335a0c739048e271d9ded808de53fee4fcbfd78",
+    "actual": "97ea48c05db894fd248f858777124052c815ba9416999caa331929d8be97051d",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010127/RCC_D2/bl-ovip-601-1g.fli",
+    "expected": "c0bde5b08d65f54750be9d32cedc7a7bf35626dba3cd07ac8e1f088d64d2af13",
+    "actual": "b8e3573afa95ed281f4dd06a1f9b2611d33e7cf54f5833319595ce6498c6f22c",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010127/RCC_D1/bl-ovip-601.fli",
+    "expected": "31d6403b1ca89d5c505c40e68e4751d080327d72a16402b267b0376011b94a3a",
+    "actual": "19a767f93dafd0ea329018c612ab685d2cdff304dabb628180f71c89d98a5a27",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010212/NAC_B2/OVIP/OvipSwl.s",
+    "expected": "d56acb06fefb265da072345e5c7578309e53ce545b9c185acf7e6586877200f5",
+    "actual": "d051c981164feadcfbc0102f5d690eb96821480385dd86d1be57134ba2fd5a60",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010121/RCC_D2/radio-app-data-resource-1g.tar.gz",
+    "expected": "038fee4b49397e0cebe4b50c0b5119d94505b29f48b11196c90d98d3eba32722",
+    "actual": "23b6ccd748fa65b2f8f30f73223a692167b04b9fd8b20ef8c670193772a8b3b9",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010121/RCC_D1/radio-app-data-resource.tar.gz",
+    "expected": "0b7afc114016c899a73767ea76341a03a17d937e01179a959b38fde0f951e108",
+    "actual": "f25164b8bd4b9a5fac11bd4e201bb865e70b0bd026d14ea174b0baef3c46b2d2",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010196/NAC_B2/OVIP/datastore_rw-app-data-resource-transition.tar.gz",
+    "expected": "973fc9c650de7711f84f5c04e551a3b491f9c44a6d6cd95d609a8450d9278902",
+    "actual": "19c4b265121264f95cc26fdcf6b14f5781899d03e8e4f40994a755fbc6f33fef",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010183/RCC_D2/speech3-app-data-resource-1g.tar.gz",
+    "expected": "e3a2ea719224817d95594eca62507754696344e42345acaef6a7aeb190d447dc",
+    "actual": "d9a5305a911cfee96397bc14ae826cab21ef414f4532eea741928e05e427ce88",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010183/RCC_D1/speech3-app-data-resource.tar.gz",
+    "expected": "59d3c5c40198c4b126e7714841b84d1f6b22ddef955decd896919d0909875164",
+    "actual": "614954ea84fc3a77d903f4f67dde3842d61b96aa68fd2c97ef3c617d6b308df1",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010143/NAC_B2/OVIP/rootfs-transition.fsn",
+    "expected": "2aedf30be2624f5ae979da9cf94a984d7cd8c2e29bcd858ca732da646d3fbaf5",
+    "actual": "fda4fe97363139c1f0d1c22cc1f0888a1c4489bb9c5c3248be6b09e16816c341",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010195/NAC_B2/OVIP/speech5-app-data-resource-transition.tar.gz",
+    "expected": "1c46eceffd003ac5f6850cfa81ba33ddd1385bd991e327d11b8cbf846d4fc1ba",
+    "actual": "661f27333fd4146cdf6da8488252b7322c22842b661656ddd2e04c75ebbec99e",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010110/RCC_D2/readwrite-data-1g.tar.gz",
+    "expected": "edd0eaac735eee75a93d2d43ba566c90582d49fcf868a46f65213679c6ae3f06",
+    "actual": "9999ac82828d9101ca8af29dabe71104d35bfea3fe2e8dda01c6252555a011d0",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010110/RCC_D1/readwrite-data.tar.gz",
+    "expected": "ebeb32f3664a5ae859500fbc44da37811ceaa216a43f8759173485fe00372773",
+    "actual": "f5b2051825e90292b1d798bdbccbd3ca3c19b27c147a010adbbbb4b3024e2065",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010214/NAC_B2/OVIP/Vuc.s",
+    "expected": "1e7d68a5de8526dc7214e0e1f60b5aa1a0c459465996e384182321de45b492e0",
+    "actual": "318199754c5eb418d0bb6a316e310660b1f3554e60df8d5db1441a4a0a9b6768",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010122/NAC_B2/OVIP/ui1-app-data-resource.tar.gz",
+    "expected": "c0ba3cf7356a849e3fc563482366458ddd112e9d9706431c733939f6e89b293c",
+    "actual": "ec8dc05c754fce93af5989acccf8692ddb9d00f4bc54f80054b61fb9d9eb36de",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101014b/NAC_B2/OVIP/tsw-transition.fsn",
+    "expected": "a83e7f8a78f62b97e1cfb4e333750286aa9784592dcc19171abbc8266164cb3b",
+    "actual": "908c186650917fa3d74d712e65519784f491581e0d9d4852d56cdd20d0b8b7f0",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010113/ALL/RCC_D2/efs-app-data-resource-1g.tar.gz",
+    "expected": "610e73d961e0460d95fb1312cac3d9a8172b3f7c3f19c7a2deb2c1be9e21173b",
+    "actual": "a1c84e42756b0b4bc4a2074567259915e30c8451837c3b711b3aa36753c56a96",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010113/ALL/RCC_D1/efs-app-data-resource.tar.gz",
+    "expected": "ac0bd7110ea2ae81820afec6d586cff44d1419687f15a3e7715ea89f6e00b08c",
+    "actual": "63e6ee132ae7addcc5b8944f046d46f7cf9ef2e7366f6271959952ea4ec74ff2",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010101/RCC_D2/swl-kernel-1g.nbx",
+    "expected": "1b579cdc8e4fac6e16f3d88d34079e9d14f9aa0b1313a1f52b7f776407d819e6",
+    "actual": "245d7c8cae38f32457113d9dd6e661a9c88c2bf82c4ada8213c6eaf0c850ea89",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010101/RCC_D1/swl-kernel.nbx",
+    "expected": "11e2e899de9c000ae0e6b33a0c2dc7f81cd473b4ff2848f6c694babb6efeed53",
+    "actual": "c33a4a71edd9bad7ce6830cc835862b985aec99a2fc8349750cca73977cec97e",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010150/NAC_B2/OVIP/atmel_conf.raw",
+    "expected": "0cc30f74c822408e2c24662c17ef316e5157cf63c487b74bb467ac074b54196a",
+    "actual": "15b8c98c2358aa5480f87c449231c55143384ccf44634dfaf7f495a92b7eb371",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010142/NAC_B2/OVIP/kernel-transition.nbx",
+    "expected": "580214b808d70be616f9ff90ed422402bb15b13f5d9b1d8511e38511155a63f7",
+    "actual": "d7c6c18d1eb7915cd7b09944e7a8d380ad756bfe1b1c2e8fd8aa7770d62a2089",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010124/RCC_D2/ui2-app-data-resource-1g.tar.gz",
+    "expected": "1831d7fc91387d05a3132f13f5028c715ed6ab6d05976a1b4a190aa7e32d9ec9",
+    "actual": "dc7637049a6329992993bc7ce5354e23b9f48d7585223bbb0f007b9921ff1f8b",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010124/RCC_D1/ui2-app-data-resource.tar.gz",
+    "expected": "9408a0d4ec244ab8688f5a591721cb18fda1e94d825ab7ab6657e8519fb7140e",
+    "actual": "1efbd37b1e896638dac809d256beb467065727a97875742a5139a893bb45513d",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-firmware-version_67.02.24.22_RCC-r0_armv7a.ipk",
+    "expected": "dc0d00af0046caab837f67205f7872d020231f3caba7b9f3403bd5e7191383be",
+    "actual": "d2fef0d9bebc51b6c6ba5de449cf830d509b7bae2a50e7a702a94a64727a3266",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-firmware-rcc-aio-latam_67.02.24.22_RCC-r0_armv7a.ipk",
+    "expected": "29d473e5e8c274fdcfd75acb589111afdf6368da327b4bba72ab12f2dc679b12",
+    "actual": "1226874484d78b9fd36411d673a8e898dfb195e2e578402ba3301143907e8ba8",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-install-universe-after-swl_1.0-r0_armv7a.ipk",
+    "expected": "05e5d2e9fc1b11f20290639e8a3519a34db1ebfbb4ca4b1ac040a01a030d8445",
+    "actual": "557f3ba8a0dd1492af4354e7ebce588f6d2b340a64a0be241b2d0fc7c42a0529",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/installList.inst",
+    "expected": "29d3c9963cc7677c4598380864eafdd83864513c416dcec9bcb0666846c50f40",
+    "actual": "29d3c9963cc7677c4598380864eafdd83864513c416dcec9bcb0666846c50f40",
+    "ok": true
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/oip-ssw-imageio-swl_2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0_armv7a.ipk",
+    "expected": "273a6db4eddc59f15c439484f9722739c9f2ef512ef4261cb17f39f88a48e53f",
+    "actual": "1b4906593aaad4ca71fddb506691049c827002ffbcf67d72cd77309d22bbdefe",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-setup-rootfs-swl_67.02.24.22_RCC-r0_armv7a.ipk",
+    "expected": "cf5e7464b18178baf5cd9d016251ff6e909c88f86ad929ba3cc2ea0d6f647379",
+    "actual": "ad7a28f587dbb71e42f212fd7a7b0ef5d22b75cc79cb409c3badf4f67c7a9a5c",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/oip-ssw-security-usergroup-helper-swl_1.0.18-r0_armv7a.ipk",
+    "expected": "8b155bd9789ecb9bf011fb439c9f220fdedf817210d86e385c6ffba78014281d",
+    "actual": "0b73fffb5d07e0b2711968ba91af5bf96049e62552823fd092e5bc5fdcfbf1d1",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-core-emb-registry-ids-swl-psa_67.02.24.22_RCC-r0_armv7a.ipk",
+    "expected": "b4191ef4a6bf18bdcc1b5aa7b0fffd6896383edab52829f2e1b360309c36fcbc",
+    "actual": "f53736ce352b5ba753fe6f76663305aa5c9965e9671581056469c288bbfd4203",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/Packages.gz",
+    "expected": "8acff89eefa8de38ecdbe5f21fccf62a41b1464e3358e28d4735ed7165c44b02",
+    "actual": "8acff89eefa8de38ecdbe5f21fccf62a41b1464e3358e28d4735ed7165c44b02",
+    "ok": true
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010182/RCC_D2/speech2-app-data-resource-1g.tar.gz",
+    "expected": "e3a2ea719224817d95594eca62507754696344e42345acaef6a7aeb190d447dc",
+    "actual": "b1d4aadf542c58c6200134f9f7632dd2d39f9266d969ac2c942ce8ea2ef11ddb",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010182/RCC_D1/speech2-app-data-resource.tar.gz",
+    "expected": "59d3c5c40198c4b126e7714841b84d1f6b22ddef955decd896919d0909875164",
+    "actual": "a71fcd882a448e567fdb093637c1045c77963394cbe1b10d9d49f989f71605ec",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010141/NAC_B2/OVIP/swl-kernel-transition.nbx",
+    "expected": "4ba95208161dc1614ec4ec58a599d23ca6c0920649af1ba68f85a16b54b55801",
+    "actual": "45b811f340e7921f1a1e7f3d49859b0ee0c286aaf53ae801c5dbf1a5954c2bb3",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010193/NAC_B2/OVIP/speech3-app-data-resource-transition.tar.gz",
+    "expected": "fb855f619df05f5f2a6527e19fbaa456da28a6126fe4d2092dc635d4e7b589d9",
+    "actual": "326e97b9a50a4d941ea72a1a6257ad70fd03c1c3271505844ba87bcc7ce3e8be",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010126/NAC_B2/OVIP/ui1-app-data-resource-transition.tar.gz",
+    "expected": "979658b4a1245091b8f5b937ea7ecff98619db596bd8a8e34fdddb93abe614e9",
+    "actual": "8f6e798d9c133ea91aa8b52cfaefc7c2170743feeedea7b02eeb310c028429f7",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010102/RCC_D2/kernel-1g.nbx",
+    "expected": "49b56ab46693abbae61bc47cf32226f7db27f8ce762030711a0acbc64cedd89b",
+    "actual": "32a0a4076bb71f8db30d049cdd1c43d9b8f343016ddbf7ad356cc6e434262643",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010102/RCC_D1/kernel.nbx",
+    "expected": "396d7c413d9a213bb6cfe724f4474a1242a48fb6855b35552cd67a44fe7bd360",
+    "actual": "0a60988538f52b1b0252495098484aeb0601621e728b6d1498069d34b1eda423",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010104/HIFI/RCC_D2/hifi-image-1g.fli",
+    "expected": "e173e7ea2c0729787d49892bebecd7129f4f4dcbc045bec4aa052982c2385b45",
+    "actual": "5be7901b04ce22f6380f99dbe27c4bc5f378f2c49129217841a2235d95cacc15",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010104/HIFI/RCC_D1/hifi-image.fli",
+    "expected": "e173e7ea2c0729787d49892bebecd7129f4f4dcbc045bec4aa052982c2385b45",
+    "actual": "70277361d5026e38a90dfee2c3351afaa3839f86ba2cf96d648a216d3d8f2ec7",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010154/NAC_B2/OVIP/atmel_conf-transition.raw",
+    "expected": "0cc30f74c822408e2c24662c17ef316e5157cf63c487b74bb467ac074b54196a",
+    "actual": "028da0a3ab857f25ba298b4439c4b2d9e8663a369660a034176ad14d331af954",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010192/NAC_B2/OVIP/speech2-app-data-resource-transition.tar.gz",
+    "expected": "9f6440b5ff72cf338c73fbdd3a47bb4dee4b7a957871f9ea951eb065bcce21da",
+    "actual": "46ec10a797b04cfacf3530fecf7a90f9304de2eb0485d58b3f2b3cbf91f0ca93",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101014a/NAC_B2/OVIP/tsw-kernel-transition.nbx",
+    "expected": "97b0142aa15bc46f55a9a7a8b2eac5dbeb709853f0e6774c2dfaa1af44550b2b",
+    "actual": "a3b2b0d15cc3e37cde0eb9954f1c11c8224d12ca7d1f2b7a303a9cead7f04538",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010167/NAC_B2/OVIP/radio-app-data-resource-transition.tar.gz",
+    "expected": "c7a83eb61b7f4a1d1fb63286ee6548dadc3c6f8b61cc419a211a3cc8616d3bff",
+    "actual": "fc7bacaff4eeb82182bfac6373c78c7d27cfa1d6b4ef133b81d2548c2d028f06",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010184/RCC_D2/speech4-app-data-resource-1g.tar.gz",
+    "expected": "e3a2ea719224817d95594eca62507754696344e42345acaef6a7aeb190d447dc",
+    "actual": "d8b830475c13c8126a1cd9a05055bc254ad9fbc1c11a994e813ace571201dab5",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010184/RCC_D1/speech4-app-data-resource.tar.gz",
+    "expected": "59d3c5c40198c4b126e7714841b84d1f6b22ddef955decd896919d0909875164",
+    "actual": "b06c6be7d469e260df01e73946a3f3bd9f7f777ee4220d8493d28cd5b9fd56df",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010178/RCC_AIO/bl-ovip-601-transition.fli",
+    "expected": "92965c6252e3237ea7e4e7077335a0c739048e271d9ded808de53fee4fcbfd78",
+    "actual": "97ea48c05db894fd248f858777124052c815ba9416999caa331929d8be97051d",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010a/RCC_D2/tsw-kernel-1g.nbx",
+    "expected": "fc6176146dd8b6b1f99dfc2315a188a5d0984d31ea8484bbea8405b6eb48d9d2",
+    "actual": "e7d7b2e099ec6de045505a83123f233759e80d1aa707b2ad29e44ca4d19f65e6",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010a/RCC_D1/tsw-kernel.nbx",
+    "expected": "a97fafc3e7aaae805c56a7ec33298ca30b88b04a835c87e7d336ab1efc23c879",
+    "actual": "0a7ff5faf40e3445f352d47326e6bfbfb5f1c1d5b5892fc2e5e87717401d5d36",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010133/ALL/OVIP/efs-app-data-resource-transition.tar.gz",
+    "expected": "3a4d8aa70fdb12c44384435fb558abbece4eb77288abaf23c1ad4f6611865b9a",
+    "actual": "3a2b92ec134b68c6fec782cb213f951db364badd479ce2a553e9b2e9e8a81e81",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010194/NAC_B2/OVIP/speech4-app-data-resource-transition.tar.gz",
+    "expected": "7736323cd4b4472847a0d4bbacd9119a7d8d430142a91e739348c0376c56dca7",
+    "actual": "ba6e38d8d7eda17731294266aa6d04f9bc363d90c722e271a94a3f495d9a16a7",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D2/rootfs-1g.fsn",
+    "expected": "974e0ca5ec27686f1a0a5518ce9ba1abcd4d550ddfe1cd6a30475b426a78d2ca",
+    "actual": "00335f85d69c7bc0be8e91ae6d1e9fd8bca1daeabfb7f1b2bf5d2d3d91967bea",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D1/rootfs.fsn",
+    "expected": "4aed1f5723b261502dce0b467f032926a7436e9bf0e475e012609ee714f7214f",
+    "actual": "fea1d26cfc434228e8e48629b4292f154f663a063de4d715453e99ec96b19860",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010128/RCC_D2/bl-ovip-601-1g.fli",
+    "expected": "c0bde5b08d65f54750be9d32cedc7a7bf35626dba3cd07ac8e1f088d64d2af13",
+    "actual": "b8e3573afa95ed281f4dd06a1f9b2611d33e7cf54f5833319595ce6498c6f22c",
+    "ok": false
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010128/RCC_D1/bl-ovip-601.fli",
+    "expected": "31d6403b1ca89d5c505c40e68e4751d080327d72a16402b267b0376011b94a3a",
+    "actual": "19a767f93dafd0ea329018c612ab685d2cdff304dabb628180f71c89d98a5a27",
+    "ok": false
+  }
+]

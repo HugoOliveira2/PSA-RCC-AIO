@@ -1,0 +1,95 @@
+AIO Assist 0.4 — Parâmetros Continental AIO RCC A1 / KWP
+
+EXECUTAR
+Abra AIO-Assist-0.4.exe. Usa .NET Framework 4.x do Windows e o sketch
+arduino-psa-diag 2.0 que já funciona no seu Uno. Não usa .NET 5 e não
+exige instalar IDE, recompilar o Arduino ou ter internet para funcionar.
+Mantenha sua configuração de cristal MCP2515 de 8 MHz já testada.
+
+PRIMEIRO TESTE: UM PARÂMETRO DE TEMA
+1. Feche Monitor Serial, PSA-Arduino-NAC e a sessão do Diagbox para evitar
+   concorrência. Apenas este aplicativo deve comandar a central no teste.
+2. Carro parado, alimentação estável e ignição ligada. Conecte o Uno como
+   nos testes anteriores, abra o EXE, escolha a COM e inicie a sessão.
+3. Clique Parâmetros AIO B1 > Ler AIO conectada.
+   A leitura é nova: FE, VIN e B1. Abrir JSON offline permite examinar e
+   preparar valores, mas NÃO habilita gravação.
+4. Clique Temas e selecione AMBIANCE_DEFAULT_000.
+   É um código bruto de 0 a 7. Na leitura antiga de 17/10 o valor era 2.
+   Confira o valor atual. Para um teste de 2 para 3, digite 3 e clique
+   Preparar valor. Altere somente este campo no primeiro ensaio.
+   O mapa não informa os nomes visuais nem garante que todos os códigos
+   tenham um tema implementado no firmware.
+5. Clique Revisar e gravar B1. Confira o parâmetro e os bytes na revisão.
+   Se a base ainda for igual à leitura antiga, 2 para 3 muda apenas o
+   byte 13 (offset 12) de 40 para 60. A tela calcula a diferença real.
+6. Confirme Salvar backup e gravar. Escolha um NOVO nome de arquivo JSON.
+   Um arquivo existente não é sobrescrito, mesmo se o diálogo permitir
+   escolher o mesmo nome: a operação será interrompida antes da escrita.
+7. O aplicativo relê FE/VIN/B1, exige igualdade com a base, salva e força
+   a gravação do backup em disco, envia UMA escrita de B1 e relê B1.
+   Só declara verificado se receber 7BB1 e os 180 bytes forem idênticos
+   à proposta. Isso confirma os bytes, não o efeito visual nem a retenção
+   após desligar a central.
+8. Feche o editor e clique Desconectar. Verifique o tema na multimídia e
+   após um desligamento normal. O programa não força reinício.
+9. Traga o resultado visual, a leitura posterior e o arquivo .result.json
+   para análise. Se o tema não mudar, isso não prova que a escrita falhou:
+   pode haver diferenças de uso desse campo no firmware.
+
+SE OCORRER ERRO OU TIMEOUT
+Não repita imediatamente. A escrita pode ter ocorrido sem resposta.
+O programa não repete automaticamente e invalida a sessão após falha
+durante uma tentativa de escrita. Feche o editor, desconecte/reconecte
+e faça nova leitura para determinar o que ficou na central.
+Se FE/VIN/B1 diferirem antes da escrita, ou não for possível criar o
+backup, nenhum comando de escrita será enviado.
+
+RETORNAR AOS VALORES ANTERIORES
+Depois de uma nova leitura ao vivo, use Importar valores de JSON e
+selecione o backup ORIGINAL salvo antes do teste. A importação exige o
+mesmo VIN e FE. Apenas os campos editáveis do mapa são preparados;
+bits reservados e campos não editáveis não são copiados. Nada é gravado
+durante a importação. Revise e grave com outro nome de backup, seguindo
+o mesmo procedimento. Num teste de tema, também é possível preparar
+diretamente o valor anterior anotado.
+
+MAPA E LIMITES
+- Fonte: https://github.com/prototux/PSA-RE
+  diag/AEE2010.eco/BTEL/AIO/lids/B1.yml e ecu.yml
+- 292 parâmetros não reservados, bloco de 180 bytes.
+- Bytes do mapa começam em 1; bits de 7 a 0, ordem big-endian.
+- Os 61 B1 da resposta não fazem parte dos 180 bytes.
+- Mapa incorporado ao EXE. O JSON em references é cópia para auditoria;
+  editar essa cópia não altera o mapa usado pelo executável.
+- A leitura antiga de 17/10 identifica 931037 / E3_V3 (Cactus).
+  O programa aceita somente os identificadores listados no mapa e B1
+  com exatamente 180 bytes. Isso é uma conferência de formato e variante,
+  não certificação de cada função em cada firmware.
+- A interpretação alternativa incluída na fonte não muda posição, tipo
+  nem opções dos 292 campos comuns. Campos extras da alternativa não
+  foram incorporados. Campos com sobreposição, tipo não suportado ou
+  largura acima de 32 bits não são editáveis.
+- Edição usa VALORES BRUTOS. Alguns campos possuem escala/unidade na
+  fonte. Não trate o número bruto como unidade física automaticamente.
+- Os campos MENU_AMBIANCE indicam opções do menu; AMBIANCE_DEFAULT é
+  outro campo. Não se atribuem nomes como Red/Blue aos códigos sem teste.
+- É enviado 3B B1 + bloco completo de 180 bytes. O aplicativo reconstrói
+  a proposta a partir do B1 original e muda apenas os campos selecionados.
+  Não há envio livre de comandos, escrita de VIN, calibração ou firmware.
+- O backup contém FE, VIN, B1 original, proposta e alterações. NÃO é
+  imagem completa de memória nem backup de firmware/calibração.
+- O recibo <backup>.result.json registra tentativa, aceite e verificação.
+- Arquivos ficam locais; não há envio automático a serviços externos.
+- O protocolo de escrita está implementado e testado em transporte
+  simulado. Ainda precisa ser validado na sua AIO física.
+
+TESTES E CÓDIGO
+675 verificações locais: testes anteriores, leitura do B1 conhecido,
+codificação dos campos com preservação dos bits vizinhos, limites,
+concorrência de dados, backup, NRC, timeout e releitura divergente.
+Nenhuma porta serial ou central foi acessada nos testes de desenvolvimento.
+O resultado está em test-results-0.4.txt. Compile com source/build.ps1.
+O código próprio e o mapa usado estão incluídos para revisão.
+As funções antigas de comparação NAC/CAL permanecem separadas; o mapa
+NAC não é usado para interpretar ou gravar B1 da AIO.

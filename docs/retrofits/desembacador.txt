@@ -1,0 +1,104 @@
+ADAPTACAO DE FACHADA CACTUS/AIO NO C4 LOUNGE THP 2015
+Consulta em 30/10/2026.
+
+ENTRADAS DO USUARIO
+O usuario mapeou com multimetro a fachada desenvolvida a partir de 2018.
+Na fachada nova: pino11 botao do desembacador; pino13 indicador.
+Essa identificacao e resultado da engenharia reversa do usuario, nao
+de um esquema dessa fachada na base SEDRE 2013.
+Nao foram informados ainda o tipo eletrico do contato do botao,
+a polaridade/corrente do LED ou se ha resistencias internas.
+
+ESQUEMA ESPECIFICO DO LOUNGE
+SEDRE M7 / C4 LOUNGE(AMLAT), funcao FCT0903:
+D3CZAC2R (principio), IDSCH213834.
+D3CZAC2G (cablagem), IDSCH213846.
+Os desenhos foram obtidos pelo svgLoader da instalacao SEDRE local
+apos abertura normal do programa; originais SVG e PNG nesta pasta.
+
+A fachada original aparece como 84C6, conector 12V BE (12vias azul).
+No circuito do desembacador, os fios mostrados na fachada sao:
+1 = massa MC8CA.
+7 = 9034G, ligado a rede com 9034C na BSI1 / 60V BE pino27.
+8 = 9035G, ligado a rede com 9035C na BSI1 / 60V BE pino29.
+12 = alimentacao ZE21A, BSI1 / 16V VE pino16, via fusivel F21.
+Isso coincide com CAN H/L nos pinos7/8 e alimentacao12 informados.
+Nao aparecem fios separados do botao e do LED do desembacador entre
+a fachada84C6 e a BSI nessa aplicacao.
+Conclusao: o esquema sustenta que a interface original desse circuito
+usa comunicacao CAN. Nao foi localizada uma entrada de botao e uma
+saida de indicador comprovadas na BSI do Lounge para ligar11/13.
+Ausencia desses fios no esquema da aplicacao nao prova inexistencia
+de circuitos nao utilizados dentro da BSI.
+
+CIRCUITO DE POTENCIA E DISTINTO
+A carga do vidro/filtragem84A3 recebe o circuito811 a partir do BFH3,
+conector46V NR terminalG1 (no desenho do Lounge). Ha comando de rele
+R3 nesse modulo. Esse circuito nao foi identificado como entrada de
+botao nem saida de baixa corrente para LED.
+Nao tratar o fio de aquecimento do vidro como equivalente a11 ou13.
+
+CONTRAPROVA EM OUTRA APLICACAO
+Na base existem codigos8110 (info ativacao) e8101 (info indicador).
+No C3 Mercosur, desenhoNA D3CZ854R, eles vao do comando8025 ao
+painel de instrumentos0004, nao diretamente a BSI. Portanto a
+existencia desses codigos na documentacao nao fornece uma pinagem
+universal da BSI, nem valida transpor a pinagem do C3 ao Lounge.
+
+MAPA CAN DO REPOSITORIO PSA-RE
+Fonte: copia local psa-coder-review/PSA-RE.zip.
+Diretorio: buses/AEE2010.full/LS.INFO-DIV/.
+Os YAML originais relevantes foram salvos nesta pasta.
+
+350.yml:
+ID0x350, 8bytes, periodo documentado500ms e por evento.
+Emissores declarados: ICSV eFMUX; receptores incluemBSI eBTEL.
+Campo REAR_WINDSHIELD_HEAT, bits1.5.
+Byte1 do payload, bit5, mascara0x20.
+0 = nao solicitado; 1 = solicitado.
+O arquivo e denominado CSS_SUSPENSION_STATUS, mas sua descricao e
+seus campos documentam estado/solicitacoes da climatizacao dianteira.
+
+227.yml:
+ID0x227, 8bytes, emissorBSI, receptores incluemFMUX, ICSV eBTEL.
+Campo REAR_WINDOW_HEATING_PUSH_LED_CONTROL, bits2.3-2.2.
+Byte2 do payload, bits3..2, mascara0x0C.
+Valores logicos:0 apagado;1 aceso fixo;2 intermitente;3 invalido.
+Esses valores devem ser extraidos/aplicados dentro da mascara; nao
+sao o valor inteiro do byte2.
+E comando do LED, nao uma medicao eletrica do aquecimento no vidro.
+
+217.yml:
+Inclui REAR_WINDOW_HEATER_BUTTON_STATUS, bits4.4, mas o quadro
+e descrito como estado do painel de instrumentos para a BSI.
+Nao assumir que seja a mensagem emitida pela fachada84C6.
+Foi mantido como referencia adicional e nao como primeira escolha
+para transmitir o botao na adaptacao.
+
+LIMITACAO E CAMINHO TECNICO
+O mapa CAN e uma pista de protocolo; os campos nao foram validados
+por captura do Lounge nesta consulta. A fachada atual, a AIO e o
+modulo de climatizacao podem ja transmitir quadros nessas IDs.
+Nao foi produzido um payload para injecao e nao se recomenda enviar
+um quadro inteiro artificial sem identificar o emissor e preservar
+os outros campos de climatizacao que compartilham0x350.
+
+As alternativas coerentes com o esquema sao:
+1. Reaproveitar a eletronica da fachada original que ja traduz o botao
+   e o indicador para CAN, apos conferir eletricamente os dois lados.
+2. Projetar uma interface para o contato do pino11 e o LED do pino13,
+   com conversao para/deCAN, depois de captura do trafego real.
+Nenhuma dessas alternativas esta pronta para ligar: faltam validacao
+do sinal do botao/LED e confirmacao do protocolo no carro.
+O LED deve acompanhar o estado comandado pelo sistema, inclusive
+desligamento temporizado, em vez de apenas memorizar o ultimo toque.
+
+STATUS
+Nao foi encontrado par de pinosBSI validado para conexao direta.
+Foi confirmado no esquema o caminhoCAN original e encontrada
+documentacao separada de pedido e de indicador na rede.
+Nao houve conexao ao veiculo ou modificacao de configuracao.
+
+FONTES WEB DOS MAPAS
+https://github.com/prototux/PSA-RE/blob/master/buses/AEE2010.full/LS.INFO-DIV/350.yml
+https://github.com/prototux/PSA-RE/blob/master/buses/AEE2010.full/LS.INFO-DIV/227.yml

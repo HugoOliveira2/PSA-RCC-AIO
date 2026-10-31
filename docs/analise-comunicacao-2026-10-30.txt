@@ -1,0 +1,113 @@
+AIO ASSIST — COMPARACAO COM O DIAGBOX E REGRESSOES DE COMUNICACAO
+Consulta: 30/10/2026. Nao houve conexao ou escrita no veiculo.
+
+RELATO DO USUARIO NESTA ANALISE
+A versao 0.6 funciona quando o Diagbox e aberto antes; as versoes
+posteriores ficaram impraticaveis. Este relato e evidencia de campo,
+mas nao identifica sozinho qual operacao do Diagbox prepara o estado.
+
+CENTRAL EXAMINADA
+A leitura historica FE incluida no projeto termina em 931037.
+No banco DSD do Diagbox, a tabela IDENTIF associa ID_REFERENCE_LOGICIEL
+931037 a AIO_E3_V3. AIO_B7_V4 e associado a 937622 e nao deve ser
+escolhido somente porque o carro e C4. AIO_E3_V3 usa a definicao
+AIO_0000002908_V1.xml, ECUVEID 29096.
+O Diagbox historicamente selecionou AIO_B7_V1 no C4; a comparacao
+abaixo verificou tambem o perfil E3_V3 correspondente a leitura FE.
+
+PROTOCOLO BASICO: COINCIDE
+JOIN ECUVER -> I_ECUSER -> SERVICE -> SERVUNIT -> SERVUNITFRAME
+-> I_SERPAR -> PARAM, filtrado por AIO_E3_V3, confirma:
+SDS / DIAG: envio 10 C0, resposta 50 C0.
+SA / GETSEED: 27 83, resposta 67 83.
+SA / SENDKEY: 27 84, resposta 67 84.
+TP: 3E, resposta 7E.
+WDBLID / WDBLID_B1: 3B B1, resposta 7B B1.
+O mapa de escrita estende os campos ate a posicao 182 contando SID e
+LID; corresponde a 180 bytes de dados. O app usa esse comprimento.
+Portanto, o banco nao aponta troca basica por UDS 2E/22, sessao 1003,
+outro nivel de acesso ou necessidade de copiar o mapa NAC para gravar.
+O algoritmo/chave e as condicoes de execucao nao sao comprovados
+apenas pelos servicos declarados; o registro historico do AIO Assist
+ja apresenta 6784 e leituras validas nessa central.
+
+DIFERENCA CONCRETA DE INICIALIZACAO / ENCERRAMENTO
+No arquivo extraido DDCServices_FI_2026-10-18.log, linha 1136,
+o grupo de frames AIO registra, nesta ordem:
+  10C0 -> 50C0
+  21FE -> identificacao correspondente a 931037
+  2180 -> identificacao ZA
+  1081 -> 5081
+  10C0 -> 50C0
+Na linha 1525 registra leitura 21B1 completa; na linha 1765,
+1081 -> 5081. Prefixos internos QFFxx/R dos logs foram omitidos aqui.
+As transacoes estao guardadas em aio-diagbox-frames.json na pasta
+.diagbox-analysis, junto do script de extracao das linhas.
+
+O AIO Assist 0.6 e 0.9 iniciam diretamente a sessao C0. Stop()
+envia apenas S para o sketch e nao 1081 a central. Parar o envio de
+keep-alive nao equivale a pedir retorno explicito a sessao padrao.
+Isso e uma diferenca comprovada. Nao esta provado que seja a causa
+da dependencia do Diagbox nem que adicionar 1081 resolva sozinho.
+Pode haver preparacao da BSI/rede ou outra condicao de execucao.
+Nao foi identificado um parametro persistente da BSI a alterar.
+
+DIFERENCAS ENTRE VERSOES
+0.6:
+- Prazo de resposta configurado em 10 s.
+- Nao envia T20 na inicializacao.
+- Nao invalida a sessao ao detectar os avisos de keep-alive 7F3E22/03.
+- Uma falha de leitura nao bloqueia toda a sessao como nas posteriores.
+0.7:
+- Passa a enviar T20 ao sketch antes do desbloqueio.
+- B1 tem espera inicial de 20 s e respostas pendentes podem prolongar
+  a espera. Portanto, o limite de cinco segundos NAO explica por si
+  so a regressao ja observada na 0.7.
+- Passa a interromper a sessao apos timeout, mistura/comprimento
+  incorreto e avisos de manutencao perdida. A 0.6 pode continuar em
+  estados que as posteriores recusam; isso nao torna a 0.6 confiavel.
+0.8: reaproveita leitura da tela principal ao abrir editor.
+0.9:
+- Todas as leituras tem limite total de 5 s, inclusive a releitura
+  anterior a gravacao e a posterior.
+- 7F2178 nao estende esse limite. E uma escolha explicitamente
+  documentada no projeto como solicitacao anterior do usuario.
+- Se B1 nao terminar a tempo antes da escrita, 3BB1 nao e enviado.
+- Se o timeout ocorrer apos 7BB1, pode ter havido escrita aceita,
+  mas sem verificacao posterior. Sao falhas distintas.
+
+T20 E O SKETCH
+Na fonte oficial 2.0 do ludwig-v/arduino-psa-diag, T altera
+framesDelayInput, usado no Flow Control das respostas segmentadas.
+O envio do bloco B1 usa o espacamento que a ECU pede no Flow Control.
+Nao se pode atribuir o problema ao T20 sem comparacao controlada.
+O texto 7F3E03 e gerado pelo proprio sketch quando falta resposta
+de keep-alive por 4 s; nao e necessariamente um NRC enviado pela AIO.
+O sketch para o keep-alive ao receber negativa para 3E ou observar
+outro equipamento enviando 3E. A montagem de mensagens e compartilhada
+entre a interface serial e o transporte CAN, e merece captura no caso
+de linhas misturadas. Nao foi comprovada a causa fisica da perda.
+Fonte oficial examinada:
+https://raw.githubusercontent.com/ludwig-v/arduino-psa-diag/master/arduino-psa-diag/arduino-psa-diag.ino
+A unica copia .ino localizada no repositorio antigo local e 1.0;
+nao foi usada como se fosse o sketch 2.0 instalado no Arduino.
+
+FORCA DAS CONCLUSOES
+Confirmado: protocolo basico coincide; Diagbox alterna 1081/C0;
+o app nao faz esse retorno; diferencas de T20 e tratamento de sessao;
+limite de 5 s na 0.9 pode impedir escrita por falha de pre-leitura.
+Hipotese principal: problema de inicializacao/manutencao da sessao
+e/ou transporte, combinado com bloqueios mais estritos apos 0.6.
+Ainda nao demonstrado: causa unica do comportamento no carro,
+necessidade de alguma preparacao da BSI, influencia fisica de USB/CAN,
+e quais mudancas explicam a falha da versao usada em cada tentativa.
+
+PROXIMA VERIFICACAO UTIL
+Comparar inicializacao a frio do AIO Assist com a sequencia que funciona
+apos Diagbox, capturando timestamps e frames de ambos os lados. Separar
+as fases: abrir sessao, desbloquear, ler B1, conferir antes da escrita,
+enviar 3BB1, receber 7BB1 e reler. A regressao deve ser isolada alterando
+uma variavel por vez, sem remover validacoes de integridade nem repetir
+automaticamente uma gravacao de resultado incerto.
+Esta analise nao gerou nova versao, nao alterou fontes do AIO Assist,
+nao afrouxou o limite solicitado e nao realizou testes fisicos.

@@ -1,0 +1,32 @@
+AIO Assist 0.6.1 — reenvio manual da gravação
+
+BASE
+Derivada do código entregue na 0.6, sem T20 nem os ajustes de comunicação
+introduzidos nas versões 0.7–0.9. Leituras têm prazo máximo de 5 segundos,
+conforme solicitado. A 0.6 original foi preservada.
+
+COMO USAR
+Prepare e tente gravar um parâmetro normalmente. Se a leitura de conferência
+falhar antes de enviar a escrita, feche a mensagem de erro e clique no novo
+botão REENVIAR GRAVAÇÃO, na barra superior do editor.
+
+Esse botão envia diretamente o comando 3BB1 já preparado:
+- Não abre a revisão nem a janela de escolha do backup novamente.
+- Não consulta FE/VIN/B1 antes de enviar.
+- Salva uma cópia da leitura base anterior em um novo arquivo de backup,
+  na mesma pasta escolhida na tentativa original. Essa cópia não é uma
+  leitura nova do conteúdo atual.
+- Aguarda a confirmação e relê B1 após a escrita para conferir o resultado.
+- Não repete automaticamente o envio.
+
+O comando retido é o bloco B1 completo de 180 bytes da tentativa preparada,
+com o parâmetro alterado. Editar outro valor, importar, abrir arquivo ou
+fazer nova leitura descarta esse comando retido.
+O botão fica disponível para o caso mostrado no log: falha da conferência
+antes do envio. Se uma escrita já foi enviada e o resultado não pôde ser
+confirmado, o editor continua exigindo nova leitura/sessão.
+
+VERIFICAÇÃO
+1407 verificações locais/simuladas passaram. Inclui falha de 21B1 seguida
+de um reenvio manual cujo primeiro comando é 3BB1, sem leituras prévias,
+com backup e confirmação por releitura. Nenhuma porta serial física aberta.

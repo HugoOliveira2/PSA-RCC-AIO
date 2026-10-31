@@ -1,0 +1,271 @@
+[
+  {
+    "key": "AIO_WAVE1\\67.02.23-52.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\22.05.69-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\22.06.17-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\22.07.26-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:112:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\22.07.88-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\5.15.34-12-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\5.15.36-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE2\\5.15.41-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE3\\31.08.69-52-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE4\\41.02.65-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "NAC_CN_WAVE4\\41.03.05-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "RCC_CN_WAVE2\\21.07.27-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "RCC_CN_WAVE2\\21.07.88-52-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "RCC_CN_WAVE3\\41.03.05-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE1\\7.3.1-r1.key",
+    "exit": 0,
+    "bytes": 304911,
+    "error": "",
+    "valid_ipk": false,
+    "matches_package_md5": false,
+    "expected_plaintext_size": 304904,
+    "note": "OpenSSL exit 0 is insufficient; size and format invalid, package MD5 mismatch. Not a successful decryption.",
+    "output_file": "registry-package.unverified.bin"
+  },
+  {
+    "key": "WAVE2\\21.04.62-52-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.04.62-54-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.05.65-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.05.68-24-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.05.78-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.05.82-12-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.05.90-42-r0.key",
+    "exit": 2,
+    "bytes": 0,
+    "error": "Could not find private key of signing key from firmware-analysis\\reverse-engineering\\psa-nac-firmware-reverse-engineering-main\\Firmware_Keys\\WAVE2\\21.05.90-42-r0.key\n"
+  },
+  {
+    "key": "WAVE2\\21.05.90-42-r1.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.06.47-34-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.07.16-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.07.67-32-r1.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.22-32-r1.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.24-12-r1.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.25-12-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:112:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.84-12-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.87-32-r1.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:112:\n"
+  },
+  {
+    "key": "WAVE2\\21.08.90-52-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE2\\5.15.45-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE3\\31.08.05-46-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE3\\31.09.46-62-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE3\\42.01.72-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\42.01.72-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\42.03.31-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\42.03.33-42-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\44.02.13-12-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\44.02.16-52-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\44.06.44-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\44.07.05-22-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  },
+  {
+    "key": "WAVE4\\44.07.33-32-r0.key",
+    "exit": 4,
+    "bytes": 304896,
+    "error": "Error decrypting PKCS#7 structure\n100000000A000000:error:1C800064:Provider routines:ossl_cipher_unpadblock:bad decrypt:providers/implementations/ciphers/ciphercommon_block.c:107:\n"
+  }
+]

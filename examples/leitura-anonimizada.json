@@ -1,0 +1,53 @@
+{
+  "schema": "aio-assist-diagnostic-v1",
+  "applicationVersion": "0.2.0",
+  "capturedAt": "2026-10-17T19:53:34.2716162-03:00",
+  "port": "EXEMPLO-OFFLINE",
+  "protocol": "KWP C0",
+  "completeBackup": false,
+  "cameraMappingValidated": false,
+  "zones": [
+    {
+      "Zone": "FE",
+      "Description": "Identificação e calibração",
+      "Response": "61FEFFFF00000DF50101016808FF02010101FD02000001931037",
+      "Hex": "FFFF00000DF50101016808FF02010101FD02000001931037",
+      "Text": ".........h.............7",
+      "Status": "Lida"
+    },
+    {
+      "Zone": "B0",
+      "Description": "VIN",
+      "Response": "61B05646373030303030303030303030303031",
+      "Hex": "5646373030303030303030303030303031",
+      "Text": "VF700000000000001",
+      "Status": "Lida"
+    },
+    {
+      "Zone": "B1",
+      "Description": "Configuração AIO sem mapa validado",
+      "Response": "61B10000C02A24240300402C78044000050100000000000000060000000000000000000000000000000000000000001C00000000000000228012000A00401665C80700B0C0AA003C108056EA000002000000009800C0280005121F2C3946535F644000008038000000F4003A000000000000A8B428B41EB4281C0E190AE402D207080106070802D9026606F9021C0804020807D0802802570001F300777269000064640000008023802000C030200000100080000040",
+      "Hex": "0000C02A24240300402C78044000050100000000000000060000000000000000000000000000000000000000001C00000000000000228012000A00401665C80700B0C0AA003C108056EA000002000000009800C0280005121F2C3946535F644000008038000000F4003A000000000000A8B428B41EB4281C0E190AE402D207080106070802D9026606F9021C0804020807D0802802570001F300777269000064640000008023802000C030200000100080000040",
+      "Text": "...*$$..@,x.@........................................\".....@.e.......<..V...........(....,9FS_d@...8.....:........(...(................f...........(.W....wri..dd....#. ..0 .......@",
+      "Status": "Lida"
+    },
+    {
+      "Zone": "B2",
+      "Description": "Configuração sem mapa validado",
+      "Response": "7F2112",
+      "Hex": "",
+      "Text": "",
+      "Status": "Subfunção não suportada ou formato inválido no KWP (7F2112)"
+    },
+    {
+      "Zone": "80",
+      "Description": "Zona ZA sem mapa validado",
+      "Response": "61809825649080000D98256489806822000000640000290830",
+      "Hex": "9825649080000D98256489806822000000640000290830",
+      "Text": ".%d.....%d..h\"...d..).0",
+      "Status": "Lida"
+    }
+  ],
+  "log": [],
+  "publicationNote": "Leitura histórica com VIN substituído por exemplo fictício. FE e B1 preservados para pesquisa. Não usar como configuração de outro veículo."
+}

@@ -1,0 +1,83 @@
+C4 LOUNGE EXCLUSIVE THP 2015 — INVESTIGACAO DE ILUMINACAO DOS PES
+Consulta: 30/10/2026.
+Objetivo informado: acender ao abrir portas e permanecer fraca a noite.
+
+FONTES LOCAIS
+Instalacao C:\Program Files\SEDREAC.
+Banco Firebird SDR.FDB consultado em copia separada no workspace.
+Publicacao da base: 06/10/2013, versao 9C-S.
+Os arquivos SVG exportados vem do Cache\svg e nao tiveram suas ligacoes editadas.
+PNG: renderizacao dos mesmos SVG; R7-ligacao-luzes-pes.png e um recorte.
+Nenhum arquivo da instalacao foi alterado.
+
+MODELOS CONFIRMADOS NO BANCO
+M7 = C4 LOUNGE(AMLAT)-B73M; serie 6929, veiculo 6931.
+R7 = C4 Sedan (RUSSIE)-B73R; serie/veiculo 6911.
+B8 = DS5; serie/veiculo 6909.
+M7 tem na base uma aplicacao de lancamento de setembro/2013.
+A base nao e especifica do ano 2015 e nao houve filtragem pelo VIN/OPR do carro.
+
+RESULTADOS CONFIRMADOS NOS DESENHOS
+1. M7 D3CZAAFR (principio) / D3CZAAFG (cablagem): iluminacao interna,
+   funcao FCT0830. Nao mostram as lampadas 3036/3037. No desenho de
+   principio, cavidade 11 do conector 60V BE da BSI aparece sem ligacao.
+   Isso nao prova existencia de terminal, circuito de potencia ou suporte
+   de software na BSI real.
+2. R7 D3CZA0AR (principio) / D3CZA0AG (cablagem): mostram ambas
+   as lampadas e sua alimentacao pela BSI1, conector 60V BE, pino 11.
+3. DS5 B8 D3CZ697R (principio): tambem alimenta as lampadas
+   3036/3037 pela BSI1, conector 60V BE, pino 11, fio 3005A.
+   No banco, esse desenho esta associado a descritores de iluminacao
+   ambiente DFC36 e DFC64. Isso nao determina o comportamento eletrico
+   exato da saida em cada configuracao.
+
+LIGACAO DE REFERENCIA CONFIRMADA NO R7
+BSI1 / 60V BE / pino 11 -> fio 3005A -> pino 1 da lampada 3037.
+Da mesma alimentacao deriva o fio 3005B -> pino 1 da lampada 3036.
+3037 (pes esquerdo): pino 2 -> MC30A -> rede de massa MC51.
+3036 (pes direito): pino 2 -> MC30B -> rede de massa MC51.
+Ambas usam conector 2V BA.
+60V BE = 60 vias, azul; 2V BA = 2 vias, branco.
+ND no desenho de cablagem nao identifica uma cor de fio definida.
+3005A/3005B sao identificacoes de circuitos, nao referencias de pecas.
+3036/3037 sao codigos de componentes do esquema, nao referencias de compra.
+Os desenhos nao informam aqui a capacidade maxima dessa saida nem o
+terminal comercial a utilizar na BSI.
+
+INTERPRETACAO
+Ha uma referencia de fabrica concreta para investigar um retrofit por
+saida dedicada da BSI. O R7 e uma comparacao especialmente util por ser
+outra variante sedan B73; essa semelhanca nao comprova intercambiabilidade.
+Nao ha confirmacao de que a BSI do Lounge 2015 comporte a saida nem de
+que permita brilho alto com porta aberta e baixo com lanternas ligadas.
+Ligar apenas no plafon nao demonstra que se obtera ambiente noturno.
+
+MANUAL DS5
+O manual consultado descreve as luzes dos pes acompanhando as luzes de
+cortesia ao abrir portas. A iluminacao ambiente e descrita separadamente,
+ativada a noite com as lanternas. Esse texto nao comprova que as luzes dos
+pes tenham os dois niveis desejados em todas as versoes.
+Fonte: https://www.citroeneuropass.com.au/i/VehicleManual/DS5.pdf
+
+O QUE FALTA PARA DEFINIR A INSTALACAO NO CARRO
+- OPR/DAM e identificacao da BSI (fabricante, referencia, hardware/software).
+- Confirmar no conector real 60V BE a cavidade 11 e eventual pre-cablagem.
+- Ler no Diagbox a configuracao atual e as opcoes de iluminacao dos pes
+  e ambiente disponiveis para essa BSI, sem alterar parametros por tentativa.
+- Se a saida estiver documentada para a unidade, verificar seu comando
+  nos estados: porta aberta, porta fechada, lanternas apagadas e acesas.
+  Medicao de forma de onda esclarecera eventual PWM; multimetro sozinho
+  pode apresentar apenas um valor medio.
+- Confirmar capacidade/carga e luminarias adequadas antes de conectar.
+Nao foi comprovada referencia de luminaria, potencia, bitola ou fusivel
+para esse retrofit especifico. Estes arquivos sao evidencia de pesquisa,
+nao uma instrucao validada para energizar o pino do carro.
+
+COMPLEMENTO DOCBACKUPAC — 30/10/2026
+Foram confirmados PNs no catalogo de pecas CS95 do DocBackupAC.
+DS5: 6362 N6 (exceto Cool Blue) e 9800444780 (Cool Blue), duas
+unidades para os pes sob aplicacao DNK02. A 6362 N6 tambem e
+listada no porta-malas/capo do Lounge. A lampada convencional
+6216 A1 e descrita como 12V-W5W.
+Detalhes e XML de origem: pasta catalogo-pecas nesta documentacao,
+arquivo REFERENCIAS-CONFIRMADAS.txt.

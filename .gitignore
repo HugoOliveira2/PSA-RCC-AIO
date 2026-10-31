@@ -1,0 +1,11 @@
+*.exe
+*.pdb
+*.zip
+!downloads/AIO-Assist-0.6.1-publico.zip
+__pycache__/
+*.pyc
+logs/
+backups/
+*.result.json
+test-results-public.txt
+!validation/test-results-public.txt

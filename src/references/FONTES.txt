@@ -1,0 +1,21 @@
+Fontes públicas consultadas em 17/10/2026
+
+nac.json — mapa de parâmetros mantido por Ludwig V e colaboradores
+https://github.com/ludwig-v/psa-nac-firmware-reverse-engineering/blob/main/Configuration/nac.json
+Arquivo original sem modificação. O repositório adota GPL-3.0.
+A licença integral original está incluída em LICENSE-map.txt.
+O catálogo contém 52 zonas e 351 parâmetros; não contém B1.
+
+C4L_AIO-9693762280.cal
+https://raw.githubusercontent.com/ludwig-v/arduino-psa-nac_rcc/master/Calibrations/NAC/C4L_AIO-9693762280.cal
+
+C4L-9693725980.cal
+https://raw.githubusercontent.com/ludwig-v/arduino-psa-nac_rcc/master/Calibrations/RCC/C4L-9693725980.cal
+
+Calibrações originais para consulta offline, conforme indicação na página do autor:
+https://vlud.net/nac-telecodage.html
+Os arquivos de calibração são amostras do repositório do autor, não uma declaração
+de compatibilidade com o hardware ou firmware do veículo do usuário.
+
+AIO Assist não é um produto oficial de VLud, Bagou91, dragouf, Continental ou PSA.
+Os leitores e a interface deste pacote foram implementados independentemente.

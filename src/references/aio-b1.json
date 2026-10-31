@@ -1,0 +1,3189 @@
+{
+  "schema": "aio-b1-map-v1",
+  "source": "https://github.com/prototux/PSA-RE",
+  "sourcePath": "diag/AEE2010.eco/BTEL/AIO/lids/B1.yml",
+  "sourceSha256": "b4d6140aed8699d666a2a7d2dd91ff54f9776be01748ecd036b756fd3b9c3409",
+  "length": 180,
+  "fields": [
+    {
+      "name": "DISPLAY_AUTOMATIC_VOLUME_CONTROL_ACV_TOUCH",
+      "bits": "2.7",
+      "type": "bool",
+      "description": "Display of the automatic volume control \"ACV\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ACV_PUSH_PANEL_000",
+      "bits": "2.6",
+      "type": "bool",
+      "description": "ACV_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ACV_PUSH_POS_000",
+      "bits": "2.5-2.1",
+      "type": "uint",
+      "description": "ACV_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_ALARM_HISTORY_000",
+      "bits": "3.7",
+      "type": "bool",
+      "description": "DAT_ALARM_HISTORY_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_ALARM_000",
+      "bits": "3.6",
+      "type": "bool",
+      "description": "DAT_ALARM_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CPUSH_ALARMLOG_000",
+      "bits": "3.5",
+      "type": "bool",
+      "description": "CPUSH_ALARMLOG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYRE_PRESSURES",
+      "bits": "4.7",
+      "type": "bool",
+      "description": "Tyre pressures",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "UREA_SOLUTION_LEVEL",
+      "bits": "4.6",
+      "type": "bool",
+      "description": "Urea solution level",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OBC_PERMANENTPAGE_000",
+      "bits": "4.5",
+      "type": "bool",
+      "description": "OBC_PERMANENTPAGE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ODO_PARTIAL_000",
+      "bits": "4.4",
+      "type": "bool",
+      "description": "ODO_PARTIAL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OBC_000",
+      "bits": "4.3",
+      "type": "bool",
+      "description": "OBC_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OBC_STOP_START_000",
+      "bits": "4.2",
+      "type": "bool",
+      "description": "OBC_STOP_START_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OBC_PAGE_000",
+      "bits": "4.1-4.0",
+      "type": "uint",
+      "description": "OBC_PAGE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_ZONE_000",
+      "bits": "5.7-5.0",
+      "type": "uint",
+      "description": "DATE_TIME_ZONE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_ZONE_INIT_000",
+      "bits": "6.7-6.0",
+      "type": "uint",
+      "description": "DATE_TIME_ZONE_INIT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_FORMAT_INIT_000",
+      "bits": "7.7-7.6",
+      "type": "uint",
+      "description": "DATE_FORMAT_INIT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_FORMAT",
+      "bits": "7.5-7.4",
+      "type": "enum",
+      "description": "Date format",
+      "choices": {
+        "0": "DD/MM/YYYY",
+        "1": "DD.MM.YYYY",
+        "2": "YYYY-MM-DD",
+        "3": "MM/DD/YYYY"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_SYNC_000",
+      "bits": "7.3",
+      "type": "bool",
+      "description": "DATE_TIME_SYNC_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_SYNC_INIT_000",
+      "bits": "7.2",
+      "type": "bool",
+      "description": "DATE_TIME_SYNC_INIT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_DISP_000",
+      "bits": "7.1",
+      "type": "bool",
+      "description": "DATE_TIME_DISP_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DATE_TIME_MENU_000",
+      "bits": "7.0",
+      "type": "bool",
+      "description": "DATE_TIME_MENU_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_WHILE_DRIVING_INFORMATION_MESSAGES_TRIP",
+      "bits": "8.7",
+      "type": "bool",
+      "description": "Display, while driving, of the information messages from the trip computer on the multifunction touch screen",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TRIP_COMPUTER_CONTROL_BUTTON",
+      "bits": "8.6",
+      "type": "bool",
+      "description": "Trip computer control button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_MAINTENANCE_DATA",
+      "bits": "8.5",
+      "type": "bool",
+      "description": "Displaying of the maintenance data",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_8_000",
+      "bits": "10.7",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_8_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_7_000",
+      "bits": "10.6",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_7_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_6_000",
+      "bits": "10.5",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_6_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_5_000",
+      "bits": "10.4",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_5_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_4_000",
+      "bits": "10.3",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_3_000",
+      "bits": "10.2",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_2_000",
+      "bits": "10.1",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_AMBIANCE_1_000",
+      "bits": "10.0",
+      "type": "bool",
+      "description": "MENU_AMBIANCE_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FAMILY_NAME_1_000",
+      "bits": "11.7-11.5",
+      "type": "uint",
+      "description": "FAMILY_NAME_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FAMILY_NAME_2_000",
+      "bits": "11.4-11.2",
+      "type": "uint",
+      "description": "FAMILY_NAME_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FAMILY_NAME_3_000",
+      "bits": "12.7-12.5",
+      "type": "uint",
+      "description": "FAMILY_NAME_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FAMILY_NAME_4_000",
+      "bits": "12.4-12.2",
+      "type": "uint",
+      "description": "FAMILY_NAME_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AMBIANCE_DEFAULT_000",
+      "bits": "13.7-13.5",
+      "type": "uint",
+      "description": "AMBIANCE_DEFAULT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM1_FAMILY_1_000",
+      "bits": "14.7-14.0",
+      "type": "uint",
+      "description": "NAME_ITEM1_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM2_FAMILY_1_000",
+      "bits": "15.7-15.0",
+      "type": "uint",
+      "description": "NAME_ITEM2_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM3_FAMILY_1_000",
+      "bits": "16.7-16.0",
+      "type": "uint",
+      "description": "NAME_ITEM3_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM4_FAMILY_1_001",
+      "bits": "17.7-17.0",
+      "type": "uint",
+      "description": "NAME_ITEM4_FAMILY_1_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_5_FAMILY_1_000",
+      "bits": "18.7-18.0",
+      "type": "uint",
+      "description": "NAME_ITEM_5_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM6_FAMILY_1_000",
+      "bits": "19.7-19.0",
+      "type": "uint",
+      "description": "NAME_ITEM6_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM7_FAMILY_1_000",
+      "bits": "20.7-20.0",
+      "type": "uint",
+      "description": "NAME_ITEM7_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_8_FAMILY_1_000",
+      "bits": "21.7-21.0",
+      "type": "uint",
+      "description": "NAME_ITEM_8_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM9_FAMILY_1_000",
+      "bits": "22.7-22.0",
+      "type": "uint",
+      "description": "NAME_ITEM9_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM10_FAMILY_1_000",
+      "bits": "23.7-23.0",
+      "type": "uint",
+      "description": "NAME_ITEM10_FAMILY_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM1_FAMILY_2_000",
+      "bits": "24.7-24.0",
+      "type": "uint",
+      "description": "NAME_ITEM1_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM2_FAMILY_2_000",
+      "bits": "25.7-25.0",
+      "type": "uint",
+      "description": "NAME_ITEM2_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM3_FAMILY_2_000",
+      "bits": "26.7-26.0",
+      "type": "uint",
+      "description": "NAME_ITEM3_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM4_FAMILY_2_000",
+      "bits": "27.7-27.0",
+      "type": "uint",
+      "description": "NAME_ITEM4_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_5_FAMILY_2_000",
+      "bits": "28.7-28.0",
+      "type": "uint",
+      "description": "NAME_ITEM_5_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM6_FAMILY_2_000",
+      "bits": "29.7-29.0",
+      "type": "uint",
+      "description": "NAME_ITEM6_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM7_FAMILY_2_001",
+      "bits": "30.7-30.0",
+      "type": "uint",
+      "description": "NAME_ITEM7_FAMILY_2_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_8_FAMILY_2_000",
+      "bits": "31.7-31.0",
+      "type": "uint",
+      "description": "NAME_ITEM_8_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM9_FAMILY_2_001",
+      "bits": "32.7-32.0",
+      "type": "uint",
+      "description": "NAME_ITEM9_FAMILY_2_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM10_FAMILY_2_000",
+      "bits": "33.7-33.0",
+      "type": "uint",
+      "description": "NAME_ITEM10_FAMILY_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM1_FAMILY_3_000",
+      "bits": "34.7-34.0",
+      "type": "uint",
+      "description": "NAME_ITEM1_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM2_FAMILY_3_000",
+      "bits": "35.7-35.0",
+      "type": "uint",
+      "description": "NAME_ITEM2_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM3_FAMILY_3_000",
+      "bits": "36.7-36.0",
+      "type": "uint",
+      "description": "NAME_ITEM3_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM4_FAMILY_3_000",
+      "bits": "37.7-37.0",
+      "type": "uint",
+      "description": "NAME_ITEM4_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_5_FAMILY_3_000",
+      "bits": "38.7-38.0",
+      "type": "uint",
+      "description": "NAME_ITEM_5_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM6_FAMILY_3_000",
+      "bits": "39.7-39.0",
+      "type": "uint",
+      "description": "NAME_ITEM6_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM7_FAMILY_3_000",
+      "bits": "40.7-40.0",
+      "type": "uint",
+      "description": "NAME_ITEM7_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_8_FAMILY_3_000",
+      "bits": "41.7-41.0",
+      "type": "uint",
+      "description": "NAME_ITEM_8_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM9_FAMILY_3_000",
+      "bits": "42.7-42.0",
+      "type": "uint",
+      "description": "NAME_ITEM9_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM10_FAMILY_3_000",
+      "bits": "43.7-43.0",
+      "type": "uint",
+      "description": "NAME_ITEM10_FAMILY_3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM1_FAMILY_4_000",
+      "bits": "44.7-44.0",
+      "type": "uint",
+      "description": "NAME_ITEM1_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM2_FAMILY_4_000",
+      "bits": "45.7-45.0",
+      "type": "uint",
+      "description": "NAME_ITEM2_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM3_FAMILY_4_000",
+      "bits": "46.7-46.0",
+      "type": "uint",
+      "description": "NAME_ITEM3_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM4_FAMILY_4_000",
+      "bits": "47.7-47.0",
+      "type": "uint",
+      "description": "NAME_ITEM4_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_5_FAMILY_4_000",
+      "bits": "48.7-48.0",
+      "type": "uint",
+      "description": "NAME_ITEM_5_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM6_FAMILY_4_000",
+      "bits": "49.7-49.0",
+      "type": "uint",
+      "description": "NAME_ITEM6_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM7_FAMILY_4_000",
+      "bits": "50.7-50.0",
+      "type": "uint",
+      "description": "NAME_ITEM7_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM_8_FAMILY_4_000",
+      "bits": "51.7-51.0",
+      "type": "uint",
+      "description": "NAME_ITEM_8_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM9_FAMILY_4_000",
+      "bits": "52.7-52.0",
+      "type": "uint",
+      "description": "NAME_ITEM9_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NAME_ITEM10_FAMILY_4_000",
+      "bits": "53.7-53.0",
+      "type": "uint",
+      "description": "NAME_ITEM10_FAMILY_4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CHOICE_NATIONALITY_DRIVER",
+      "bits": "54.7-54.2",
+      "type": "enum",
+      "description": "Choice of nationality of the driver",
+      "choices": {
+        "0": "French",
+        "1": "English",
+        "2": "German",
+        "3": "Spanish",
+        "4": "Italian",
+        "5": "Portuguese",
+        "6": "Dutch",
+        "7": "Greek",
+        "8": "Brazilian",
+        "9": "Polish",
+        "10": "Traditional Chinese",
+        "11": "Simplified Chinese",
+        "12": "TURKISH",
+        "13": "Japanese",
+        "14": "Russian",
+        "15": "Czech",
+        "16": "Croatian",
+        "17": "HUNGARIAN",
+        "18": "Arabic",
+        "19": "Bulgarian",
+        "20": "Korean",
+        "21": "Danish",
+        "22": "Estonian",
+        "23": "Iranian",
+        "24": "Finnish",
+        "25": "Hebrew",
+        "26": "Norwegian",
+        "27": "Rumanian",
+        "28": "Serbian",
+        "29": "Swedish",
+        "30": "Ukrainian",
+        "31": "Vietnamese"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_LANGUAGES_AND_UNITS",
+      "bits": "54.1",
+      "type": "bool",
+      "description": "Display of languages and units",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ADJUSTMENT_BRIGHTNESS",
+      "bits": "55.7",
+      "type": "bool",
+      "description": "Adjustment of the brightness",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AAS_PUSH_PANEL_000",
+      "bits": "56.6",
+      "type": "bool",
+      "description": "AAS_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AAS_PUSH_POS_000",
+      "bits": "56.5-56.1",
+      "type": "uint",
+      "description": "AAS_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_PARKING_ASSISTANCE_TOUCH_BUTTON",
+      "bits": "56.0",
+      "type": "bool",
+      "description": "Displaying of the \"Parking assistance\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PARKING_ASSISTANCE",
+      "bits": "57.7-57.6",
+      "type": "enum",
+      "description": "Parking assistance",
+      "choices": {
+        "0": "Function absent or present at the rear",
+        "1": "Function present at the front and at the rear",
+        "2": "Function present at the front, at the rear and side"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_AAS_ADJUST_000",
+      "bits": "57.5",
+      "type": "bool",
+      "description": "PRESENCE_AAS_ADJUST_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_LANE_DEPARTURE_WARNING_SYSTEM_TOUCH",
+      "bits": "58.7",
+      "type": "bool",
+      "description": "Displaying of the \"Lane departure warning system\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AFIL_PUSH_PANEL_0000",
+      "bits": "58.6",
+      "type": "bool",
+      "description": "AFIL_PUSH_PANEL_0000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AFIL_PUSH_POS_000",
+      "bits": "58.5-58.1",
+      "type": "uint",
+      "description": "AFIL_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_DISTANCE_ALERT_TOUCH_BUTTON",
+      "bits": "59.6",
+      "type": "bool",
+      "description": "Displaying of the \"Distance alert\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ARTIV_PUSH_PANEL_000",
+      "bits": "59.5",
+      "type": "bool",
+      "description": "ARTIV_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ARTIV_PUSH_POS_000",
+      "bits": "59.4-59.0",
+      "type": "uint",
+      "description": "ARTIV_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_AND_TYPE_CRUISE_CONTROL",
+      "bits": "60.7-60.6",
+      "type": "enum",
+      "description": "Presence and type of cruise control",
+      "choices": {
+        "0": "Function absent",
+        "1": "Distance alert",
+        "2": "Adaptive cruise control",
+        "3": "Distance alert and adaptive cruise control"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISTANCE_ALERT",
+      "bits": "60.5",
+      "type": "bool",
+      "description": "Distance alert",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TRACTION_CONTROL_FUNCTION_ASR_PLUS",
+      "bits": "61.7",
+      "type": "bool",
+      "description": "Traction control function (ASR+)",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ASR_PUSH_LED_PANEL_000",
+      "bits": "61.6",
+      "type": "bool",
+      "description": "ASR_PUSH_LED_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ASR_PUSH_LED_POS_000",
+      "bits": "61.5-61.1",
+      "type": "uint",
+      "description": "ASR_PUSH_LED_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_TRACTION_CONTROL_FUNCTION_ASR_PLUS_TOUCH",
+      "bits": "61.0",
+      "type": "bool",
+      "description": "Display of the traction control function (ASR+) touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "HIFI_AMPLIFIER",
+      "bits": "62.7-62.5",
+      "type": "enum",
+      "description": "HIFI amplifier",
+      "choices": {
+        "0": "Hi-Fi amplifier absent",
+        "1": "Standard amplifier",
+        "2": "Multiplexed amplifier",
+        "3": "Arkamis system",
+        "4": "Multiplexed amplifier (1 generation China)",
+        "5": "Multiplexed amplifier (2 generation)",
+        "6": "Multiplexed amplifier (3 generation)"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FADER_FUNCTION",
+      "bits": "62.2",
+      "type": "bool",
+      "description": "Fader function",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_SOUND_HARMONY_INFORMATION",
+      "bits": "62.1",
+      "type": "bool",
+      "description": "Display of the sound harmony information",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "NUMBER_OF_MICROPHONES",
+      "bits": "62.0",
+      "type": "bool",
+      "description": "Number of microphones",
+      "choices": {
+        "0": "A microphone",
+        "1": "2 microphones"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SPEED_SVR_002",
+      "bits": "63.7-63.0",
+      "type": "uint",
+      "description": "SPEED_SVR_002",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OPTION_COLORATION_MO_000",
+      "bits": "64.7",
+      "type": "bool",
+      "description": "OPTION_COLORATION_MO_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_COLOR_ENGINE_001",
+      "bits": "64.6",
+      "type": "bool",
+      "description": "TYPE_COLOR_ENGINE_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PARAM_EFF_COLOR_MOTE_000",
+      "bits": "64.5-64.4",
+      "type": "uint",
+      "description": "PARAM_EFF_COLOR_MOTE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "LOI_DX_001",
+      "bits": "64.3-64.2",
+      "type": "uint",
+      "description": "LOI_DX_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ACQ_IHM_COLOR_000",
+      "bits": "64.1",
+      "type": "bool",
+      "description": "ACQ_IHM_COLOR_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AUTOMATIC_VOLUME_CONTROL_ACV",
+      "bits": "64.0",
+      "type": "bool",
+      "description": "Automatic volume control \"ACV",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_AUDIO_INFORMATION_INSTRUMENT_PANEL",
+      "bits": "65.7",
+      "type": "bool",
+      "description": "Display of audio information in the instrument panel",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_EXPORT_MEDIA_000",
+      "bits": "65.6-65.5",
+      "type": "uint",
+      "description": "TYPE_EXPORT_MEDIA_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_EXP_MEDIA_CAN_000",
+      "bits": "65.4-65.3",
+      "type": "uint",
+      "description": "TYPE_EXP_MEDIA_CAN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AMPLI_SURRND_BY_CDC_000",
+      "bits": "65.2",
+      "type": "bool",
+      "description": "AMPLI_SURRND_BY_CDC_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CENTRAL_SPK_SETTING_000",
+      "bits": "65.1",
+      "type": "bool",
+      "description": "CENTRAL_SPK_SETTING_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REVERSING_ASSISTANCE_CAMERA",
+      "bits": "66.7",
+      "type": "bool",
+      "description": "Reversing assistance camera",
+      "choices": {
+        "0": "Camera absent",
+        "1": "Camera present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_BLUETOOTH_FUNCTION",
+      "bits": "67.7",
+      "type": "bool",
+      "description": "Presence of the Bluetooth function",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "BLUETOOTH_FUNCTION",
+      "bits": "67.6",
+      "type": "bool",
+      "description": "Bluetooth function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_OUTSIDE_TEMPERATURE",
+      "bits": "68.7",
+      "type": "bool",
+      "description": "Display of outside temperature",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "VEHICLE_POWER_SOURCE",
+      "bits": "68.6-68.3",
+      "type": "enum",
+      "description": "Vehicle power source",
+      "choices": {
+        "0": "Petrol",
+        "1": "Petrol dual fuel (LPG)",
+        "2": "Petrol dual fuel (CNG)",
+        "3": "Diesel",
+        "4": "Petrol and traction battery",
+        "5": "Petrol and Alcohol",
+        "6": "Diesel and traction battery",
+        "7": "Traction battery",
+        "8": "Hydrogen",
+        "15": "Not defined"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OPTION_SD_MEDIA_EVO_000",
+      "bits": "68.2",
+      "type": "bool",
+      "description": "OPTION_SD_MEDIA_EVO_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MAIN_SCREEN",
+      "bits": "68.1",
+      "type": "bool",
+      "description": "Main screen",
+      "choices": {
+        "0": "Page absent",
+        "1": "Page present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DETECTION_SEAT_BELT_NOT_FASTENED_THIRD_ROW_SEATS",
+      "bits": "68.0",
+      "type": "bool",
+      "description": "Detection of seat belt not fastened for the third row of seats",
+      "choices": {
+        "0": "Function inactive",
+        "1": "Function active"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MANUFACTURER_S_BRAND",
+      "bits": "70.7-70.5",
+      "type": "enum",
+      "description": "Manufacturer's brand",
+      "choices": {
+        "0": "Peugeot",
+        "1": "Citroën",
+        "2": "DS",
+        "3": "Toyota",
+        "4": "Vauxhall",
+        "5": "Vauxhall",
+        "6": "Holden",
+        "7": "Others"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SMARTAPPS_FUNCTION",
+      "bits": "70.4",
+      "type": "bool",
+      "description": "SMARTAPPS\" function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_ADAPTIVE_CRUISE_CONTROL_SETTINGS",
+      "bits": "70.3",
+      "type": "bool",
+      "description": "Display of the \"Adaptive cruise control\" settings",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "USB1_PORT",
+      "bits": "70.2",
+      "type": "bool",
+      "description": "USB1 port",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "USB2_PORT",
+      "bits": "70.1",
+      "type": "bool",
+      "description": "USB2 port",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "THEME_DEFAULT_000",
+      "bits": "71.7-71.4",
+      "type": "uint",
+      "description": "THEME_DEFAULT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CURRENT_PROFILE_000",
+      "bits": "71.3-71.0",
+      "type": "uint",
+      "description": "CURRENT_PROFILE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MENU_BUTTON",
+      "bits": "72.7",
+      "type": "bool",
+      "description": "MENU\" button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "WARNING_THRESHOLD_RISK_ICE",
+      "bits": "73.7-73.0",
+      "type": "uint",
+      "description": "Warning threshold for risk of ice",
+      "choices": {},
+      "factor": 0.5,
+      "offset": -40
+    },
+    {
+      "name": "DRIVER_REST_CFG_000",
+      "bits": "74.7",
+      "type": "bool",
+      "description": "DRIVER_REST_CFG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_WARNING_LOG",
+      "bits": "74.6",
+      "type": "bool",
+      "description": "Display of the warning log",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CARPLAY_FUNCTION",
+      "bits": "74.5",
+      "type": "bool",
+      "description": "Carplay function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_CARLINE_002",
+      "bits": "74.4-74.1",
+      "type": "uint",
+      "description": "DAT_CARLINE_002",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_EXPORT_VIDEO_000",
+      "bits": "75.7-75.0",
+      "type": "uint",
+      "description": "TYPE_EXPORT_VIDEO_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_OF_ACCESSES",
+      "bits": "76.7-76.6",
+      "type": "enum",
+      "description": "Type of accesses",
+      "choices": {
+        "0": "Rear doors",
+        "1": "One sliding door",
+        "2": "2 sliding doors"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_MAIN_BEAMS_ASSISTANT_TOUCH_BUTTON",
+      "bits": "77.7",
+      "type": "bool",
+      "description": "Displaying of the \"Main beams assistant\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CAFR_PUSH_PANEL_000",
+      "bits": "77.6",
+      "type": "bool",
+      "description": "CAFR_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CAFR_PUSH_POS_000",
+      "bits": "77.5-77.1",
+      "type": "uint",
+      "description": "CAFR_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CD_CHANGER",
+      "bits": "78.7",
+      "type": "bool",
+      "description": "CD changer",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_CHECK_TOUCH_BUTTON",
+      "bits": "79.7",
+      "type": "bool",
+      "description": "Displaying of the \"CHECK\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_SEMI_AUTOMATIC_PARKING_SYSTEM_TOUCH",
+      "bits": "80.7",
+      "type": "bool",
+      "description": "Displaying of the \"Semi-automatic parking system\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_SEMI_AUTOMATIC_PARKING_FUNCTION",
+      "bits": "80.6-80.5",
+      "type": "enum",
+      "description": "Presence of the semi-automatic parking function",
+      "choices": {
+        "0": "Function absent",
+        "1": "Parallel parking\" function present",
+        "2": "Parallel parking\" and \"perpendicular parking\" functions present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CPAS_PUSH_POS_000",
+      "bits": "80.3-80.0",
+      "type": "uint",
+      "description": "CPAS_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CPAS_PUSH_PANEL_000",
+      "bits": "81.7",
+      "type": "bool",
+      "description": "CPAS_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "UNDER_INFLATION_DETECTION",
+      "bits": "82.7",
+      "type": "bool",
+      "description": "UNDER-INFLATION DETECTION",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DGSI_PUSH_PANEL_000",
+      "bits": "82.6",
+      "type": "bool",
+      "description": "DGSI_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DGSI_PUSH_POS_001",
+      "bits": "82.4-82.1",
+      "type": "uint",
+      "description": "DGSI_PUSH_POS_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "COMMAND_TYPE_000",
+      "bits": "84.7-84.4",
+      "type": "uint",
+      "description": "COMMAND_TYPE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_HYBRID_PAGE",
+      "bits": "85.7",
+      "type": "bool",
+      "description": "Presence of the Hybrid page",
+      "choices": {
+        "0": "Page absent",
+        "1": "Page present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "HYBRID_MODE_CONSUMPTION",
+      "bits": "85.6",
+      "type": "bool",
+      "description": "Hybrid mode consumption",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "HYBRID_BAT_HYST_DOWN_000",
+      "bits": "85.5-85.4",
+      "type": "uint",
+      "description": "HYBRID_BAT_HYST_DOWN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "HYBRID_BAT_HYST_UP_001",
+      "bits": "85.3-85.2",
+      "type": "uint",
+      "description": "HYBRID_BAT_HYST_UP_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL0_000",
+      "bits": "86.7-86.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL0_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL1_000",
+      "bits": "87.7-87.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL2_000",
+      "bits": "88.7-88.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL3_000",
+      "bits": "89.7-89.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL3_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL4_000",
+      "bits": "90.7-90.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL4_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL5_000",
+      "bits": "91.7-91.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL5_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL6_000",
+      "bits": "92.7-92.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL6_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL7_000",
+      "bits": "93.7-93.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL7_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL8_000",
+      "bits": "94.7-94.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL8_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_HYBRID_BAT_LEVEL9_000",
+      "bits": "95.7-95.0",
+      "type": "uint",
+      "description": "DAT_HYBRID_BAT_LEVEL9_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "INTERNET_FUNCTION",
+      "bits": "96.7",
+      "type": "bool",
+      "description": "Internet function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CONFIGURATION_INTERNET_FUNCTION",
+      "bits": "96.6-96.5",
+      "type": "enum",
+      "description": "Configuration of the internet function",
+      "choices": {
+        "0": "Internet and Intranet active",
+        "1": "Internet inactive and Intranet active",
+        "2": "Internet active and Intranet inactive"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CONFIG_WEB_PORTAL_001",
+      "bits": "96.4",
+      "type": "bool",
+      "description": "CONFIG_WEB_PORTAL_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_AVAILABLE_SPACE_MEASUREMENT_TOUCH_BUTTON",
+      "bits": "98.7",
+      "type": "bool",
+      "description": "Display of the \"Available space measurement\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MPD_PUSH_LED_POS_000",
+      "bits": "98.6-98.3",
+      "type": "uint",
+      "description": "MPD_PUSH_LED_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MPD_PUSH_PANEL_000",
+      "bits": "98.1",
+      "type": "bool",
+      "description": "MPD_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_SPEED_LIMIT",
+      "bits": "99.7",
+      "type": "bool",
+      "description": "Display of the speed limit",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_NAVIGATION_INSTRUCTIONS_WITHOUT_NAME",
+      "bits": "99.6",
+      "type": "bool",
+      "description": "Displaying of the navigation instructions without the name of the streets",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_NAVIGATION_INSTRUCTIONS_NAME_STREETS",
+      "bits": "99.5",
+      "type": "bool",
+      "description": "Displaying of the navigation instructions with the name of the streets",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_NAVIGATION_INSTRUCTIONS_NAME_STREETS_2",
+      "bits": "99.4",
+      "type": "bool",
+      "description": "Displaying of the navigation instructions with the name of the streets and intersections",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_ALERTS_AND_HAZARDOUS_AREAS",
+      "bits": "99.3",
+      "type": "bool",
+      "description": "Displaying of alerts and \"hazardous areas\" on the multifunction screen",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "EXP_NAVIGATION_ILV_000",
+      "bits": "99.2",
+      "type": "bool",
+      "description": "EXP_NAVIGATION_ILV_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "EXP_NAVIGATION_JVRP16_000",
+      "bits": "99.1",
+      "type": "bool",
+      "description": "EXP_NAVIGATION_JVRP16_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_HAZARDOUS_AREAS",
+      "bits": "99.0",
+      "type": "bool",
+      "description": "Display of the hazardous areas",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "COUNT_SATELLITES_FLAG_000",
+      "bits": "100.7-100.4",
+      "type": "uint",
+      "description": "COUNT_SATELLITES_FLAG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "GREEN_CRITERIA_001",
+      "bits": "100.3",
+      "type": "bool",
+      "description": "GREEN_CRITERIA_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SELECTION_NAVIGATION_MAPS",
+      "bits": "102.7-102.0",
+      "type": "enum",
+      "description": "Selection of the navigation maps",
+      "choices": {
+        "0": "Continent",
+        "1": "Country",
+        "2": "Europe",
+        "3": "FRANCE"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "GEOGRAPHIC_AREA_USE_RADIO",
+      "bits": "104.7-104.5",
+      "type": "enum",
+      "description": "Geographic area of use of the radio",
+      "choices": {
+        "0": "Europe",
+        "1": "JAPAN",
+        "2": "South America",
+        "3": "Asia and China",
+        "4": "Saudi Arabia",
+        "5": "United States",
+        "6": "Korea",
+        "7": "Latin America"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AM_WAVEBAND",
+      "bits": "104.4",
+      "type": "bool",
+      "description": "AM waveband",
+      "choices": {
+        "0": "Waveband deactivated",
+        "1": "Waveband activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "THRESHOLD_DETECTION_ANALOGUE_RADIO_ACTIVITY",
+      "bits": "105.7-105.0",
+      "type": "uint",
+      "description": "Threshold for detection of analogue radio activity",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PREFERRED_SID_AUTOMATIC_TMC_STATION",
+      "bits": "106.7-106.0",
+      "type": "uint",
+      "description": "Preferred SID (automatic TMC station)",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "EXPORT_TUNER_000",
+      "bits": "107.7-107.6",
+      "type": "uint",
+      "description": "EXPORT_TUNER_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "STATION_SEARCH_FUNCTION_RDS",
+      "bits": "107.5",
+      "type": "bool",
+      "description": "Station search function (RDS)",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "THRESHOLD_DETECTION_DIGITAL_RADIO_ACTIVITY",
+      "bits": "108.7-108.0",
+      "type": "uint",
+      "description": "Threshold for detection of digital radio activity",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DIGITAL_RADIO",
+      "bits": "109.7-109.6",
+      "type": "enum",
+      "description": "Digital radio",
+      "choices": {
+        "0": "Digital radio deactivated",
+        "1": "L waveband type digital radio activated",
+        "2": "3 waveband type digital radio activated",
+        "3": "All wavebands type digital radio activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_BLIND_SPOT_MONITORING_TOUCH_BUTTON",
+      "bits": "110.7",
+      "type": "bool",
+      "description": "Displaying of the \"Blind spot monitoring\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SAM_PUSH_POS_001",
+      "bits": "110.6-110.2",
+      "type": "uint",
+      "description": "SAM_PUSH_POS_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SAM_PUSH_PANEL_000",
+      "bits": "110.1",
+      "type": "bool",
+      "description": "SAM_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_STOP_AND_START_TOUCH_BUTTON",
+      "bits": "111.6",
+      "type": "bool",
+      "description": "Displaying of the \"Stop and Start\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "STOP_START_PUSH_LED_POS_000",
+      "bits": "111.5-111.1",
+      "type": "uint",
+      "description": "STOP_START_PUSH_LED_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "STOP_START_PUSH_PANEL_000",
+      "bits": "111.0",
+      "type": "bool",
+      "description": "STOP_START_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_WI_FI",
+      "bits": "112.7",
+      "type": "bool",
+      "description": "Presence of the Wi-Fi",
+      "choices": {
+        "0": "NO",
+        "1": "Yes"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "INTERNET_FUNCTION_VIA_WI_FI",
+      "bits": "112.6",
+      "type": "bool",
+      "description": "Internet function via Wi-Fi",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "WI_FI_MODULE",
+      "bits": "112.4",
+      "type": "bool",
+      "description": "Wi-Fi module",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "WI_FI_FUNCTION",
+      "bits": "112.5",
+      "type": "bool",
+      "description": "Wi-Fi function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "XVV_DMD_000",
+      "bits": "113.7",
+      "type": "bool",
+      "description": "XVV_DMD_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "RLVV_MEMORIZATION_000",
+      "bits": "113.6",
+      "type": "bool",
+      "description": "RLVV_MEMORIZATION_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "RLVV_SELECTION_000",
+      "bits": "113.5",
+      "type": "bool",
+      "description": "RLVV_SELECTION_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ADAPTIVE_CRUISE_CONTROL",
+      "bits": "113.4",
+      "type": "bool",
+      "description": "Adaptive cruise control",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "XVV_STOPADJUST_000",
+      "bits": "113.3",
+      "type": "bool",
+      "description": "XVV_STOPADJUST_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAY_CRUISE_CONTROL_SELECTION_TOUCH_BUTTON",
+      "bits": "113.2",
+      "type": "bool",
+      "description": "Display of the \"Cruise control\" selection touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "XVV_MAX_000",
+      "bits": "114.7-114.0",
+      "type": "uint",
+      "description": "XVV_MAX_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "XVV_MIN_000",
+      "bits": "115.7-115.0",
+      "type": "uint",
+      "description": "XVV_MIN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SPEED_LIMITER_MAX_000",
+      "bits": "116.7-116.0",
+      "type": "uint",
+      "description": "SPEED_LIMITER_MAX_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "SPEED_LIMITER_MIN_000",
+      "bits": "117.7-117.0",
+      "type": "uint",
+      "description": "SPEED_LIMITER_MIN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CRUISE_CONTROL_MAX_000",
+      "bits": "118.7-118.0",
+      "type": "uint",
+      "description": "CRUISE_CONTROL_MAX_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CRUISE_CONTROL_MIN_000",
+      "bits": "119.7-119.0",
+      "type": "uint",
+      "description": "CRUISE_CONTROL_MIN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED",
+      "bits": "120.7",
+      "type": "bool",
+      "description": "CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED_2",
+      "bits": "120.6-120.2",
+      "type": "uint",
+      "description": "CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED_2",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_X_000",
+      "bits": "121.7-122.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_X_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_Y_000",
+      "bits": "123.7-124.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_Y_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_Z_000",
+      "bits": "125.7-126.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_Z_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_ROLL_000",
+      "bits": "127.7-128.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_ROLL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_PITCH_000",
+      "bits": "129.7-130.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_PITCH_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_CAMERA_YAW_000",
+      "bits": "131.7-132.0",
+      "type": "uint",
+      "description": "REAR_CAMERA_YAW_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FRONT_OVERHANG_000",
+      "bits": "133.7-134.0",
+      "type": "uint",
+      "description": "FRONT_OVERHANG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_OVERHANG_000",
+      "bits": "135.7-136.0",
+      "type": "uint",
+      "description": "REAR_OVERHANG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "WHEELBASE_000",
+      "bits": "137.7-138.0",
+      "type": "uint",
+      "description": "WHEELBASE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_BUMPER_EDGE_HEI_000",
+      "bits": "139.7-140.0",
+      "type": "uint",
+      "description": "REAR_BUMPER_EDGE_HEI_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DIST_LINE_REAR_W_03_000",
+      "bits": "141.7-141.0",
+      "type": "uint",
+      "description": "DIST_LINE_REAR_W_03_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DIST_LINE_REAR_WID_1_000",
+      "bits": "142.7-142.0",
+      "type": "uint",
+      "description": "DIST_LINE_REAR_WID_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DIST_LINE_REAR_WID_2_000",
+      "bits": "143.7-143.0",
+      "type": "uint",
+      "description": "DIST_LINE_REAR_WID_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TRAJECTORY_LIN_REA_W_000",
+      "bits": "144.7-144.0",
+      "type": "uint",
+      "description": "TRAJECTORY_LIN_REA_W_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_REAL_TOP_VIEW_H_001",
+      "bits": "145.7-146.0",
+      "type": "uint",
+      "description": "REAR_REAL_TOP_VIEW_H_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DY_PARAMETER_1_000",
+      "bits": "147.7-147.0",
+      "type": "uint",
+      "description": "DY_PARAMETER_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DY_PARAMETER_2_000",
+      "bits": "148.7-148.0",
+      "type": "uint",
+      "description": "DY_PARAMETER_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "VEHICLE_WIDTH_001",
+      "bits": "149.7-150.0",
+      "type": "uint",
+      "description": "VEHICLE_WIDTH_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TRAILER_HOOK_HEIGHT_001",
+      "bits": "152.7-153.0",
+      "type": "uint",
+      "description": "TRAILER_HOOK_HEIGHT_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TRAILER_HOOK_LENGTH_001",
+      "bits": "154.7-155.0",
+      "type": "uint",
+      "description": "TRAILER_HOOK_LENGTH_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_SIDE_VER_ENL_RA_000",
+      "bits": "156.7-156.0",
+      "type": "uint",
+      "description": "REAR_SIDE_VER_ENL_RA_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_SIDE_HOR_ENL_RA_000",
+      "bits": "157.7-157.0",
+      "type": "uint",
+      "description": "REAR_SIDE_HOR_ENL_RA_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_SIDE_ENL_ORIGIN_000",
+      "bits": "158.7-158.0",
+      "type": "uint",
+      "description": "REAR_SIDE_ENL_ORIGIN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_STD_VERT_ENL_OR_000",
+      "bits": "159.7-159.0",
+      "type": "uint",
+      "description": "REAR_STD_VERT_ENL_OR_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_STD_VERT_ENL_RA_000",
+      "bits": "160.7-160.0",
+      "type": "uint",
+      "description": "REAR_STD_VERT_ENL_RA_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_STD_HOR_ENL_RAT_000",
+      "bits": "161.7-161.0",
+      "type": "uint",
+      "description": "REAR_STD_HOR_ENL_RAT_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DAT_LKA_PUSH_LED_000",
+      "bits": "162.7",
+      "type": "bool",
+      "description": "DAT_LKA_PUSH_LED_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "LKA_PUSH_PANEL_000",
+      "bits": "162.6",
+      "type": "bool",
+      "description": "LKA_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "LKA_PUSH_POS_000",
+      "bits": "162.5-162.1",
+      "type": "uint",
+      "description": "LKA_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DISPLAYING_PANORAMIC_VISUAL_ASSISTANCE_TOUCH",
+      "bits": "164.7",
+      "type": "bool",
+      "description": "Displaying of the \"Panoramic visual assistance\" touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CONFIGURATION_PANORAMIC_VISUAL_ASSISTANCE_CAMERA",
+      "bits": "164.6",
+      "type": "bool",
+      "description": "Configuration of the panoramic visual assistance camera",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "LEGAL_NOTICE_DISPLAYED_MULTIFUNCTION_TOUCH",
+      "bits": "164.5",
+      "type": "bool",
+      "description": "Legal notice displayed on the multifunction touch screen (Panoramic visual assistance function)",
+      "choices": {
+        "0": "Message absent",
+        "1": "Message present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_PANORAMIC_VISUAL_ASSISTANCE_CAMERA",
+      "bits": "164.4-164.3",
+      "type": "enum",
+      "description": "Type of panoramic visual assistance camera",
+      "choices": {
+        "0": "Panoramic visual assistance camera",
+        "1": "180 visual reversing assistance camera °",
+        "2": "Visual manoeuvring assistance camera"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_PANORAMIC_VISUAL_ASSISTANCE_CAMERA",
+      "bits": "164.2",
+      "type": "bool",
+      "description": "Presence of the panoramic visual assistance camera",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_CONDITIONING_FUNCTION",
+      "bits": "165.7",
+      "type": "bool",
+      "description": "Air conditioning function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_AIR_CONDITIONING_MIXING",
+      "bits": "165.6",
+      "type": "bool",
+      "description": "Type of air conditioning mixing",
+      "choices": {
+        "0": "Monozone",
+        "1": "Dual-zone"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_PASSENGER_COMPARTMENT_AMBIENT_AIR",
+      "bits": "165.5",
+      "type": "bool",
+      "description": "Presence of the passenger compartment ambient air measuring system",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "REAR_AIR_CONDITIONING_CONTROL_PANEL",
+      "bits": "165.4",
+      "type": "bool",
+      "description": "Rear air conditioning control panel",
+      "choices": {
+        "0": "Rear air conditioning control panel absent",
+        "1": "Rear air conditioning control panel present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_PASSENGER_COMPARTMENT_AIR_RECIRCULATION",
+      "bits": "165.3",
+      "type": "bool",
+      "description": "Presence of the passenger compartment air recirculation touch button",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_AIR_CONDITIONING_REGULATION",
+      "bits": "165.2",
+      "type": "bool",
+      "description": "Type of air conditioning regulation",
+      "choices": {
+        "0": "Deactivated status",
+        "1": "Activated status"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_AIR_DISTRIBUTION",
+      "bits": "165.0",
+      "type": "bool",
+      "description": "Type of air distribution",
+      "choices": {
+        "0": "Monozone",
+        "1": "Dual-zone"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_AIR_CONDITIONING",
+      "bits": "166.7-166.5",
+      "type": "enum",
+      "description": "Type of air conditioning",
+      "choices": {
+        "0": "Heating",
+        "1": "Simple air conditioning",
+        "2": "Temperature regulated air conditioning",
+        "3": "Automatic air conditioning"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_AIR_CONDITIONING_TEMPERATURE_INCREASE",
+      "bits": "166.4",
+      "type": "bool",
+      "description": "Presence of the \"Air conditioning temperature increase AC\" touch button",
+      "choices": {
+        "0": "Touch button absent",
+        "1": "Touch button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ENERGY_SAVING_TOUCH_BUTTON",
+      "bits": "166.3",
+      "type": "bool",
+      "description": "Energy-saving touch button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TOUCH_BUTTON_AIR_BLOWER_CONTROL",
+      "bits": "166.2",
+      "type": "bool",
+      "description": "Touch button for the air blower control",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_BLOWER_CONTROL_INCREASE_TOUCH_BUTTON",
+      "bits": "166.1",
+      "type": "bool",
+      "description": "Air blower control increase touch button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_DISTRIBUTION",
+      "bits": "166.0",
+      "type": "bool",
+      "description": "Air distribution",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TEMPERATURE_CHECK",
+      "bits": "167.7",
+      "type": "bool",
+      "description": "Temperature check",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AUTOMATIC_AIR_CONDITIONING_BUTTON",
+      "bits": "167.6",
+      "type": "bool",
+      "description": "Automatic air conditioning button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRECOND_PUSH_POS_000",
+      "bits": "167.5-167.1",
+      "type": "uint",
+      "description": "PRECOND_PUSH_POS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_PRECONDITIONING_MENU",
+      "bits": "167.0",
+      "type": "bool",
+      "description": "Presence of the preconditioning menu",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_TEMPERATURE_PRECONDITIONING_REQUEST",
+      "bits": "168.7",
+      "type": "bool",
+      "description": "Presence of the temperature preconditioning request touch button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRECOND_PUSH_PANEL_000",
+      "bits": "168.6",
+      "type": "bool",
+      "description": "PRECOND_PUSH_PANEL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_CONDITIONING_RECALL_INFO_000",
+      "bits": "168.5",
+      "type": "bool",
+      "description": "AIR_CONDITIONING_RECALL_INFO_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_CONDITIONING_MONO_000",
+      "bits": "168.4-168.3",
+      "type": "uint",
+      "description": "AIR_CONDITIONING_MONO_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PRESENCE_AIR_CONDITIONING_OFF_TOUCH_BUTTON",
+      "bits": "168.2",
+      "type": "bool",
+      "description": "Presence of the air conditioning off touch button",
+      "choices": {
+        "0": "Button absent",
+        "1": "Button present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TYPE_SECONDARY_SCREEN",
+      "bits": "169.7-169.0",
+      "type": "enum",
+      "description": "Type of secondary screen",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MAXIMUM_SPEED_LVDS_NETWORK",
+      "bits": "170.7",
+      "type": "bool",
+      "description": "Maximum speed of the LVDS network",
+      "choices": {
+        "0": "115.2 kbits/s",
+        "1": "500 kbits/s"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "CONFIGURATION_LVDS_NETWORK",
+      "bits": "170.6",
+      "type": "bool",
+      "description": "Configuration of the LVDS network",
+      "choices": {
+        "0": "18 bit",
+        "1": "24 bit"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "VIDEO_CODING_1_000",
+      "bits": "171.4",
+      "type": "bool",
+      "description": "VIDEO_CODING_1_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "VIDEO_CODING_2_000",
+      "bits": "171.5",
+      "type": "bool",
+      "description": "VIDEO_CODING_2_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_CONDITIONING_IONISOR_CFGS_000",
+      "bits": "172.7",
+      "type": "bool",
+      "description": "AIR_CONDITIONING_IONISOR_CFGS_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "FRAGRANCE_CFG_000",
+      "bits": "172.6",
+      "type": "bool",
+      "description": "FRAGRANCE_CFG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AIR_CONDITIONING_STATUSLINE_000",
+      "bits": "172.5",
+      "type": "bool",
+      "description": "AIR_CONDITIONING_STATUSLINE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "PPS_MODE_CFG_000",
+      "bits": "173.7-173.6",
+      "type": "uint",
+      "description": "PPS_MODE_CFG_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "MASSAGING_SEAT_FUNCTION",
+      "bits": "173.5",
+      "type": "bool",
+      "description": "Massaging seat function",
+      "choices": {
+        "0": "Function deactivated",
+        "1": "Function activated"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "DYNAMIC_MODE_000",
+      "bits": "173.4",
+      "type": "bool",
+      "description": "DYNAMIC_MODE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "VIDEO_RECORDING_FUNCTION",
+      "bits": "174.7",
+      "type": "bool",
+      "description": "Video recording function",
+      "choices": {
+        "0": "Function absent",
+        "1": "Function present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "BREAKDOWN_CALL_VHL_SPEAKER_000",
+      "bits": "176.6",
+      "type": "bool",
+      "description": "BREAKDOWN_CALL_VHL_SPEAKER_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "ICALL_VHL_SPEAKER_000",
+      "bits": "176.7",
+      "type": "bool",
+      "description": "ICALL_VHL_SPEAKER_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "OPTION_REMOTE_MNGT_VHL_000",
+      "bits": "176.5",
+      "type": "bool",
+      "description": "OPTION_REMOTE_MNGT_VHL_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "AAP_ON_OFF_000",
+      "bits": "177.7",
+      "type": "bool",
+      "description": "AAP_ON_OFF_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_FCW_PUSH_LED_PN_000",
+      "bits": "178.6",
+      "type": "bool",
+      "description": "IDVR_FCW_PUSH_LED_PN_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_FCW_PUSH_LED_OPTION_001",
+      "bits": "178.5-178.1",
+      "type": "uint",
+      "description": "IDVR_FCW_PUSH_LED_OPTION_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_FCW_PUSH_LED_001",
+      "bits": "178.0",
+      "type": "bool",
+      "description": "IDVR_FCW_PUSH_LED_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_LDW_PSH_LED_PNE_000",
+      "bits": "179.6",
+      "type": "bool",
+      "description": "IDVR_LDW_PSH_LED_PNE_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_LDW_PUSH_LED_OPTION_001",
+      "bits": "179.5-179.1",
+      "type": "uint",
+      "description": "IDVR_LDW_PUSH_LED_OPTION_001",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "IDVR_LDW_PUSH_LED_000",
+      "bits": "179.0",
+      "type": "bool",
+      "description": "IDVR_LDW_PUSH_LED_000",
+      "choices": {},
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "INDEPENDENT_TELEMATIC_UNIT",
+      "bits": "180.7",
+      "type": "bool",
+      "description": "Independent telematic unit",
+      "choices": {
+        "0": "Component absent",
+        "1": "Component present"
+      },
+      "factor": 1,
+      "offset": 0
+    },
+    {
+      "name": "TIME_DISPLAY",
+      "bits": "180.6",
+      "type": "bool",
+      "description": "Time display",
+      "choices": {
+        "0": "Display off",
+        "1": "Displaying activated"
+      },
+      "factor": 1,
+      "offset": 0
+    }
+  ],
+  "variants": {
+    "A9_V1": {
+      "parts": [
+        "928775"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V2": {
+      "parts": [
+        "928240"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V3": {
+      "parts": [
+        "928776"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V4": {
+      "parts": [
+        "928241"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V5": {
+      "parts": [
+        "930703"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V6": {
+      "parts": [
+        "930704"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V7": {
+      "parts": [
+        "937619"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "A9_V8": {
+      "parts": [
+        "937620"
+      ],
+      "cars": [
+        "A9"
+      ]
+    },
+    "B7_V1": {
+      "parts": [
+        "925503"
+      ],
+      "cars": [
+        "B7"
+      ]
+    },
+    "B7_V2": {
+      "parts": [
+        "930362"
+      ],
+      "cars": [
+        "B7"
+      ]
+    },
+    "B7_V3": {
+      "parts": [
+        "934433"
+      ],
+      "cars": [
+        "B7"
+      ]
+    },
+    "B7_V4": {
+      "parts": [
+        "937622"
+      ],
+      "cars": [
+        "B7"
+      ]
+    },
+    "E3_V1": {
+      "parts": [
+        "929227"
+      ],
+      "cars": [
+        "E3"
+      ]
+    },
+    "E3_V2": {
+      "parts": [
+        "928240"
+      ],
+      "cars": [
+        "E3"
+      ]
+    },
+    "E3_V3": {
+      "parts": [
+        "931037"
+      ],
+      "cars": [
+        "E3"
+      ]
+    },
+    "E3_V4": {
+      "parts": [
+        "937621"
+      ],
+      "cars": [
+        "E3"
+      ]
+    },
+    "M69_V1": {
+      "parts": [
+        "924549"
+      ],
+      "cars": [
+        "M69"
+      ]
+    },
+    "P2_V1": {
+      "parts": [
+        "932385"
+      ],
+      "cars": [
+        "P2"
+      ]
+    },
+    "P2_V2": {
+      "parts": [
+        "938033"
+      ],
+      "cars": [
+        "P2"
+      ]
+    }
+  },
+  "alternatives": [
+    {
+      "note": "Other reading of the same bytes (both are given by the observations)",
+      "differing": [],
+      "extra": [
+        "BLACKPANEL_BUTTON",
+        "CPUSH_COLORCLUST_000",
+        "CHECK_BUTTON",
+        "CPUSH_DOMELIGHT_000",
+        "DIAGNOSTIC_MODE_ACTIVE",
+        "RVC_LEGAL_000",
+        "DISPLAY_MANUFACTURER_BRAND_VISUAL_REVERSING",
+        "MIRRORLINK_FUNCTION",
+        "ODS_TYPE_000",
+        "PERSONALIZATION_CFG_000",
+        "OBSTACLE_DETECTION",
+        "TYPE_MULTIFUNCTION_TOUCH_SCREEN",
+        "TRAFFIC_DATA_DISPLAY",
+        "BEIDOU_GPS_CHOICE_000",
+        "TYPE_FM1_AM_AERIAL",
+        "PVC_PUSH_PANEL_000",
+        "PVC_PUSH_POS_000",
+        "AUXILIARY_AUDIO_INPUT",
+        "MOOD_GRID_000",
+        "AUDIO_PRESET_LIVE_000"
+      ]
+    }
+  ]
+}

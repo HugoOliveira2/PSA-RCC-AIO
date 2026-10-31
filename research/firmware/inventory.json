@@ -1,0 +1,462 @@
+[
+  {
+    "path": "SWL/001317661585048011/MediaHeader/MediaVersion.ini",
+    "size": 4482,
+    "head": "b'MIME-Version: 1.0\\r\\nContent-Type: multipart/signed; protocol=\"application/x-pkcs7-signature\"; micalg='"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/FirmwareList.ini",
+    "size": 37273,
+    "head": "b'[Common]\\nFirmwareVersion = 67.02.24.22\\nVendor = Continental Automotive Gmbh\\nHw = *\\nProj = 0D........'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010242/NAC_B2/OVIP/OvipSwl-transition.s",
+    "size": 282691,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010181/RCC_D2/speech1-app-data-resource-1g.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010181/RCC_D1/speech1-app-data-resource.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-firmware-rcc-aio-latam_67.01.35.52_RCC-r0_armv7a.ipk",
+    "size": 1842,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-install-universe-after-swl_1.0-r0_armv7a.ipk",
+    "size": 2277,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-firmware-version_67.01.35.52_RCC-r0_armv7a.ipk",
+    "size": 1822,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-core-emb-registry-ids-swl-psa_67.01.35.52_RCC-r0_armv7a.ipk",
+    "size": 413406,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/installList.inst",
+    "size": 360,
+    "head": "b'INSTALL_PACKAGE 0x0 oip-ssw-security-usergroup-helper-swl \\nINSTALL_PACKAGE 0x0 ovip-int-core-emb-reg'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/oip-ssw-imageio-swl_2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0_armv7a.ipk",
+    "size": 6347,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/oip-ssw-security-usergroup-helper-swl_1.0.18-r0_armv7a.ipk",
+    "size": 3772,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/ovip-int-setup-rootfs-swl_67.01.35.52_RCC-r0_armv7a.ipk",
+    "size": 5982,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages-transition/Packages.gz",
+    "size": 1315,
+    "head": "b'\\x1f\\x8b\\x08\\x08D\\xdax^\\x02\\xffPackages\\x00\\xedWmo\\xdb6\\x10\\xfe\\xee_A`_6\\x14\\x92\\xa87JJ\\xd7a\\x99\\x93\\xa0B\\x9b\\xda\\xb0\\xd3f\\xfbdP\\xd4\\xc9&\"K*I\\xdb\\xf5~\\xfd\\xce\\xf2Kl\\'i\\xddv]Q`\\x06\\x02[\\x14\\xef\\xf8\\xf0\\xee\\xb9\\xbb\\'}.\\xee\\xf8\\x18\\xceH-\\x1bK\\xeb\\x85\\xa5A'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010114/NAC_B2/OVIP/readwrite-data-transition.tar.gz",
+    "size": 16472200,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010b/RCC_D2/tsw-1g.fsn",
+    "size": 55367684,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010b/RCC_D1/tsw.fsn",
+    "size": 60104539,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010186/RCC_D2/datastore_rw-app-data-resource-1g.tar.gz",
+    "size": 1147,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010186/RCC_D1/datastore_rw-app-data-resource.tar.gz",
+    "size": 1147,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010191/NAC_B2/OVIP/speech1-app-data-resource-transition.tar.gz",
+    "size": 154211299,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010144/HIFI/OVIP/hifi-image-transition.fli",
+    "size": 691240,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010244/NAC_B2/OVIP/Vuc-transition.s",
+    "size": 1623230,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010129/NAC_B2/OVIP/ui2-app-data-resource-transition.tar.gz",
+    "size": 9014555,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010185/RCC_D2/speech5-app-data-resource-1g.tar.gz",
+    "size": 1147,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010185/RCC_D1/speech5-app-data-resource.tar.gz",
+    "size": 1147,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010177/RCC_AIO/bl-ovip-601-transition.fli",
+    "size": 284945,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010127/RCC_D2/bl-ovip-601-1g.fli",
+    "size": 284860,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010127/RCC_D1/bl-ovip-601.fli",
+    "size": 284901,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010212/NAC_B2/OVIP/OvipSwl.s",
+    "size": 283601,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010121/RCC_D2/radio-app-data-resource-1g.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010121/RCC_D1/radio-app-data-resource.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010196/NAC_B2/OVIP/datastore_rw-app-data-resource-transition.tar.gz",
+    "size": 1037,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010183/RCC_D2/speech3-app-data-resource-1g.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010183/RCC_D1/speech3-app-data-resource.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010143/NAC_B2/OVIP/rootfs-transition.fsn01",
+    "size": 133364913,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010143/NAC_B2/OVIP/rootfs-transition.fsn",
+    "size": 141995524,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010195/NAC_B2/OVIP/speech5-app-data-resource-transition.tar.gz",
+    "size": 95180988,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010110/RCC_D2/readwrite-data-1g.tar.gz",
+    "size": 16467821,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010110/RCC_D1/readwrite-data.tar.gz",
+    "size": 16472436,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/4010214/NAC_B2/OVIP/Vuc.s",
+    "size": 1623251,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010122/NAC_B2/OVIP/ui1-app-data-resource.tar.gz",
+    "size": 141995524,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010122/NAC_B2/OVIP/ui1-app-data-resource.tar.gz01",
+    "size": 130683184,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101014b/NAC_B2/OVIP/tsw-transition.fsn",
+    "size": 60104539,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010113/ALL/RCC_D2/efs-app-data-resource-1g.tar.gz",
+    "size": 8297,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010113/ALL/RCC_D1/efs-app-data-resource.tar.gz",
+    "size": 8297,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010101/RCC_D2/swl-kernel-1g.nbx",
+    "size": 32326833,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010101/RCC_D1/swl-kernel.nbx",
+    "size": 32848219,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010150/NAC_B2/OVIP/atmel_conf.raw",
+    "size": 14927,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010142/NAC_B2/OVIP/kernel-transition.nbx",
+    "size": 6989651,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010124/RCC_D2/ui2-app-data-resource-1g.tar.gz",
+    "size": 9051386,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010124/RCC_D1/ui2-app-data-resource.tar.gz",
+    "size": 9051386,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-firmware-version_67.02.24.22_RCC-r0_armv7a.ipk",
+    "size": 1842,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-firmware-rcc-aio-latam_67.02.24.22_RCC-r0_armv7a.ipk",
+    "size": 1842,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-install-universe-after-swl_1.0-r0_armv7a.ipk",
+    "size": 2277,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/installList.inst",
+    "size": 360,
+    "head": "b'INSTALL_PACKAGE 0x0 oip-ssw-security-usergroup-helper-swl \\nINSTALL_PACKAGE 0x0 ovip-int-core-emb-reg'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/oip-ssw-imageio-swl_2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0_armv7a.ipk",
+    "size": 6372,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-setup-rootfs-swl_67.02.24.22_RCC-r0_armv7a.ipk",
+    "size": 5982,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/oip-ssw-security-usergroup-helper-swl_1.0.18-r0_armv7a.ipk",
+    "size": 3772,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/ovip-int-core-emb-registry-ids-swl-psa_67.02.24.22_RCC-r0_armv7a.ipk",
+    "size": 413731,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/packages/Packages.gz",
+    "size": 1311,
+    "head": "b\"\\x1f\\x8b\\x08\\x08G\\xdax^\\x02\\xffPackages\\x00\\xedWmo\\xdb6\\x10\\xfe\\xee_A`_6\\x14z\\x97()]\\x87eN\\x82\\nmj\\xc3N\\x9b\\xed\\x93AQ'\\x9b\\x88,\\xaa$m\\xd7\\xfb\\xf5;\\xcb/\\xb1\\x9d\\xa4u\\xdbuE\\x81\\x19\\x08lQ\\xbc\\xe3\\xc3\\xbb\\xe7\\xee\\x9e\\xf4\\x19\\xbfcc8#R4\\x96\\xd6\\x0bK\\x03\\x9f\""
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010182/RCC_D2/speech2-app-data-resource-1g.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010182/RCC_D1/speech2-app-data-resource.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010141/NAC_B2/OVIP/swl-kernel-transition.nbx",
+    "size": 32848219,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010193/NAC_B2/OVIP/speech3-app-data-resource-transition.tar.gz",
+    "size": 128439124,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010126/NAC_B2/OVIP/ui1-app-data-resource-transition.tar.gz",
+    "size": 141995524,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010126/NAC_B2/OVIP/ui1-app-data-resource-transition.tar.gz01",
+    "size": 130626484,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010102/RCC_D2/kernel-1g.nbx",
+    "size": 7222611,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010102/RCC_D1/kernel.nbx",
+    "size": 6989651,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010104/HIFI/RCC_D2/hifi-image-1g.fli",
+    "size": 691240,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010104/HIFI/RCC_D1/hifi-image.fli",
+    "size": 691240,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010154/NAC_B2/OVIP/atmel_conf-transition.raw",
+    "size": 14927,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010192/NAC_B2/OVIP/speech2-app-data-resource-transition.tar.gz",
+    "size": 200030884,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101014a/NAC_B2/OVIP/tsw-kernel-transition.nbx",
+    "size": 4893011,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010167/NAC_B2/OVIP/radio-app-data-resource-transition.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010184/RCC_D2/speech4-app-data-resource-1g.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010184/RCC_D1/speech4-app-data-resource.tar.gz",
+    "size": 972,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010178/RCC_AIO/bl-ovip-601-transition.fli",
+    "size": 284945,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010a/RCC_D2/tsw-kernel-1g.nbx",
+    "size": 4815360,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/101010a/RCC_D1/tsw-kernel.nbx",
+    "size": 4893011,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010133/ALL/OVIP/efs-app-data-resource-transition.tar.gz",
+    "size": 30462,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010194/NAC_B2/OVIP/speech4-app-data-resource-transition.tar.gz",
+    "size": 178979529,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D2/rootfs-1g.fsn",
+    "size": 141995524,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D2/rootfs-1g.fsn01",
+    "size": 117301764,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D1/rootfs.fsn",
+    "size": 141995524,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010103/RCC_D1/rootfs.fsn01",
+    "size": 121483953,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010128/RCC_D2/bl-ovip-601-1g.fli",
+    "size": 284860,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/Firmware/AUTO/1010128/RCC_D1/bl-ovip-601.fli",
+    "size": 284901,
+    "head": "b'MIME-Version: 1.0\\nContent-Disposition: attachment; filename=\"smime.p7m\"\\nContent-Type: application/x-'"
+  },
+  {
+    "path": "SWL/001317661585048011/HashList.ini",
+    "size": 14161,
+    "head": "b'[$(MEDIA_ROOT)/SWL/001317661585048011/Firmware/AUTO/1010101/RCC_D1/swl-kernel.nbx]\\nHash = 11e2e899de'"
+  },
+  {
+    "path": "SWL/001317661585048011/Certificates/PSA-OVIP-CS-G1.crl",
+    "size": 860,
+    "head": "b'0\\x82\\x03X0\\x82\\x01@\\x02\\x01\\x010\\r\\x06\\t*\\x86H\\x86\\xf7\\r\\x01\\x01\\x0b\\x05\\x000\\x81\\xdb1\\x0b0\\t\\x06\\x03U\\x04\\x06\\x13\\x02FR1\\x0e0\\x0c\\x06\\x03U\\x04\\x07\\x0c\\x05Paris1\\x1c0\\x1a\\x06\\x03U\\x04\\n\\x0c\\x13PSA Peugeot Citroen1 0\\x1e\\x06\\x03U\\x04\\x0b\\x0c\\x17C'"
+  },
+  {
+    "path": "SWL/001317661585048011/Certificates/PSA-OVIP-G1.crl",
+    "size": 889,
+    "head": "b'0\\x82\\x03u0\\x82\\x01]\\x02\\x01\\x010\\r\\x06\\t*\\x86H\\x86\\xf7\\r\\x01\\x01\\x0b\\x05\\x000\\x81\\xf71\\x0b0\\t\\x06\\x03U\\x04\\x06\\x13\\x02FR1\\x0e0\\x0c\\x06\\x03U\\x04\\x07\\x0c\\x05Paris1\\x1c0\\x1a\\x06\\x03U\\x04\\n\\x0c\\x13PSA Peugeot Citroen1 0\\x1e\\x06\\x03U\\x04\\x0b\\x0c\\x17C'"
+  },
+  {
+    "path": "SWL/001317661585048011/Certificates/PSA-OVIP-CS-G1.crt",
+    "size": 2829,
+    "head": "b'-----BEGIN CERTIFICATE-----\\nMIIH+zCCBeOgAwIBAgIBAzANBgkqhkiG9w0BAQsFADCB9zELMAkGA1UEBhMCRlIx\\nDjAMBgN'"
+  },
+  {
+    "path": "UpdateInfo.xml",
+    "size": 446,
+    "head": "b'<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\"?>\\n<UpdateInfo>\\n\\t<UpdateType>ovip-int-firmware-r'"
+  }
+]

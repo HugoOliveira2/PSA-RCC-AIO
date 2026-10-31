@@ -1,0 +1,105 @@
+Package: oip-ssw-security-usergroup-helper-swl
+Version: 1.0.18-r0
+Filename: oip-ssw-security-usergroup-helper-swl_1.0.18-r0_armv7a.ipk
+Size: 2160
+MD5Sum: f9416f69f168a29f0fc48a1b7e1c53e2
+Description: Helper tools and scripts to enable the usergroup stuff
+Section: base
+Priority: optional
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+License: Continental-Proprietary
+Architecture: armv7a
+OE: oip-ssw-security-usergroup-helper
+Homepage: unknown
+Source: git://wetp715x.we.de.conti.de:29418/security/usergroup-helper;protocol=ssh;branch=master
+
+Package: ovip-int-core-emb-registry-ids-swl-psa
+Version: 67.02.24.22_RCC-r0
+Filename: ovip-int-core-emb-registry-ids-swl-psa_67.02.24.22_RCC-r0_armv7a.ipk
+Size: 304904
+MD5Sum: 4a5cdc4c7866648171d0ee1fdc79f689
+Description: Deployment of OVIP RessourceInstallation data
+Section: base
+Priority: optional
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+License: Continental-Proprietary
+Architecture: armv7a
+OE: ovip-int-core-emb-registry-ids
+Homepage: unknown
+Source: file://///home/uidg6656/CCM_WA/WaveXRbt/NAC_SOC-WaveXRbt#AIO2_Build_SI_8/NAC_SOC/NAC_SOCINT/src/socEmbRegistryIDs/nac-socint-emb-registry-ids file:///home/uidg6656/CCM_WA/WaveXRbt/NAC_SOC-WaveXRbt#AIO2_Build_SI_8/NAC_SOC/NAC_SOCINT/src/core-install-oip-patches/ovip-extract-ipk.sh file://///home/uidg6656/CCM_WA/WaveXRbt/NAC_SOC-WaveXRbt#AIO2_Build_SI_8/NAC_SOC/NAC_PERSIST/src/nacPersist
+
+Package: ovip-install-universe-after-swl
+Version: 1.0-r0
+Filename: ovip-install-universe-after-swl_1.0-r0_armv7a.ipk
+Size: 1062
+MD5Sum: 1690228e3da677aa363fe5075e7ec2a1
+Description: OVIP SWL Universe Installation 
+Section: base
+Priority: standard
+Maintainer: UI_FRAMEWORK Continental Team
+License: Continental-Proprietary
+Architecture: armv7a
+OE: ovip-install-universe-after-swl
+Homepage: unknown
+Source: /home/uidg6656/DevKits/MV_NACINT_AIO2_RCC_67.02.24.22_RCC/tmp/collections/sysUiFrameworkPreInt.67.02.24.22_RCC/sysUiFrameworkPreInt/recipes/ovip-install-universe-after-swl.bb
+
+Package: oip-ssw-imageio-swl
+Version: 2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0
+Filename: oip-ssw-imageio-swl_2.26.12+git0+4829497cac997e4360c728e5575e1521789a95d2-r0_armv7a.ipk
+Size: 4082
+MD5Sum: 1b188535f88edb63aa6abd78883a4b8f
+Description: The ImageIO provides a way to manage images. With this library it is possible to read and write images from or to flash. To check images or to get an image table of all stored images. Each image has a unique identifier that is stored at the beginning or the end of an image.
+Section: base
+Priority: optional
+Maintainer: Continental (I IC RD SP SSW)
+License: Continental-Proprietary
+Architecture: armv7a
+OE: oip-ssw-imageio
+Homepage: unknown
+Source: git://wetp715x.we.de.conti.de:29418/persistence/imageio;protocol=ssh;branch=master
+
+Package: ovip-int-setup-rootfs-swl
+Version: 67.02.24.22_RCC-r0
+Filename: ovip-int-setup-rootfs-swl_67.02.24.22_RCC-r0_armv7a.ipk
+Size: 3798
+MD5Sum: e3931d02a18767fa16adc59069de0b30
+Description: EARLY-INIT
+Section: System
+Priority: standard
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+License: Continental-Proprietary
+Architecture: armv7a
+OE: ovip-int-setup-rootfs
+Homepage: unknown
+Source: file:///home/uidg6656/CCM_WA/WaveXRbt/NAC_SOC-WaveXRbt#AIO2_Build_SI_8/NAC_SOC/NAC_SOCINT/src/ovip-int-setup-rootfs-swl
+
+Package: ovip-int-firmware-version
+Version: 67.02.24.22_RCC-r0
+Filename: ovip-int-firmware-version_67.02.24.22_RCC-r0_armv7a.ipk
+Size: 736
+MD5Sum: e46cf161e686c906beae207aa6b02459
+Description: Deployment of OVIP Firmware ID
+Section: base
+Priority: optional
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+License: Continental-Proprietary
+Architecture: armv7a
+OE: ovip-int-firmware
+Homepage: unknown
+Source: /home/uidg6656/DevKits/MV_NACINT_AIO2_RCC_67.02.24.22_RCC/tmp/collections/nacInt.67.02.24.22_RCC/nacInt/recipes/ovip-int-firmware.bb
+
+Package: ovip-int-firmware-rcc-aio-latam
+Version: 67.02.24.22_RCC-r0
+Filename: ovip-int-firmware-rcc-aio-latam_67.02.24.22_RCC-r0_armv7a.ipk
+Size: 738
+MD5Sum: d9cadd320a2302052ac6b966db956425
+Description: Deployment of OVIP Firmware ID
+Section: base
+Priority: optional
+Maintainer: OpenEmbedded Team <openembedded-devel@lists.openembedded.org>
+License: Continental-Proprietary
+Architecture: armv7a
+OE: ovip-int-firmware
+Homepage: unknown
+Source: /home/uidg6656/DevKits/MV_NACINT_AIO2_RCC_67.02.24.22_RCC/tmp/collections/nacInt.67.02.24.22_RCC/nacInt/recipes/ovip-int-firmware.bb
+

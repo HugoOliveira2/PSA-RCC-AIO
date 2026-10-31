@@ -1,0 +1,1 @@
+﻿PASS: 1407 verificações. Transporte simulado e arquivos locais; nenhuma porta serial aberta.

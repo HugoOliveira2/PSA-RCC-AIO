@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<UpdateInfo>
+	<UpdateType>ovip-int-firmware-rcc-aio-latam</UpdateType>
+	<UpdateVersion>67.02.24.22_RCC-r0</UpdateVersion>
+	<UpdateSize>1841618485</UpdateSize>
+	<UpdateProvider>CONTINENTAL</UpdateProvider>
+	<EcuCompatibilityList>
+		<EcuType>RCC_AIO_LATAM_WAVE1</EcuType>
+		<EcuType>RCC_AIO_LATAM_WAVE2</EcuType>
+	</EcuCompatibilityList>
+<UpdateID>001317661585048011</UpdateID>
+</UpdateInfo>
+

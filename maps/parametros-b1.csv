@@ -1,0 +1,293 @@
+﻿nome,bits,tipo,descricao_fonte,opcoes_brutas,fator,offset
+DISPLAY_AUTOMATIC_VOLUME_CONTROL_ACV_TOUCH,2.7,bool,"Display of the automatic volume control ""ACV"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+ACV_PUSH_PANEL_000,2.6,bool,ACV_PUSH_PANEL_000,{},1,0
+ACV_PUSH_POS_000,2.5-2.1,uint,ACV_PUSH_POS_000,{},1,0
+DAT_ALARM_HISTORY_000,3.7,bool,DAT_ALARM_HISTORY_000,{},1,0
+DAT_ALARM_000,3.6,bool,DAT_ALARM_000,{},1,0
+CPUSH_ALARMLOG_000,3.5,bool,CPUSH_ALARMLOG_000,{},1,0
+TYRE_PRESSURES,4.7,bool,Tyre pressures,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+UREA_SOLUTION_LEVEL,4.6,bool,Urea solution level,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+OBC_PERMANENTPAGE_000,4.5,bool,OBC_PERMANENTPAGE_000,{},1,0
+ODO_PARTIAL_000,4.4,bool,ODO_PARTIAL_000,{},1,0
+OBC_000,4.3,bool,OBC_000,{},1,0
+OBC_STOP_START_000,4.2,bool,OBC_STOP_START_000,{},1,0
+OBC_PAGE_000,4.1-4.0,uint,OBC_PAGE_000,{},1,0
+DATE_TIME_ZONE_000,5.7-5.0,uint,DATE_TIME_ZONE_000,{},1,0
+DATE_TIME_ZONE_INIT_000,6.7-6.0,uint,DATE_TIME_ZONE_INIT_000,{},1,0
+DATE_FORMAT_INIT_000,7.7-7.6,uint,DATE_FORMAT_INIT_000,{},1,0
+DATE_FORMAT,7.5-7.4,enum,Date format,"{""0"": ""DD/MM/YYYY"", ""1"": ""DD.MM.YYYY"", ""2"": ""YYYY-MM-DD"", ""3"": ""MM/DD/YYYY""}",1,0
+DATE_TIME_SYNC_000,7.3,bool,DATE_TIME_SYNC_000,{},1,0
+DATE_TIME_SYNC_INIT_000,7.2,bool,DATE_TIME_SYNC_INIT_000,{},1,0
+DATE_TIME_DISP_000,7.1,bool,DATE_TIME_DISP_000,{},1,0
+DATE_TIME_MENU_000,7.0,bool,DATE_TIME_MENU_000,{},1,0
+DISPLAY_WHILE_DRIVING_INFORMATION_MESSAGES_TRIP,8.7,bool,"Display, while driving, of the information messages from the trip computer on the multifunction touch screen","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+TRIP_COMPUTER_CONTROL_BUTTON,8.6,bool,Trip computer control button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+DISPLAYING_MAINTENANCE_DATA,8.5,bool,Displaying of the maintenance data,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+MENU_AMBIANCE_8_000,10.7,bool,MENU_AMBIANCE_8_000,{},1,0
+MENU_AMBIANCE_7_000,10.6,bool,MENU_AMBIANCE_7_000,{},1,0
+MENU_AMBIANCE_6_000,10.5,bool,MENU_AMBIANCE_6_000,{},1,0
+MENU_AMBIANCE_5_000,10.4,bool,MENU_AMBIANCE_5_000,{},1,0
+MENU_AMBIANCE_4_000,10.3,bool,MENU_AMBIANCE_4_000,{},1,0
+MENU_AMBIANCE_3_000,10.2,bool,MENU_AMBIANCE_3_000,{},1,0
+MENU_AMBIANCE_2_000,10.1,bool,MENU_AMBIANCE_2_000,{},1,0
+MENU_AMBIANCE_1_000,10.0,bool,MENU_AMBIANCE_1_000,{},1,0
+FAMILY_NAME_1_000,11.7-11.5,uint,FAMILY_NAME_1_000,{},1,0
+FAMILY_NAME_2_000,11.4-11.2,uint,FAMILY_NAME_2_000,{},1,0
+FAMILY_NAME_3_000,12.7-12.5,uint,FAMILY_NAME_3_000,{},1,0
+FAMILY_NAME_4_000,12.4-12.2,uint,FAMILY_NAME_4_000,{},1,0
+AMBIANCE_DEFAULT_000,13.7-13.5,uint,AMBIANCE_DEFAULT_000,{},1,0
+NAME_ITEM1_FAMILY_1_000,14.7-14.0,uint,NAME_ITEM1_FAMILY_1_000,{},1,0
+NAME_ITEM2_FAMILY_1_000,15.7-15.0,uint,NAME_ITEM2_FAMILY_1_000,{},1,0
+NAME_ITEM3_FAMILY_1_000,16.7-16.0,uint,NAME_ITEM3_FAMILY_1_000,{},1,0
+NAME_ITEM4_FAMILY_1_001,17.7-17.0,uint,NAME_ITEM4_FAMILY_1_001,{},1,0
+NAME_ITEM_5_FAMILY_1_000,18.7-18.0,uint,NAME_ITEM_5_FAMILY_1_000,{},1,0
+NAME_ITEM6_FAMILY_1_000,19.7-19.0,uint,NAME_ITEM6_FAMILY_1_000,{},1,0
+NAME_ITEM7_FAMILY_1_000,20.7-20.0,uint,NAME_ITEM7_FAMILY_1_000,{},1,0
+NAME_ITEM_8_FAMILY_1_000,21.7-21.0,uint,NAME_ITEM_8_FAMILY_1_000,{},1,0
+NAME_ITEM9_FAMILY_1_000,22.7-22.0,uint,NAME_ITEM9_FAMILY_1_000,{},1,0
+NAME_ITEM10_FAMILY_1_000,23.7-23.0,uint,NAME_ITEM10_FAMILY_1_000,{},1,0
+NAME_ITEM1_FAMILY_2_000,24.7-24.0,uint,NAME_ITEM1_FAMILY_2_000,{},1,0
+NAME_ITEM2_FAMILY_2_000,25.7-25.0,uint,NAME_ITEM2_FAMILY_2_000,{},1,0
+NAME_ITEM3_FAMILY_2_000,26.7-26.0,uint,NAME_ITEM3_FAMILY_2_000,{},1,0
+NAME_ITEM4_FAMILY_2_000,27.7-27.0,uint,NAME_ITEM4_FAMILY_2_000,{},1,0
+NAME_ITEM_5_FAMILY_2_000,28.7-28.0,uint,NAME_ITEM_5_FAMILY_2_000,{},1,0
+NAME_ITEM6_FAMILY_2_000,29.7-29.0,uint,NAME_ITEM6_FAMILY_2_000,{},1,0
+NAME_ITEM7_FAMILY_2_001,30.7-30.0,uint,NAME_ITEM7_FAMILY_2_001,{},1,0
+NAME_ITEM_8_FAMILY_2_000,31.7-31.0,uint,NAME_ITEM_8_FAMILY_2_000,{},1,0
+NAME_ITEM9_FAMILY_2_001,32.7-32.0,uint,NAME_ITEM9_FAMILY_2_001,{},1,0
+NAME_ITEM10_FAMILY_2_000,33.7-33.0,uint,NAME_ITEM10_FAMILY_2_000,{},1,0
+NAME_ITEM1_FAMILY_3_000,34.7-34.0,uint,NAME_ITEM1_FAMILY_3_000,{},1,0
+NAME_ITEM2_FAMILY_3_000,35.7-35.0,uint,NAME_ITEM2_FAMILY_3_000,{},1,0
+NAME_ITEM3_FAMILY_3_000,36.7-36.0,uint,NAME_ITEM3_FAMILY_3_000,{},1,0
+NAME_ITEM4_FAMILY_3_000,37.7-37.0,uint,NAME_ITEM4_FAMILY_3_000,{},1,0
+NAME_ITEM_5_FAMILY_3_000,38.7-38.0,uint,NAME_ITEM_5_FAMILY_3_000,{},1,0
+NAME_ITEM6_FAMILY_3_000,39.7-39.0,uint,NAME_ITEM6_FAMILY_3_000,{},1,0
+NAME_ITEM7_FAMILY_3_000,40.7-40.0,uint,NAME_ITEM7_FAMILY_3_000,{},1,0
+NAME_ITEM_8_FAMILY_3_000,41.7-41.0,uint,NAME_ITEM_8_FAMILY_3_000,{},1,0
+NAME_ITEM9_FAMILY_3_000,42.7-42.0,uint,NAME_ITEM9_FAMILY_3_000,{},1,0
+NAME_ITEM10_FAMILY_3_000,43.7-43.0,uint,NAME_ITEM10_FAMILY_3_000,{},1,0
+NAME_ITEM1_FAMILY_4_000,44.7-44.0,uint,NAME_ITEM1_FAMILY_4_000,{},1,0
+NAME_ITEM2_FAMILY_4_000,45.7-45.0,uint,NAME_ITEM2_FAMILY_4_000,{},1,0
+NAME_ITEM3_FAMILY_4_000,46.7-46.0,uint,NAME_ITEM3_FAMILY_4_000,{},1,0
+NAME_ITEM4_FAMILY_4_000,47.7-47.0,uint,NAME_ITEM4_FAMILY_4_000,{},1,0
+NAME_ITEM_5_FAMILY_4_000,48.7-48.0,uint,NAME_ITEM_5_FAMILY_4_000,{},1,0
+NAME_ITEM6_FAMILY_4_000,49.7-49.0,uint,NAME_ITEM6_FAMILY_4_000,{},1,0
+NAME_ITEM7_FAMILY_4_000,50.7-50.0,uint,NAME_ITEM7_FAMILY_4_000,{},1,0
+NAME_ITEM_8_FAMILY_4_000,51.7-51.0,uint,NAME_ITEM_8_FAMILY_4_000,{},1,0
+NAME_ITEM9_FAMILY_4_000,52.7-52.0,uint,NAME_ITEM9_FAMILY_4_000,{},1,0
+NAME_ITEM10_FAMILY_4_000,53.7-53.0,uint,NAME_ITEM10_FAMILY_4_000,{},1,0
+CHOICE_NATIONALITY_DRIVER,54.7-54.2,enum,Choice of nationality of the driver,"{""0"": ""French"", ""1"": ""English"", ""2"": ""German"", ""3"": ""Spanish"", ""4"": ""Italian"", ""5"": ""Portuguese"", ""6"": ""Dutch"", ""7"": ""Greek"", ""8"": ""Brazilian"", ""9"": ""Polish"", ""10"": ""Traditional Chinese"", ""11"": ""Simplified Chinese"", ""12"": ""TURKISH"", ""13"": ""Japanese"", ""14"": ""Russian"", ""15"": ""Czech"", ""16"": ""Croatian"", ""17"": ""HUNGARIAN"", ""18"": ""Arabic"", ""19"": ""Bulgarian"", ""20"": ""Korean"", ""21"": ""Danish"", ""22"": ""Estonian"", ""23"": ""Iranian"", ""24"": ""Finnish"", ""25"": ""Hebrew"", ""26"": ""Norwegian"", ""27"": ""Rumanian"", ""28"": ""Serbian"", ""29"": ""Swedish"", ""30"": ""Ukrainian"", ""31"": ""Vietnamese""}",1,0
+DISPLAY_LANGUAGES_AND_UNITS,54.1,bool,Display of languages and units,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+ADJUSTMENT_BRIGHTNESS,55.7,bool,Adjustment of the brightness,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+AAS_PUSH_PANEL_000,56.6,bool,AAS_PUSH_PANEL_000,{},1,0
+AAS_PUSH_POS_000,56.5-56.1,uint,AAS_PUSH_POS_000,{},1,0
+DISPLAYING_PARKING_ASSISTANCE_TOUCH_BUTTON,56.0,bool,"Displaying of the ""Parking assistance"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+PARKING_ASSISTANCE,57.7-57.6,enum,Parking assistance,"{""0"": ""Function absent or present at the rear"", ""1"": ""Function present at the front and at the rear"", ""2"": ""Function present at the front, at the rear and side""}",1,0
+PRESENCE_AAS_ADJUST_000,57.5,bool,PRESENCE_AAS_ADJUST_000,{},1,0
+DISPLAYING_LANE_DEPARTURE_WARNING_SYSTEM_TOUCH,58.7,bool,"Displaying of the ""Lane departure warning system"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+AFIL_PUSH_PANEL_0000,58.6,bool,AFIL_PUSH_PANEL_0000,{},1,0
+AFIL_PUSH_POS_000,58.5-58.1,uint,AFIL_PUSH_POS_000,{},1,0
+DISPLAYING_DISTANCE_ALERT_TOUCH_BUTTON,59.6,bool,"Displaying of the ""Distance alert"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+ARTIV_PUSH_PANEL_000,59.5,bool,ARTIV_PUSH_PANEL_000,{},1,0
+ARTIV_PUSH_POS_000,59.4-59.0,uint,ARTIV_PUSH_POS_000,{},1,0
+PRESENCE_AND_TYPE_CRUISE_CONTROL,60.7-60.6,enum,Presence and type of cruise control,"{""0"": ""Function absent"", ""1"": ""Distance alert"", ""2"": ""Adaptive cruise control"", ""3"": ""Distance alert and adaptive cruise control""}",1,0
+DISTANCE_ALERT,60.5,bool,Distance alert,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+TRACTION_CONTROL_FUNCTION_ASR_PLUS,61.7,bool,Traction control function (ASR+),"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+ASR_PUSH_LED_PANEL_000,61.6,bool,ASR_PUSH_LED_PANEL_000,{},1,0
+ASR_PUSH_LED_POS_000,61.5-61.1,uint,ASR_PUSH_LED_POS_000,{},1,0
+DISPLAY_TRACTION_CONTROL_FUNCTION_ASR_PLUS_TOUCH,61.0,bool,Display of the traction control function (ASR+) touch button,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+HIFI_AMPLIFIER,62.7-62.5,enum,HIFI amplifier,"{""0"": ""Hi-Fi amplifier absent"", ""1"": ""Standard amplifier"", ""2"": ""Multiplexed amplifier"", ""3"": ""Arkamis system"", ""4"": ""Multiplexed amplifier (1 generation China)"", ""5"": ""Multiplexed amplifier (2 generation)"", ""6"": ""Multiplexed amplifier (3 generation)""}",1,0
+FADER_FUNCTION,62.2,bool,Fader function,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+DISPLAY_SOUND_HARMONY_INFORMATION,62.1,bool,Display of the sound harmony information,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+NUMBER_OF_MICROPHONES,62.0,bool,Number of microphones,"{""0"": ""A microphone"", ""1"": ""2 microphones""}",1,0
+SPEED_SVR_002,63.7-63.0,uint,SPEED_SVR_002,{},1,0
+OPTION_COLORATION_MO_000,64.7,bool,OPTION_COLORATION_MO_000,{},1,0
+TYPE_COLOR_ENGINE_001,64.6,bool,TYPE_COLOR_ENGINE_001,{},1,0
+PARAM_EFF_COLOR_MOTE_000,64.5-64.4,uint,PARAM_EFF_COLOR_MOTE_000,{},1,0
+LOI_DX_001,64.3-64.2,uint,LOI_DX_001,{},1,0
+ACQ_IHM_COLOR_000,64.1,bool,ACQ_IHM_COLOR_000,{},1,0
+AUTOMATIC_VOLUME_CONTROL_ACV,64.0,bool,"Automatic volume control ""ACV","{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+DISPLAY_AUDIO_INFORMATION_INSTRUMENT_PANEL,65.7,bool,Display of audio information in the instrument panel,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+TYPE_EXPORT_MEDIA_000,65.6-65.5,uint,TYPE_EXPORT_MEDIA_000,{},1,0
+TYPE_EXP_MEDIA_CAN_000,65.4-65.3,uint,TYPE_EXP_MEDIA_CAN_000,{},1,0
+AMPLI_SURRND_BY_CDC_000,65.2,bool,AMPLI_SURRND_BY_CDC_000,{},1,0
+CENTRAL_SPK_SETTING_000,65.1,bool,CENTRAL_SPK_SETTING_000,{},1,0
+REVERSING_ASSISTANCE_CAMERA,66.7,bool,Reversing assistance camera,"{""0"": ""Camera absent"", ""1"": ""Camera present""}",1,0
+PRESENCE_BLUETOOTH_FUNCTION,67.7,bool,Presence of the Bluetooth function,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+BLUETOOTH_FUNCTION,67.6,bool,Bluetooth function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+DISPLAY_OUTSIDE_TEMPERATURE,68.7,bool,Display of outside temperature,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+VEHICLE_POWER_SOURCE,68.6-68.3,enum,Vehicle power source,"{""0"": ""Petrol"", ""1"": ""Petrol dual fuel (LPG)"", ""2"": ""Petrol dual fuel (CNG)"", ""3"": ""Diesel"", ""4"": ""Petrol and traction battery"", ""5"": ""Petrol and Alcohol"", ""6"": ""Diesel and traction battery"", ""7"": ""Traction battery"", ""8"": ""Hydrogen"", ""15"": ""Not defined""}",1,0
+OPTION_SD_MEDIA_EVO_000,68.2,bool,OPTION_SD_MEDIA_EVO_000,{},1,0
+MAIN_SCREEN,68.1,bool,Main screen,"{""0"": ""Page absent"", ""1"": ""Page present""}",1,0
+DETECTION_SEAT_BELT_NOT_FASTENED_THIRD_ROW_SEATS,68.0,bool,Detection of seat belt not fastened for the third row of seats,"{""0"": ""Function inactive"", ""1"": ""Function active""}",1,0
+MANUFACTURER_S_BRAND,70.7-70.5,enum,Manufacturer's brand,"{""0"": ""Peugeot"", ""1"": ""Citroën"", ""2"": ""DS"", ""3"": ""Toyota"", ""4"": ""Vauxhall"", ""5"": ""Vauxhall"", ""6"": ""Holden"", ""7"": ""Others""}",1,0
+SMARTAPPS_FUNCTION,70.4,bool,"SMARTAPPS"" function","{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+DISPLAY_ADAPTIVE_CRUISE_CONTROL_SETTINGS,70.3,bool,"Display of the ""Adaptive cruise control"" settings","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+USB1_PORT,70.2,bool,USB1 port,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+USB2_PORT,70.1,bool,USB2 port,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+THEME_DEFAULT_000,71.7-71.4,uint,THEME_DEFAULT_000,{},1,0
+CURRENT_PROFILE_000,71.3-71.0,uint,CURRENT_PROFILE_000,{},1,0
+MENU_BUTTON,72.7,bool,"MENU"" button","{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+WARNING_THRESHOLD_RISK_ICE,73.7-73.0,uint,Warning threshold for risk of ice,{},0.5,-40
+DRIVER_REST_CFG_000,74.7,bool,DRIVER_REST_CFG_000,{},1,0
+DISPLAY_WARNING_LOG,74.6,bool,Display of the warning log,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+CARPLAY_FUNCTION,74.5,bool,Carplay function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+DAT_CARLINE_002,74.4-74.1,uint,DAT_CARLINE_002,{},1,0
+TYPE_EXPORT_VIDEO_000,75.7-75.0,uint,TYPE_EXPORT_VIDEO_000,{},1,0
+TYPE_OF_ACCESSES,76.7-76.6,enum,Type of accesses,"{""0"": ""Rear doors"", ""1"": ""One sliding door"", ""2"": ""2 sliding doors""}",1,0
+DISPLAYING_MAIN_BEAMS_ASSISTANT_TOUCH_BUTTON,77.7,bool,"Displaying of the ""Main beams assistant"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+CAFR_PUSH_PANEL_000,77.6,bool,CAFR_PUSH_PANEL_000,{},1,0
+CAFR_PUSH_POS_000,77.5-77.1,uint,CAFR_PUSH_POS_000,{},1,0
+CD_CHANGER,78.7,bool,CD changer,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+DISPLAYING_CHECK_TOUCH_BUTTON,79.7,bool,"Displaying of the ""CHECK"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+DISPLAYING_SEMI_AUTOMATIC_PARKING_SYSTEM_TOUCH,80.7,bool,"Displaying of the ""Semi-automatic parking system"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+PRESENCE_SEMI_AUTOMATIC_PARKING_FUNCTION,80.6-80.5,enum,Presence of the semi-automatic parking function,"{""0"": ""Function absent"", ""1"": ""Parallel parking\"" function present"", ""2"": ""Parallel parking\"" and \""perpendicular parking\"" functions present""}",1,0
+CPAS_PUSH_POS_000,80.3-80.0,uint,CPAS_PUSH_POS_000,{},1,0
+CPAS_PUSH_PANEL_000,81.7,bool,CPAS_PUSH_PANEL_000,{},1,0
+UNDER_INFLATION_DETECTION,82.7,bool,UNDER-INFLATION DETECTION,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+DGSI_PUSH_PANEL_000,82.6,bool,DGSI_PUSH_PANEL_000,{},1,0
+DGSI_PUSH_POS_001,82.4-82.1,uint,DGSI_PUSH_POS_001,{},1,0
+COMMAND_TYPE_000,84.7-84.4,uint,COMMAND_TYPE_000,{},1,0
+PRESENCE_HYBRID_PAGE,85.7,bool,Presence of the Hybrid page,"{""0"": ""Page absent"", ""1"": ""Page present""}",1,0
+HYBRID_MODE_CONSUMPTION,85.6,bool,Hybrid mode consumption,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+HYBRID_BAT_HYST_DOWN_000,85.5-85.4,uint,HYBRID_BAT_HYST_DOWN_000,{},1,0
+HYBRID_BAT_HYST_UP_001,85.3-85.2,uint,HYBRID_BAT_HYST_UP_001,{},1,0
+DAT_HYBRID_BAT_LEVEL0_000,86.7-86.0,uint,DAT_HYBRID_BAT_LEVEL0_000,{},1,0
+DAT_HYBRID_BAT_LEVEL1_000,87.7-87.0,uint,DAT_HYBRID_BAT_LEVEL1_000,{},1,0
+DAT_HYBRID_BAT_LEVEL2_000,88.7-88.0,uint,DAT_HYBRID_BAT_LEVEL2_000,{},1,0
+DAT_HYBRID_BAT_LEVEL3_000,89.7-89.0,uint,DAT_HYBRID_BAT_LEVEL3_000,{},1,0
+DAT_HYBRID_BAT_LEVEL4_000,90.7-90.0,uint,DAT_HYBRID_BAT_LEVEL4_000,{},1,0
+DAT_HYBRID_BAT_LEVEL5_000,91.7-91.0,uint,DAT_HYBRID_BAT_LEVEL5_000,{},1,0
+DAT_HYBRID_BAT_LEVEL6_000,92.7-92.0,uint,DAT_HYBRID_BAT_LEVEL6_000,{},1,0
+DAT_HYBRID_BAT_LEVEL7_000,93.7-93.0,uint,DAT_HYBRID_BAT_LEVEL7_000,{},1,0
+DAT_HYBRID_BAT_LEVEL8_000,94.7-94.0,uint,DAT_HYBRID_BAT_LEVEL8_000,{},1,0
+DAT_HYBRID_BAT_LEVEL9_000,95.7-95.0,uint,DAT_HYBRID_BAT_LEVEL9_000,{},1,0
+INTERNET_FUNCTION,96.7,bool,Internet function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+CONFIGURATION_INTERNET_FUNCTION,96.6-96.5,enum,Configuration of the internet function,"{""0"": ""Internet and Intranet active"", ""1"": ""Internet inactive and Intranet active"", ""2"": ""Internet active and Intranet inactive""}",1,0
+CONFIG_WEB_PORTAL_001,96.4,bool,CONFIG_WEB_PORTAL_001,{},1,0
+DISPLAY_AVAILABLE_SPACE_MEASUREMENT_TOUCH_BUTTON,98.7,bool,"Display of the ""Available space measurement"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+MPD_PUSH_LED_POS_000,98.6-98.3,uint,MPD_PUSH_LED_POS_000,{},1,0
+MPD_PUSH_PANEL_000,98.1,bool,MPD_PUSH_PANEL_000,{},1,0
+DISPLAY_SPEED_LIMIT,99.7,bool,Display of the speed limit,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+DISPLAYING_NAVIGATION_INSTRUCTIONS_WITHOUT_NAME,99.6,bool,Displaying of the navigation instructions without the name of the streets,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+DISPLAYING_NAVIGATION_INSTRUCTIONS_NAME_STREETS,99.5,bool,Displaying of the navigation instructions with the name of the streets,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+DISPLAYING_NAVIGATION_INSTRUCTIONS_NAME_STREETS_2,99.4,bool,Displaying of the navigation instructions with the name of the streets and intersections,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+DISPLAYING_ALERTS_AND_HAZARDOUS_AREAS,99.3,bool,"Displaying of alerts and ""hazardous areas"" on the multifunction screen","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+EXP_NAVIGATION_ILV_000,99.2,bool,EXP_NAVIGATION_ILV_000,{},1,0
+EXP_NAVIGATION_JVRP16_000,99.1,bool,EXP_NAVIGATION_JVRP16_000,{},1,0
+DISPLAY_HAZARDOUS_AREAS,99.0,bool,Display of the hazardous areas,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+COUNT_SATELLITES_FLAG_000,100.7-100.4,uint,COUNT_SATELLITES_FLAG_000,{},1,0
+GREEN_CRITERIA_001,100.3,bool,GREEN_CRITERIA_001,{},1,0
+SELECTION_NAVIGATION_MAPS,102.7-102.0,enum,Selection of the navigation maps,"{""0"": ""Continent"", ""1"": ""Country"", ""2"": ""Europe"", ""3"": ""FRANCE""}",1,0
+GEOGRAPHIC_AREA_USE_RADIO,104.7-104.5,enum,Geographic area of use of the radio,"{""0"": ""Europe"", ""1"": ""JAPAN"", ""2"": ""South America"", ""3"": ""Asia and China"", ""4"": ""Saudi Arabia"", ""5"": ""United States"", ""6"": ""Korea"", ""7"": ""Latin America""}",1,0
+AM_WAVEBAND,104.4,bool,AM waveband,"{""0"": ""Waveband deactivated"", ""1"": ""Waveband activated""}",1,0
+THRESHOLD_DETECTION_ANALOGUE_RADIO_ACTIVITY,105.7-105.0,uint,Threshold for detection of analogue radio activity,{},1,0
+PREFERRED_SID_AUTOMATIC_TMC_STATION,106.7-106.0,uint,Preferred SID (automatic TMC station),{},1,0
+EXPORT_TUNER_000,107.7-107.6,uint,EXPORT_TUNER_000,{},1,0
+STATION_SEARCH_FUNCTION_RDS,107.5,bool,Station search function (RDS),"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+THRESHOLD_DETECTION_DIGITAL_RADIO_ACTIVITY,108.7-108.0,uint,Threshold for detection of digital radio activity,{},1,0
+DIGITAL_RADIO,109.7-109.6,enum,Digital radio,"{""0"": ""Digital radio deactivated"", ""1"": ""L waveband type digital radio activated"", ""2"": ""3 waveband type digital radio activated"", ""3"": ""All wavebands type digital radio activated""}",1,0
+DISPLAYING_BLIND_SPOT_MONITORING_TOUCH_BUTTON,110.7,bool,"Displaying of the ""Blind spot monitoring"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+SAM_PUSH_POS_001,110.6-110.2,uint,SAM_PUSH_POS_001,{},1,0
+SAM_PUSH_PANEL_000,110.1,bool,SAM_PUSH_PANEL_000,{},1,0
+DISPLAYING_STOP_AND_START_TOUCH_BUTTON,111.6,bool,"Displaying of the ""Stop and Start"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+STOP_START_PUSH_LED_POS_000,111.5-111.1,uint,STOP_START_PUSH_LED_POS_000,{},1,0
+STOP_START_PUSH_PANEL_000,111.0,bool,STOP_START_PUSH_PANEL_000,{},1,0
+PRESENCE_WI_FI,112.7,bool,Presence of the Wi-Fi,"{""0"": ""NO"", ""1"": ""Yes""}",1,0
+INTERNET_FUNCTION_VIA_WI_FI,112.6,bool,Internet function via Wi-Fi,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+WI_FI_MODULE,112.4,bool,Wi-Fi module,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+WI_FI_FUNCTION,112.5,bool,Wi-Fi function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+XVV_DMD_000,113.7,bool,XVV_DMD_000,{},1,0
+RLVV_MEMORIZATION_000,113.6,bool,RLVV_MEMORIZATION_000,{},1,0
+RLVV_SELECTION_000,113.5,bool,RLVV_SELECTION_000,{},1,0
+ADAPTIVE_CRUISE_CONTROL,113.4,bool,Adaptive cruise control,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+XVV_STOPADJUST_000,113.3,bool,XVV_STOPADJUST_000,{},1,0
+DISPLAY_CRUISE_CONTROL_SELECTION_TOUCH_BUTTON,113.2,bool,"Display of the ""Cruise control"" selection touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+XVV_MAX_000,114.7-114.0,uint,XVV_MAX_000,{},1,0
+XVV_MIN_000,115.7-115.0,uint,XVV_MIN_000,{},1,0
+SPEED_LIMITER_MAX_000,116.7-116.0,uint,SPEED_LIMITER_MAX_000,{},1,0
+SPEED_LIMITER_MIN_000,117.7-117.0,uint,SPEED_LIMITER_MIN_000,{},1,0
+CRUISE_CONTROL_MAX_000,118.7-118.0,uint,CRUISE_CONTROL_MAX_000,{},1,0
+CRUISE_CONTROL_MIN_000,119.7-119.0,uint,CRUISE_CONTROL_MIN_000,{},1,0
+CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED,120.7,bool,CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED,{},1,0
+CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED_2,120.6-120.2,uint,CRUISE_CONTROL_CRUISE_CONTROL_PUSH_LED_2,{},1,0
+REAR_CAMERA_X_000,121.7-122.0,uint,REAR_CAMERA_X_000,{},1,0
+REAR_CAMERA_Y_000,123.7-124.0,uint,REAR_CAMERA_Y_000,{},1,0
+REAR_CAMERA_Z_000,125.7-126.0,uint,REAR_CAMERA_Z_000,{},1,0
+REAR_CAMERA_ROLL_000,127.7-128.0,uint,REAR_CAMERA_ROLL_000,{},1,0
+REAR_CAMERA_PITCH_000,129.7-130.0,uint,REAR_CAMERA_PITCH_000,{},1,0
+REAR_CAMERA_YAW_000,131.7-132.0,uint,REAR_CAMERA_YAW_000,{},1,0
+FRONT_OVERHANG_000,133.7-134.0,uint,FRONT_OVERHANG_000,{},1,0
+REAR_OVERHANG_000,135.7-136.0,uint,REAR_OVERHANG_000,{},1,0
+WHEELBASE_000,137.7-138.0,uint,WHEELBASE_000,{},1,0
+REAR_BUMPER_EDGE_HEI_000,139.7-140.0,uint,REAR_BUMPER_EDGE_HEI_000,{},1,0
+DIST_LINE_REAR_W_03_000,141.7-141.0,uint,DIST_LINE_REAR_W_03_000,{},1,0
+DIST_LINE_REAR_WID_1_000,142.7-142.0,uint,DIST_LINE_REAR_WID_1_000,{},1,0
+DIST_LINE_REAR_WID_2_000,143.7-143.0,uint,DIST_LINE_REAR_WID_2_000,{},1,0
+TRAJECTORY_LIN_REA_W_000,144.7-144.0,uint,TRAJECTORY_LIN_REA_W_000,{},1,0
+REAR_REAL_TOP_VIEW_H_001,145.7-146.0,uint,REAR_REAL_TOP_VIEW_H_001,{},1,0
+DY_PARAMETER_1_000,147.7-147.0,uint,DY_PARAMETER_1_000,{},1,0
+DY_PARAMETER_2_000,148.7-148.0,uint,DY_PARAMETER_2_000,{},1,0
+VEHICLE_WIDTH_001,149.7-150.0,uint,VEHICLE_WIDTH_001,{},1,0
+TRAILER_HOOK_HEIGHT_001,152.7-153.0,uint,TRAILER_HOOK_HEIGHT_001,{},1,0
+TRAILER_HOOK_LENGTH_001,154.7-155.0,uint,TRAILER_HOOK_LENGTH_001,{},1,0
+REAR_SIDE_VER_ENL_RA_000,156.7-156.0,uint,REAR_SIDE_VER_ENL_RA_000,{},1,0
+REAR_SIDE_HOR_ENL_RA_000,157.7-157.0,uint,REAR_SIDE_HOR_ENL_RA_000,{},1,0
+REAR_SIDE_ENL_ORIGIN_000,158.7-158.0,uint,REAR_SIDE_ENL_ORIGIN_000,{},1,0
+REAR_STD_VERT_ENL_OR_000,159.7-159.0,uint,REAR_STD_VERT_ENL_OR_000,{},1,0
+REAR_STD_VERT_ENL_RA_000,160.7-160.0,uint,REAR_STD_VERT_ENL_RA_000,{},1,0
+REAR_STD_HOR_ENL_RAT_000,161.7-161.0,uint,REAR_STD_HOR_ENL_RAT_000,{},1,0
+DAT_LKA_PUSH_LED_000,162.7,bool,DAT_LKA_PUSH_LED_000,{},1,0
+LKA_PUSH_PANEL_000,162.6,bool,LKA_PUSH_PANEL_000,{},1,0
+LKA_PUSH_POS_000,162.5-162.1,uint,LKA_PUSH_POS_000,{},1,0
+DISPLAYING_PANORAMIC_VISUAL_ASSISTANCE_TOUCH,164.7,bool,"Displaying of the ""Panoramic visual assistance"" touch button","{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+CONFIGURATION_PANORAMIC_VISUAL_ASSISTANCE_CAMERA,164.6,bool,Configuration of the panoramic visual assistance camera,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+LEGAL_NOTICE_DISPLAYED_MULTIFUNCTION_TOUCH,164.5,bool,Legal notice displayed on the multifunction touch screen (Panoramic visual assistance function),"{""0"": ""Message absent"", ""1"": ""Message present""}",1,0
+TYPE_PANORAMIC_VISUAL_ASSISTANCE_CAMERA,164.4-164.3,enum,Type of panoramic visual assistance camera,"{""0"": ""Panoramic visual assistance camera"", ""1"": ""180 visual reversing assistance camera °"", ""2"": ""Visual manoeuvring assistance camera""}",1,0
+PRESENCE_PANORAMIC_VISUAL_ASSISTANCE_CAMERA,164.2,bool,Presence of the panoramic visual assistance camera,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+AIR_CONDITIONING_FUNCTION,165.7,bool,Air conditioning function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+TYPE_AIR_CONDITIONING_MIXING,165.6,bool,Type of air conditioning mixing,"{""0"": ""Monozone"", ""1"": ""Dual-zone""}",1,0
+PRESENCE_PASSENGER_COMPARTMENT_AMBIENT_AIR,165.5,bool,Presence of the passenger compartment ambient air measuring system,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+REAR_AIR_CONDITIONING_CONTROL_PANEL,165.4,bool,Rear air conditioning control panel,"{""0"": ""Rear air conditioning control panel absent"", ""1"": ""Rear air conditioning control panel present""}",1,0
+PRESENCE_PASSENGER_COMPARTMENT_AIR_RECIRCULATION,165.3,bool,Presence of the passenger compartment air recirculation touch button,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
+TYPE_AIR_CONDITIONING_REGULATION,165.2,bool,Type of air conditioning regulation,"{""0"": ""Deactivated status"", ""1"": ""Activated status""}",1,0
+TYPE_AIR_DISTRIBUTION,165.0,bool,Type of air distribution,"{""0"": ""Monozone"", ""1"": ""Dual-zone""}",1,0
+TYPE_AIR_CONDITIONING,166.7-166.5,enum,Type of air conditioning,"{""0"": ""Heating"", ""1"": ""Simple air conditioning"", ""2"": ""Temperature regulated air conditioning"", ""3"": ""Automatic air conditioning""}",1,0
+PRESENCE_AIR_CONDITIONING_TEMPERATURE_INCREASE,166.4,bool,"Presence of the ""Air conditioning temperature increase AC"" touch button","{""0"": ""Touch button absent"", ""1"": ""Touch button present""}",1,0
+ENERGY_SAVING_TOUCH_BUTTON,166.3,bool,Energy-saving touch button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+TOUCH_BUTTON_AIR_BLOWER_CONTROL,166.2,bool,Touch button for the air blower control,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+AIR_BLOWER_CONTROL_INCREASE_TOUCH_BUTTON,166.1,bool,Air blower control increase touch button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+AIR_DISTRIBUTION,166.0,bool,Air distribution,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+TEMPERATURE_CHECK,167.7,bool,Temperature check,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+AUTOMATIC_AIR_CONDITIONING_BUTTON,167.6,bool,Automatic air conditioning button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+PRECOND_PUSH_POS_000,167.5-167.1,uint,PRECOND_PUSH_POS_000,{},1,0
+PRESENCE_PRECONDITIONING_MENU,167.0,bool,Presence of the preconditioning menu,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+PRESENCE_TEMPERATURE_PRECONDITIONING_REQUEST,168.7,bool,Presence of the temperature preconditioning request touch button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+PRECOND_PUSH_PANEL_000,168.6,bool,PRECOND_PUSH_PANEL_000,{},1,0
+AIR_CONDITIONING_RECALL_INFO_000,168.5,bool,AIR_CONDITIONING_RECALL_INFO_000,{},1,0
+AIR_CONDITIONING_MONO_000,168.4-168.3,uint,AIR_CONDITIONING_MONO_000,{},1,0
+PRESENCE_AIR_CONDITIONING_OFF_TOUCH_BUTTON,168.2,bool,Presence of the air conditioning off touch button,"{""0"": ""Button absent"", ""1"": ""Button present""}",1,0
+TYPE_SECONDARY_SCREEN,169.7-169.0,enum,Type of secondary screen,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+MAXIMUM_SPEED_LVDS_NETWORK,170.7,bool,Maximum speed of the LVDS network,"{""0"": ""115.2 kbits/s"", ""1"": ""500 kbits/s""}",1,0
+CONFIGURATION_LVDS_NETWORK,170.6,bool,Configuration of the LVDS network,"{""0"": ""18 bit"", ""1"": ""24 bit""}",1,0
+VIDEO_CODING_1_000,171.4,bool,VIDEO_CODING_1_000,{},1,0
+VIDEO_CODING_2_000,171.5,bool,VIDEO_CODING_2_000,{},1,0
+AIR_CONDITIONING_IONISOR_CFGS_000,172.7,bool,AIR_CONDITIONING_IONISOR_CFGS_000,{},1,0
+FRAGRANCE_CFG_000,172.6,bool,FRAGRANCE_CFG_000,{},1,0
+AIR_CONDITIONING_STATUSLINE_000,172.5,bool,AIR_CONDITIONING_STATUSLINE_000,{},1,0
+PPS_MODE_CFG_000,173.7-173.6,uint,PPS_MODE_CFG_000,{},1,0
+MASSAGING_SEAT_FUNCTION,173.5,bool,Massaging seat function,"{""0"": ""Function deactivated"", ""1"": ""Function activated""}",1,0
+DYNAMIC_MODE_000,173.4,bool,DYNAMIC_MODE_000,{},1,0
+VIDEO_RECORDING_FUNCTION,174.7,bool,Video recording function,"{""0"": ""Function absent"", ""1"": ""Function present""}",1,0
+BREAKDOWN_CALL_VHL_SPEAKER_000,176.6,bool,BREAKDOWN_CALL_VHL_SPEAKER_000,{},1,0
+ICALL_VHL_SPEAKER_000,176.7,bool,ICALL_VHL_SPEAKER_000,{},1,0
+OPTION_REMOTE_MNGT_VHL_000,176.5,bool,OPTION_REMOTE_MNGT_VHL_000,{},1,0
+AAP_ON_OFF_000,177.7,bool,AAP_ON_OFF_000,{},1,0
+IDVR_FCW_PUSH_LED_PN_000,178.6,bool,IDVR_FCW_PUSH_LED_PN_000,{},1,0
+IDVR_FCW_PUSH_LED_OPTION_001,178.5-178.1,uint,IDVR_FCW_PUSH_LED_OPTION_001,{},1,0
+IDVR_FCW_PUSH_LED_001,178.0,bool,IDVR_FCW_PUSH_LED_001,{},1,0
+IDVR_LDW_PSH_LED_PNE_000,179.6,bool,IDVR_LDW_PSH_LED_PNE_000,{},1,0
+IDVR_LDW_PUSH_LED_OPTION_001,179.5-179.1,uint,IDVR_LDW_PUSH_LED_OPTION_001,{},1,0
+IDVR_LDW_PUSH_LED_000,179.0,bool,IDVR_LDW_PUSH_LED_000,{},1,0
+INDEPENDENT_TELEMATIC_UNIT,180.7,bool,Independent telematic unit,"{""0"": ""Component absent"", ""1"": ""Component present""}",1,0
+TIME_DISPLAY,180.6,bool,Time display,"{""0"": ""Display off"", ""1"": ""Displaying activated""}",1,0
