@@ -22,6 +22,8 @@
 
 ## Contribuição desta publicação
 
+As fotos da montagem e da placa da fachada, o pinout das fachadas e o comparativo dos conectores RT6/AIO foram fornecidos pelo autor em 30/10/2026. A imagem de numeração ca/cb/cc foi fornecida como referência, sem indicação de sua origem documental; não se atribui sua autoria ao projeto. Os documentos registram essa limitação e distinguem mapeamento de validação funcional.
+
 Organização da investigação, cliente AIO Assist, consulta offline, conversão de mapas, traduções, comparação AIO/NAC, testes simulados e relatórios de limitações. A cópia pública foi organizada em 30/10/2026 e usa um VIN fictício nos exemplos e testes. Os arquivos YAML e o mapa NAC originais mantêm seus avisos.
 
 Os relatórios de Diagbox/SEDRE/DocBackup descrevem observações da pesquisa local. Bases, logs pessoais, desenhos proprietários, instaladores e firmware binário não são redistribuídos. Referências a arquivos locais nos relatórios históricos indicam evidências da investigação, não arquivos presentes no pacote.

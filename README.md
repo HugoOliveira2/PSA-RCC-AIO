@@ -24,6 +24,15 @@ O programa já está compilado. Requer Windows com **.NET Framework 4.x**; para 
 4. Veja como [compilar e verificar o AIO Assist](docs/compilar.md).
 5. Para propor testes ou registrar um resultado, leia [como contribuir](CONTRIBUTING.md).
 
+## Adaptação ao C4 Lounge: fachada e conectores
+
+O autor relata a montagem **cerca de 90% funcional**, em 30/10/2026. O botão do desembaçador da fachada ainda não funciona; na central, o ajuste de temperatura funciona para o motorista, mas continua pendente para o passageiro.
+
+- [Fotos, pinout da fachada RT6/AIO e correspondências do chicote](docs/retrofits/fachada-rt6-aio.md).
+- [Comparativo dos conectores ca, cb e cc das centrais RT6 e RCC AIO Wave 1](docs/retrofits/conectores-rt6-aio.md), incluindo a variante RT6 Hi-Fi e a mudança de posição dos sinais de vídeo.
+
+Os documentos distinguem o mapeamento informado, as funções ainda não testadas e a hipótese de iluminação no pino 14 da fachada. A documentação atualizada está na branch `main`; o pacote da Release 0.6.1 preserva o conteúdo da sua publicação.
+
 ## O que está incluído
 
 | Pasta | Conteúdo |

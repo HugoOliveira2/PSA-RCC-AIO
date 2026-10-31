@@ -24,6 +24,10 @@ Faltam capturas controladas da inicialização a frio e após Diagbox, com times
 
 ## Retrofits relacionados
 
+A [montagem da fachada AIO no C4 Lounge](retrofits/fachada-rt6-aio.md) foi relatada pelo autor em 30/10/2026 como cerca de 90% funcional. Foram publicados fotos, funções dos pinos e correspondências RT6 → AIO. Permanecem pendentes o botão do desembaçador e o ajuste de temperatura do passageiro na central; o ajuste do motorista funciona. O pino 14 da fachada é apenas uma hipótese de iluminação e o pino 7 não foi informado.
+
+O [comparativo dos conectores traseiros RT6/AIO Wave 1](retrofits/conectores-rt6-aio.md) registra ca/cb/cc e a variante RT6 Hi-Fi. O vídeo 1 muda de RT6 cc/1 (+) e cc/7 (−) para AIO cc/10 (+) e cc/4 (−). Isso é uma correspondência da tabela, sem comprovação de funcionamento da câmera. As células AIO vazias permanecem como não informadas.
+
 A [investigação do desembaçador](retrofits/desembacador.txt) combina medições do usuário na fachada nova (pino 11: botão; pino 13: indicador), consulta de esquema e referências CAN. O caminho original do Lounge é CAN; não foi encontrado um par de pinos BSI validado para conexão direta. Os campos CAN 0x350 e 0x227 são pistas de solicitação e indicação, ainda sem validação por captura no Lounge.
 
 A [investigação da iluminação dos pés](retrofits/iluminacao-pes.txt) encontrou a saída BSI 60V BE pino 11 em desenhos R7 e DS5. Isso não comprova circuito, capacidade ou suporte na BSI real do Lounge. A função com dois níveis de brilho permanece não validada.
