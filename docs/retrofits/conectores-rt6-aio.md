@@ -1,6 +1,6 @@
 # Conectores das centrais RT6 e RCC AIO Wave 1
 
-Comparativo fornecido pelo mantenedor em **30/10/2026**. Este documento registra os conectores **traseiros das centrais**, identificados como `ca` (16 vias), `cb` (12 vias) e `cc` (12 vias). O [conector da fachada](fachada-rt6-aio.md) tem outro mapeamento.
+Organizei este comparativo em **30/10/2026**. Registrei os conectores **traseiros das centrais**, identificados como `ca` (16 vias), `cb` (12 vias) e `cc` (12 vias). O [conector da fachada](fachada-rt6-aio.md) tem outro mapeamento.
 
 ## Identificação dos blocos e numeração
 
@@ -107,4 +107,4 @@ O asterisco foi preservado da tabela recebida; a nota correspondente não foi fo
 
 As correspondências de vídeo descrevem o mapeamento de sinais. Ainda faltam comprovação de formato/nível de vídeo, alimentação e acionamento da câmera, configuração e funcionamento na montagem. A foto da central com aviso na tela não comprova que a câmera esteja funcional. Não foi fornecido um teste individual de cada posição deste comparativo.
 
-Fonte: tabela comparativa e imagem de numeração enviadas pelo autor. O documento preserva as lacunas do levantamento e não estende o pinout para outras revisões de RCC AIO.
+Usei a tabela comparativa e a imagem de numeração que reuni durante a montagem. Preservei as lacunas do levantamento e não estendo o pinout para outras revisões de RCC AIO.

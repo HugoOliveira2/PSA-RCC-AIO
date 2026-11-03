@@ -1,13 +1,18 @@
 ADAPTACAO DE FACHADA CACTUS/AIO NO C4 LOUNGE THP 2015
-Consulta em 30/10/2026.
+Registrei esta etapa em 30/10/2026.
+Atualizacao em 03/11/2026: confirmei pulsos em 0x350, indicador em 0x227,
+atuacao do rele e o modulo hibrido 3.2 no carro. O circuito final usa
+botao para GND e indicador positivo de 5 V com PNP.
+Veja docs/retrofits/modulo-can-clima.md para a montagem atual.
+O texto abaixo preserva as conclusoes e pendencias da consulta inicial.
 
-ENTRADAS DO USUARIO
-O usuario mapeou com multimetro a fachada desenvolvida a partir de 2018.
+MEU LEVANTAMENTO INICIAL
+Mapeei com multimetro a fachada desenvolvida a partir de 2018.
 Na fachada nova: pino11 botao do desembacador; pino13 indicador.
-Essa identificacao e resultado da engenharia reversa do usuario, nao
+Identifiquei essas funcoes por engenharia reversa da minha placa, nao
 de um esquema dessa fachada na base SEDRE 2013.
-Nao foram informados ainda o tipo eletrico do contato do botao,
-a polaridade/corrente do LED ou se ha resistencias internas.
+Em 30/10 eu ainda nao tinha confirmado o tipo eletrico do contato,
+a polaridade/corrente do LED ou a existencia de resistencias internas.
 
 ESQUEMA ESPECIFICO DO LOUNGE
 SEDRE M7 / C4 LOUNGE(AMLAT), funcao FCT0903:

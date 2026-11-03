@@ -1,0 +1,1090 @@
+{
+  "schema": "c4-climate-evidence-v1",
+  "limits": [
+    "Tempo Arduino; nao igualar as marcas de tempo do PC.",
+    "Captura de rede compartilhada nao atribui emissor fisico.",
+    "Somente transicoes de IDs 350, 364 e 227; nao e captura completa.",
+    "A captura com marcas incorretas (botao do motorista) foi descartada desta selecao.",
+    "Correlacao temporal nao comprova aquecimento eletrico no vidro."
+  ],
+  "captures": {
+    "rt6_sem_aio": {
+      "source_file": "20261101-145727-958-rt6.log",
+      "source_sha256": "25cdaf291b0e996d090c45a42fa28a9a905f3a1e4e47f8961bdb7f0b20b56d9b",
+      "valid_standard_data_frames": 9800,
+      "allowed_frames": 222,
+      "transitions": [
+        {
+          "arduino_ms": 181,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007013009"
+        },
+        {
+          "arduino_ms": 287,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 7689,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007023009"
+        },
+        {
+          "arduino_ms": 9690,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007033009"
+        },
+        {
+          "arduino_ms": 11191,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007043009"
+        },
+        {
+          "arduino_ms": 13693,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007033009"
+        },
+        {
+          "arduino_ms": 15695,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007023009"
+        },
+        {
+          "arduino_ms": 17197,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007013009"
+        },
+        {
+          "arduino_ms": 19200,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007003009"
+        },
+        {
+          "arduino_ms": 22702,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008003009"
+        },
+        {
+          "arduino_ms": 26705,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007003009"
+        },
+        {
+          "arduino_ms": 28208,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006003009"
+        },
+        {
+          "arduino_ms": 29708,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000005003009"
+        },
+        {
+          "arduino_ms": 32210,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006003009"
+        },
+        {
+          "arduino_ms": 34713,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000007003009"
+        },
+        {
+          "arduino_ms": 37215,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008003009"
+        },
+        {
+          "arduino_ms": 39218,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000009003009"
+        },
+        {
+          "arduino_ms": 40719,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "0100000A003009"
+        },
+        {
+          "arduino_ms": 51729,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "0100000A013009"
+        },
+        {
+          "arduino_ms": 53230,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "0100000A023009"
+        },
+        {
+          "arduino_ms": 54731,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "0100000A033009"
+        }
+      ],
+      "defog_pulses": [],
+      "indicator_changes": []
+    },
+    "cactus": {
+      "source_file": "20261101-150407-192-cactus.log",
+      "source_sha256": "dfa39b7f9980b4dd0b32fce94b5c05f74135e21b7af41b0eaba5e462f55796cb",
+      "valid_standard_data_frames": 12051,
+      "allowed_frames": 334,
+      "transitions": [
+        {
+          "arduino_ms": 39,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 335,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000070BC60400"
+        },
+        {
+          "arduino_ms": 447,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 8775,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 8876,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 10184,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 10283,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 14983,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 15104,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 15972,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 16074,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 16775,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 16871,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 17975,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 18112,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 19493,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 19605,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 20416,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 20524,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 22074,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 22198,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 28770,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 28797,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000080BC60400"
+        },
+        {
+          "arduino_ms": 28845,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 29952,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 29968,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000090BC60400"
+        },
+        {
+          "arduino_ms": 30073,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 31387,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 31408,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "0000000A0BC60400"
+        },
+        {
+          "arduino_ms": 31468,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 32656,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 32697,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000090BC60400"
+        },
+        {
+          "arduino_ms": 32709,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 34174,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 34197,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000080BC60400"
+        },
+        {
+          "arduino_ms": 34253,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 35217,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 35248,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000070BC60400"
+        },
+        {
+          "arduino_ms": 35308,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 36267,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 36297,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000060BC60400"
+        },
+        {
+          "arduino_ms": 36391,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 37345,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 37377,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000050BC60400"
+        },
+        {
+          "arduino_ms": 37459,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 39180,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "40001E780000"
+        },
+        {
+          "arduino_ms": 39207,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000040BC60400"
+        },
+        {
+          "arduino_ms": 39288,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 40795,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 40826,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000050BC60400"
+        },
+        {
+          "arduino_ms": 40892,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 41821,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 41867,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000060BC60400"
+        },
+        {
+          "arduino_ms": 41920,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 42727,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "80001E780000"
+        },
+        {
+          "arduino_ms": 42745,
+          "id_hex": "350",
+          "dlc": 8,
+          "data_hex": "000000070BC60400"
+        },
+        {
+          "arduino_ms": 42814,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 45220,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 45336,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 46332,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 46446,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 47408,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 47512,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 49380,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 49510,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 50294,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 50414,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 51252,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 51350,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 52248,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 52352,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        }
+      ],
+      "defog_pulses": [],
+      "indicator_changes": []
+    },
+    "rt6_com_aio_passageiro_repeticao": {
+      "source_file": "20261101-151132-756-rt6_com_aio.log",
+      "source_sha256": "0c5b64535a5ca7cf00277a530685305c18abd3c4da498f60b3fe5b2977d6a71d",
+      "valid_standard_data_frames": 11845,
+      "allowed_frames": 287,
+      "transitions": [
+        {
+          "arduino_ms": 344,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 430,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 490,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008073009"
+        },
+        {
+          "arduino_ms": 1490,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008083009"
+        },
+        {
+          "arduino_ms": 2993,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008093009"
+        },
+        {
+          "arduino_ms": 3993,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "010000080A3009"
+        },
+        {
+          "arduino_ms": 5995,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "010000080B3009"
+        },
+        {
+          "arduino_ms": 7496,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "010000080C3009"
+        },
+        {
+          "arduino_ms": 9498,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "010000080B3009"
+        },
+        {
+          "arduino_ms": 10999,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "010000080A3009"
+        },
+        {
+          "arduino_ms": 12500,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008093009"
+        },
+        {
+          "arduino_ms": 14002,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008073009"
+        },
+        {
+          "arduino_ms": 16006,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008063009"
+        },
+        {
+          "arduino_ms": 19100,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 19200,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 22155,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 22270,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 23275,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 23380,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 24207,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 24312,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 25486,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 25612,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 27318,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 27419,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 28626,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 28724,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 30466,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 30527,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 32270,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "10001E780000"
+        },
+        {
+          "arduino_ms": 32376,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 33856,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 33968,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 35255,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 35344,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 36535,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "20001E780000"
+        },
+        {
+          "arduino_ms": 36612,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 41027,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008073009"
+        },
+        {
+          "arduino_ms": 42029,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008083009"
+        },
+        {
+          "arduino_ms": 43530,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008093009"
+        },
+        {
+          "arduino_ms": 45532,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008083009"
+        },
+        {
+          "arduino_ms": 47034,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008073009"
+        },
+        {
+          "arduino_ms": 48534,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008063009"
+        },
+        {
+          "arduino_ms": 50036,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000008053009"
+        }
+      ],
+      "defog_pulses": [],
+      "indicator_changes": []
+    },
+    "aio_sem_fachada": {
+      "source_file": "20261101-151855-520-aio_sem_fachada.log",
+      "source_sha256": "2facfe755848431fee5df47fcfb2f6c737719c7f56c5921354bea30dc0461a84",
+      "valid_standard_data_frames": 6190,
+      "allowed_frames": 102,
+      "transitions": [
+        {
+          "arduino_ms": 71,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 220,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E78E000"
+        },
+        {
+          "arduino_ms": 6965,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        }
+      ],
+      "defog_pulses": [],
+      "indicator_changes": []
+    },
+    "rt6_desembacador": {
+      "source_file": "20261101-183521-395-rt6_desembacador.log",
+      "source_sha256": "e52bf9d6ede03ba549f40482117858a5698800e435749f830daf508170e274e9",
+      "valid_standard_data_frames": 36737,
+      "allowed_frames": 887,
+      "transitions": [
+        {
+          "arduino_ms": 256,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 294,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 374,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E78E000"
+        },
+        {
+          "arduino_ms": 2769,
+          "id_hex": "364",
+          "dlc": 6,
+          "data_hex": "00001E780000"
+        },
+        {
+          "arduino_ms": 7836,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 8263,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 8294,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0004000000"
+        },
+        {
+          "arduino_ms": 18531,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 18793,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 18931,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 27565,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 27793,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0004000000"
+        },
+        {
+          "arduino_ms": 27965,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 33666,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 33793,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 34065,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 66552,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 66824,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0004000000"
+        },
+        {
+          "arduino_ms": 66952,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        },
+        {
+          "arduino_ms": 72077,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "21000006083009"
+        },
+        {
+          "arduino_ms": 72324,
+          "id_hex": "227",
+          "dlc": 5,
+          "data_hex": "0000000000"
+        },
+        {
+          "arduino_ms": 72477,
+          "id_hex": "350",
+          "dlc": 7,
+          "data_hex": "01000006083009"
+        }
+      ],
+      "defog_pulses": [
+        {
+          "start_ms": 7836,
+          "end_ms": 8263,
+          "duration_ms": 427
+        },
+        {
+          "start_ms": 18531,
+          "end_ms": 18931,
+          "duration_ms": 400
+        },
+        {
+          "start_ms": 27565,
+          "end_ms": 27965,
+          "duration_ms": 400
+        },
+        {
+          "start_ms": 33666,
+          "end_ms": 34065,
+          "duration_ms": 399
+        },
+        {
+          "start_ms": 66552,
+          "end_ms": 66952,
+          "duration_ms": 400
+        },
+        {
+          "start_ms": 72077,
+          "end_ms": 72477,
+          "duration_ms": 400
+        }
+      ],
+      "indicator_changes": [
+        {
+          "arduino_ms": 8294,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "arduino_ms": 18793,
+          "before": 1,
+          "after": 0
+        },
+        {
+          "arduino_ms": 27793,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "arduino_ms": 33793,
+          "before": 1,
+          "after": 0
+        },
+        {
+          "arduino_ms": 66824,
+          "before": 0,
+          "after": 1
+        },
+        {
+          "arduino_ms": 72324,
+          "before": 1,
+          "after": 0
+        }
+      ]
+    }
+  }
+}

@@ -9,3 +9,7 @@ backups/
 *.result.json
 test-results-public.txt
 !validation/test-results-public.txt
+/firmware/.build/
+*.obj
+*.o
+*.elf

@@ -2,7 +2,7 @@
 
 Destino: https://github.com/HugoOliveira2/PSA-RCC-AIO
 
-Base escolhida pelo mantenedor: **AIO Assist 0.6.1**. Consolidação da pesquisa: 30/10/2026.
+Escolhi o **AIO Assist 0.6.1** para a publicação inicial e consolidei a pesquisa em 30/10/2026. Em 03/11/2026 acrescentei o módulo CAN e o firmware híbrido 3.2, sem substituir o pacote histórico do aplicativo.
 
 ## Diferenças da cópia pública
 
@@ -24,4 +24,4 @@ O script histórico de regeneração do cruzamento dependia de um arquivo PSA-RE
 
 O Git mantém fontes, mapas, documentação e o pacote em `downloads/AIO-Assist-0.6.1-publico.zip`. Esse pacote contém os executáveis recompilados junto com os fontes correspondentes, licenças e testes. O pacote local `PSA-RCC-AIO-publicacao.zip` contém o material da árvore Git para upload manual.
 
-Os hashes SHA-256 de todos os arquivos versionados estão em `SHA256SUMS.txt`; o hash do próprio manifesto não é incluído nele.
+Registrei os hashes SHA-256 dos arquivos versionados em `SHA256SUMS.txt`, sem incluir o hash do próprio manifesto. Publiquei os firmwares Arduino diretamente em `firmware/bin/`, com fontes, testes e transições CAN selecionadas; não gerei um ZIP novo para o módulo.

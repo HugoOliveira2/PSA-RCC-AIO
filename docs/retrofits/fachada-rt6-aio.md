@@ -1,30 +1,30 @@
 # Fachada AIO no C4 Lounge: montagem e pinout
 
-Relato e mapeamento fornecidos pelo mantenedor em **30/10/2026**, durante a adaptação da RCC AIO ao C4 Lounge. A avaliação de **cerca de 90% funcional** é uma estimativa de uso do autor, não um percentual obtido em ensaio de todas as funções.
+Mapeei esses conectores durante a adaptação da RCC AIO ao meu C4 Lounge, em **30/10/2026**, e atualizei o estado da montagem em **03/11/2026**. Na primeira etapa, eu estimava a adaptação em cerca de 90% funcional; era uma estimativa de uso, não um percentual obtido em ensaio de todas as funções.
 
 ## Estado atual da adaptação
 
-Segundo o autor, o único comando da **fachada** que ainda não funciona é o **botão do desembaçador traseiro**. Na **central**, há outra pendência: é possível alterar a temperatura do lado do motorista, mas o ajuste do lado do passageiro não está funcionando.
+Na primeira montagem, o botão do desembaçador da fachada e a temperatura do passageiro na AIO não funcionavam. Depois montei uma interface com Arduino Uno e MCP2515, mantendo a fachada Cactus, e recuperei o ajuste do passageiro, LO/HI, AC MAX nos dois lados e o comando do desembaçador.
 
-Essas duas pendências permanecem em investigação. Não foi demonstrado que tenham a mesma causa. O relato não confirma separadamente o funcionamento do indicador do desembaçador. A configuração de climatização da leitura histórica disponível no projeto não comprova a configuração atual dessa montagem.
+Confirmei o botão, o indicador alimentado por 5 V e a recepção CAN na bancada; confirmei a atuação do relé do desembaçador no carro e o funcionamento da versão híbrida 3.2. No [registro do módulo CAN](modulo-can-clima.md), documentei o circuito final, os firmwares, a integração com AIO Assist e os limites de cada teste. Não atribuo essas funções somente a uma alteração de parâmetro B1.
 
 ## Fotos da tentativa
 
 ### Placa da fachada e orientação da numeração
 
-![Placa da fachada AIO, com pinos 1 e 15 marcados pelo autor](../../images/fachada-aio-placa-pinout.png)
+![Placa da fachada AIO, com os pinos 1 e 15 que marquei](../../images/fachada-aio-placa-pinout.png)
 
-A foto enviada pelo autor marca **1 à esquerda e 15 à direita, na vista fotografada da placa e do conector**. Mantenha essa orientação ao comparar o mapeamento: a vista do chicote pelo lado oposto pode ficar espelhada. As inscrições visíveis incluem Valeo e `B109505-B`; são registros da peça fotografada, não uma identificação universal de todas as fachadas AIO.
+Marquei **1 à esquerda e 15 à direita, na vista fotografada da placa e do conector**. Mantenha essa orientação ao comparar o mapeamento: a vista do chicote pelo lado oposto pode ficar espelhada. As inscrições visíveis incluem Valeo e `B109505-B`; registrei a minha peça, sem estender essa identificação a todas as fachadas AIO.
 
 ### Central na montagem de teste
 
 ![Central AIO no painel do C4 Lounge durante a tentativa de adaptação](../../images/aio-montagem-c4-lounge.jpg)
 
-Montagem de teste enviada pelo autor. A imagem mostra um aviso na tela; sozinha, ela não comprova funcionamento da câmera, conclusão da instalação ou causa do aviso.
+Fotografei essa etapa da montagem com um aviso na tela. Não uso a imagem para comprovar funcionamento da câmera, conclusão da instalação ou causa do aviso.
 
 ## Fachada original RT6: funções informadas
 
-| Pino RT6 | Função mapeada pelo autor |
+| Pino RT6 | Função que mapeei |
 | --- | --- |
 | 1 | Terra |
 | 2 | Indicador de trava |
@@ -43,7 +43,7 @@ Montagem de teste enviada pelo autor. A imagem mostra um aviso na tela; sozinha,
 
 ## Fachada AIO: funções informadas
 
-| Pino AIO | Função mapeada pelo autor | Observação |
+| Pino AIO | Função que mapeei | Observação |
 | --- | --- | --- |
 | 1 | Não utilizado | Classificação informada para esta montagem |
 | 2 | Terra | Correspondência RT6 1 |
@@ -55,13 +55,13 @@ Montagem de teste enviada pelo autor. A imagem mostra um aviso na tela; sozinha,
 | 8 | Botão do pisca-alerta | Correspondência RT6 9 |
 | 9 | Indicador de trava | Correspondência RT6 2 |
 | 10 | Indicador do pisca-alerta | Correspondência RT6 10 |
-| 11 | Botão do desembaçador | Função identificada; comando ainda não funcional na adaptação |
+| 11 | Botão do desembaçador | Confirmei fechamento para GND; uso entrada D2 do módulo |
 | 12 | Botão de travamento centralizado | Correspondência RT6 6 |
-| 13 | Indicador do desembaçador traseiro | Funcionamento na adaptação não confirmado separadamente |
-| 14 | Possível iluminação | **Hipótese do autor, ainda não confirmada** |
+| 13 | Indicador do desembaçador traseiro | Confirmei acendimento com positivo de 5 V; aciono por PNP |
+| 14 | Possível iluminação | **Minha hipótese, ainda não confirmada** |
 | 15 | Não utilizado | Classificação informada para esta montagem |
 
-## Correspondências RT6 → AIO fornecidas pelo autor
+## Correspondências RT6 → AIO que levantei
 
 Esta tabela se refere **aos conectores das fachadas**. O [comparativo dos conectores traseiros das centrais](conectores-rt6-aio.md) é outro mapeamento.
 
@@ -77,14 +77,14 @@ Esta tabela se refere **aos conectores das fachadas**. O [comparativo dos conect
 | 10 | 10 | Indicador do pisca-alerta |
 | 12 | 4 | Alimentação |
 
-Não foram fornecidas correspondências para RT6 3, 5 e 11. Não foi indicada ligação para AIO 11, 13 ou 14 nessa tabela de adaptação. Em particular, não se deve concluir que RT6 11 deve ser ligado a AIO 14 apenas pela hipótese de iluminação.
+Não identifiquei correspondências para RT6 3, 5 e 11. Na adaptação inicial, ainda não tinha ligado AIO 11, 13 ou 14. Depois liguei 11 e 13 ao módulo CAN, conforme o [circuito final](modulo-can-clima.md). Não liguei RT6 11 a AIO 14 com base apenas na hipótese de iluminação.
 
 ## Pendências e próximas evidências
 
-**Desembaçador:** identificar o comportamento elétrico do botão AIO 11 e do indicador AIO 13 e compará-lo com o caminho CAN da fachada original. A [investigação anterior](desembacador.txt) não encontrou pinos BSI validados para uma conexão direta. O circuito de potência do vidro não é uma entrada de botão nem uma saída de indicador.
+**Desembaçador:** identifiquei contato para GND no botão 11 e acendimento por positivo de 5 V no indicador 13. Resolvi a adaptação pelo módulo CAN; não encontrei pinos BSI validados para ligação direta. A [investigação anterior](desembacador.txt) registra a etapa de 30/10, antes das capturas e da montagem do módulo. Não uso o circuito de potência do vidro como entrada de botão ou saída de indicador.
 
-**Temperatura do passageiro:** registrar a identificação e a leitura atual da AIO e da climatização, a configuração de uma/duas zonas, a resposta da interface aos comandos e o comportamento dos dois lados. Até essa comparação, não há comprovação de que a causa seja um parâmetro B1, a fachada, a central ou a integração com o módulo de climatização.
+**Temperatura do passageiro:** identifiquei os pulsos da AIO em `0x364` e corrigi a consigna em `0x350`, preservando os demais campos da Cactus. Confirmei o efeito nas saídas de ar. A solução injeta uma cópia corrigida na rede; não bloqueia o quadro original nem comprova compatibilidade com todas as variantes.
 
 **Iluminação:** conferir o pino AIO 14 antes de atribuir função ou alimentação. O pino AIO 7 continua sem informação.
 
-Fonte deste documento: fotos, mapeamento e relato do autor. As tabelas registram a unidade e a tentativa descritas; não constituem pinagem universal de todas as fachadas RT6/AIO.
+Registrei aqui minhas fotos, meu mapeamento e meus testes. As tabelas descrevem a unidade que usei; não são uma pinagem universal de todas as fachadas RT6/AIO.

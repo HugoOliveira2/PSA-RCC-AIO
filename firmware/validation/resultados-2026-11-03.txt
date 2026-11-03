@@ -1,0 +1,56 @@
+MODULO CAN C4 - REGISTRO DE VALIDACAO
+Data: 03/11/2026
+
+Compilei os fontes publicados para Arduino Uno / ATmega328P (16 MHz).
+MCP2515: cristal 8 MHz, SPI 1 MHz. IDE Arduino 1.8.x / arduino-builder.
+
+Sketch                 Flash usada   RAM global   RAM restante
+modulo_c4 2.1          13762 bytes    480 bytes    1568 bytes
+modulo_c4_hibrido 3.2  14558 bytes   1240 bytes     808 bytes
+teste_montagem_c4       7634 bytes    920 bytes    1128 bytes
+
+Recompilei os tres sketches no repositorio e comparei os .hex com os
+arquivos que usei durante a montagem: os hashes foram identicos.
+
+TESTES AUTOMATIZADOS - APROVADOS
+- Driver MCP2515 real com SPI/registradores simulados: modo one-shot,
+  normal, escuta, configuracao e falha real de transicao de modo.
+- Transporte AIO Assist: identificacao, sessao, seed/key, resposta B1,
+  escrita B1 segmentada, sequencia circular, tamanho de bloco, STmin,
+  NRC78 seguido de resposta final, timeouts, overflow e reconexao.
+- Negativas 7F2733/35/36/37: nenhuma repeticao automatica do desbloqueio.
+- Comparei 135175 vetores seed/key com referencia independente: todos
+  os PINs de 16 bits, palavras com bit de sinal e desafios aleatorios.
+  PIN D91C / desafio 12345678 -> chave 57F61D6F.
+- Processei B1 junto de trafego de clima: o clima continuou ativo.
+  Simulei falha em cada CAN e mantive o processamento da outra.
+- Botao: debounce e contagem sem repeticao durante a pressao.
+- Indicador: ativo LOW, modos forcados e acompanhamento do botao.
+- Bancada: recepcao, fila limitada, perdas, overflow e alternancia
+  ACK/escuta. Nenhum quadro de aplicacao transmitido pelo teste.
+- Nenhum log de clima entrou na serial reservada ao AIO Assist.
+
+EVIDENCIA DE CAMPO E BANCADA
+Confirmei no carro temperatura do passageiro, LO/HI, AC MAX nos dois
+lados e atuacao do rele do desembacador. Na bancada confirmei botao,
+indicador positivo de 5 V e recepcao CAN da fachada Cactus isolada.
+Em 03/11/2026 confirmei que a versao hibrida 3.2 funcionou no carro.
+Essa confirmacao nao substitui ensaio prolongado ou teste fisico de
+falhas. Nao medi a corrente do vidro, a corrente do indicador ou EMI.
+
+CAPTURAS PUBLICADAS
+Selecionei somente transicoes de 350/364/227 de cinco capturas locais.
+No ensaio RT6 do desembacador encontrei pulsos de 427, 400, 400, 399,
+400 e 400 ms, com seis alteracoes do indicador. As capturas integrais
+nao foram publicadas; preservei os SHA-256 dos arquivos de origem.
+
+REPRODUCAO
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/build_can.ps1
+powershell -NoProfile -ExecutionPolicy Bypass -File tools/test_can.ps1
+python tools/verify_publication.py
+
+LIMITES
+Simulacoes nao abrem porta serial ou rede do veiculo. A correcao do
+clima injeta uma copia de 350 sem bloquear a Cactus original. Ainda
+preciso caracterizar alimentacao, EMI, uso prolongado e outras revisoes
+de central/fachada/BSI. Nao distribui uma base EEPROM universal.

@@ -1,10 +1,10 @@
 AIO ASSIST — COMPARACAO COM O DIAGBOX E REGRESSOES DE COMUNICACAO
 Consulta: 30/10/2026. Nao houve conexao ou escrita no veiculo.
 
-RELATO DO USUARIO NESTA ANALISE
-A versao 0.6 funciona quando o Diagbox e aberto antes; as versoes
-posteriores ficaram impraticaveis. Este relato e evidencia de campo,
-mas nao identifica sozinho qual operacao do Diagbox prepara o estado.
+O QUE OBSERVEI NESTA ETAPA
+Observei a versao 0.6 funcionando quando eu abria o Diagbox antes;
+as versoes posteriores ficaram impraticaveis. Nao consegui identificar
+apenas por isso qual operacao do Diagbox preparou o estado da rede.
 
 CENTRAL EXAMINADA
 A leitura historica FE incluida no projeto termina em 931037.
@@ -71,7 +71,7 @@ DIFERENCAS ENTRE VERSOES
 - Todas as leituras tem limite total de 5 s, inclusive a releitura
   anterior a gravacao e a posterior.
 - 7F2178 nao estende esse limite. E uma escolha explicitamente
-  documentada no projeto como solicitacao anterior do usuario.
+  que eu havia solicitado e registrei no projeto.
 - Se B1 nao terminar a tempo antes da escrita, 3BB1 nao e enviado.
 - Se o timeout ocorrer apos 7BB1, pode ter havido escrita aceita,
   mas sem verificacao posterior. Sao falhas distintas.

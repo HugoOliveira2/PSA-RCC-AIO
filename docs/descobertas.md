@@ -1,6 +1,6 @@
 # Descobertas e limites da evidência
 
-Consolidação em 30/10/2026. Os arquivos de origem preservam as respectivas datas e o contexto histórico.
+Consolidei a pesquisa inicial em 30/10/2026 e atualizei a climatização em **03/11/2026**. Preservei as datas dos registros históricos para não misturar hipóteses antigas com os testes que fiz depois.
 
 | Tema | Evidência disponível | Limite |
 | --- | --- | --- |
@@ -18,17 +18,17 @@ Consolidação em 30/10/2026. Os arquivos de origem preservam as respectivas dat
 
 ## Comunicação e regressões
 
-O relato de campo informou que a 0.6 funcionava após abrir o Diagbox e que versões posteriores ficaram impraticáveis. O relato não identifica qual operação preparou o estado da rede. A [análise de 30/10](analise-comunicacao-2026-10-30.txt) registra a sequência observada, diferenças de T20, manutenção da sessão e limites de leitura. As referências à 0.7–0.9 são comparações históricas; essas versões não substituem a 0.6.1 nesta publicação.
+Observei que a 0.6 funcionava após abrir o Diagbox e que versões posteriores ficaram impraticáveis. Não identifiquei apenas por esse comportamento qual operação preparou o estado da rede. Na [análise de 30/10](analise-comunicacao-2026-10-30.txt), registrei a sequência observada, diferenças de T20, manutenção da sessão e limites de leitura. As referências à 0.7–0.9 são comparações históricas; não substituí a 0.6.1 nesta publicação.
 
 Faltam capturas controladas da inicialização a frio e após Diagbox, com timestamps. É preciso separar abrir sessão, desbloquear, ler, conferir, escrever e verificar. Não há um parâmetro persistente da BSI comprovado como solução.
 
 ## Retrofits relacionados
 
-A [montagem da fachada AIO no C4 Lounge](retrofits/fachada-rt6-aio.md) foi relatada pelo autor em 30/10/2026 como cerca de 90% funcional. Foram publicados fotos, funções dos pinos e correspondências RT6 → AIO. Permanecem pendentes o botão do desembaçador e o ajuste de temperatura do passageiro na central; o ajuste do motorista funciona. O pino 14 da fachada é apenas uma hipótese de iluminação e o pino 7 não foi informado.
+Em 30/10/2026, eu estimava a [montagem da fachada AIO no meu C4 Lounge](retrofits/fachada-rt6-aio.md) em cerca de 90% funcional. Depois montei o [módulo CAN de clima](retrofits/modulo-can-clima.md), recuperei a temperatura do passageiro, o AC MAX nos dois lados e o comando do desembaçador. Confirmei a versão híbrida 3.2 funcionando no carro em 03/11/2026. Publiquei fontes, `.hex`, circuito, transições CAN selecionadas e testes. Continuo sem confirmar a função do pino 14 e sem identificar o pino 7.
 
 O [comparativo dos conectores traseiros RT6/AIO Wave 1](retrofits/conectores-rt6-aio.md) registra ca/cb/cc e a variante RT6 Hi-Fi. O vídeo 1 muda de RT6 cc/1 (+) e cc/7 (−) para AIO cc/10 (+) e cc/4 (−). Isso é uma correspondência da tabela, sem comprovação de funcionamento da câmera. As células AIO vazias permanecem como não informadas.
 
-A [investigação do desembaçador](retrofits/desembacador.txt) combina medições do usuário na fachada nova (pino 11: botão; pino 13: indicador), consulta de esquema e referências CAN. O caminho original do Lounge é CAN; não foi encontrado um par de pinos BSI validado para conexão direta. Os campos CAN 0x350 e 0x227 são pistas de solicitação e indicação, ainda sem validação por captura no Lounge.
+Na [investigação inicial do desembaçador](retrofits/desembacador.txt), combinei minhas medições na fachada nova, consulta de esquema e referências CAN. Depois confirmei o contato para GND no pino 11, o indicador positivo que também acende em 5 V no pino 13 e os campos de solicitação `0x350 data[0] bit 5` e indicação `0x227 data[1] bits 3..2`. Capturei os pulsos e ouvi a atuação do relé no carro. Não medi a corrente do aquecimento e não identifiquei um par de pinos BSI para ligação direta.
 
 A [investigação da iluminação dos pés](retrofits/iluminacao-pes.txt) encontrou a saída BSI 60V BE pino 11 em desenhos R7 e DS5. Isso não comprova circuito, capacidade ou suporte na BSI real do Lounge. A função com dois níveis de brilho permanece não validada.
 
@@ -40,5 +40,5 @@ Esses relatórios mencionam esquemas e bases consultadas localmente. As bases pr
 - Testes de um campo por vez, com antes/depois e efeito observado após desligamento.
 - Captura de comunicação para isolar o preparo da sessão e as regressões.
 - Validação de temas, câmera e climatização por variante.
-- Capturas passivas dos sinais de botão e indicador do desembaçador.
+- Capturas de outras variantes e ensaios prolongados do módulo de clima e alimentação.
 - Novas evidências de firmware com verificação estrutural e integridade.
